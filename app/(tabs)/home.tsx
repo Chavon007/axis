@@ -1,10 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import { View, Text } from "react-native";
+import React from "react";
+import SearchBar from "@/components/searchBar";
+import LocationButton from "@/components/locationButton";
 
 export default function home() {
   return (
-    <View >
+    <View>
+      <SearchBar />
+      <LocationButton />
       <Text>home</Text>
     </View>
-  )
+  );
 }

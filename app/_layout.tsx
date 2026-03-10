@@ -7,7 +7,7 @@ import {
 import "./global.css";
 import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
 import { Stack } from "expo-router";
-
+import { Poppins_600SemiBold } from "@expo-google-fonts/poppins";
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     Cinzel_400Regular,
@@ -16,6 +16,7 @@ export default function RootLayout() {
     CormorantUpright_300Light,
     Roboto_400Regular,
     Roboto_700Bold,
+    Poppins_600SemiBold,
   });
 
   if (!fontsLoaded) return null;
