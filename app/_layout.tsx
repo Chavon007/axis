@@ -1,7 +1,24 @@
-import { Stack } from "expo-router";
+import { useFonts } from "expo-font";
+import { Cinzel_400Regular, Cinzel_700Bold } from "@expo-google-fonts/cinzel";
+import {
+  CormorantUpright_400Regular,
+  CormorantUpright_300Light,
+} from "@expo-google-fonts/cormorant-upright";
 import "./global.css";
+import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
+import { Stack } from "expo-router";
 
 export default function RootLayout() {
+  const [fontsLoaded] = useFonts({
+    Cinzel_400Regular,
+    Cinzel_700Bold,
+    CormorantUpright_400Regular,
+    CormorantUpright_300Light,
+    Roboto_400Regular,
+    Roboto_700Bold,
+  });
+
+  if (!fontsLoaded) return null;
   return (
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
