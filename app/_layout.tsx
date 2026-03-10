@@ -5,7 +5,11 @@ import {
   CormorantUpright_300Light,
 } from "@expo-google-fonts/cormorant-upright";
 import "./global.css";
-import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
+import {
+  Roboto_400Regular,
+  Roboto_700Bold,
+  Roboto_600SemiBold,
+} from "@expo-google-fonts/roboto";
 import { Stack } from "expo-router";
 import { Poppins_600SemiBold } from "@expo-google-fonts/poppins";
 export default function RootLayout() {
@@ -17,6 +21,7 @@ export default function RootLayout() {
     Roboto_400Regular,
     Roboto_700Bold,
     Poppins_600SemiBold,
+    Roboto_600SemiBold,
   });
 
   if (!fontsLoaded) return null;
