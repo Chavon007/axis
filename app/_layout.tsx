@@ -12,6 +12,8 @@ import {
 } from "@expo-google-fonts/roboto";
 import { Stack } from "expo-router";
 import { Poppins_600SemiBold } from "@expo-google-fonts/poppins";
+import { Righteous_400Regular } from "@expo-google-fonts/righteous";
+
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     Cinzel_400Regular,
@@ -22,6 +24,7 @@ export default function RootLayout() {
     Roboto_700Bold,
     Poppins_600SemiBold,
     Roboto_600SemiBold,
+    Righteous_400Regular,
   });
 
   if (!fontsLoaded) return null;

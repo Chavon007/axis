@@ -14,6 +14,7 @@ module.exports = {
         Roboto_700Bold: ["Roboto_700Bold"],
         Poppins_600SemiBold: ["Poppins_600SemiBold"],
         Roboto_600SemiBold: ["Roboto_600SemiBold"],
+        Righteous_400Regular: ["Righteous_400Regular"],
       },
     },
   },
