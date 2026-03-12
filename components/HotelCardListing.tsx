@@ -6,13 +6,13 @@ interface HotelListing {
   name: string;
   address: string;
   rating: string;
-  roomType: string;
-  image: string;
+  roomType: string[];
+  image: any;
 }
 export default function HotelCardListing({ hotel }: { hotel: HotelListing }) {
   return (
     <View className="flex-row items-center">
-      <Image source={{ uri: hotel.image }} style={{ width: 80, height: 80 }} />
+      <Image className="bg-red-100" source={hotel.image} style={{ width: 80, height: 80 }} />
       <View>
         <Text>{hotel.name}</Text>
         <Text>
