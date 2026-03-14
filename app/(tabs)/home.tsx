@@ -18,7 +18,7 @@ export default function home() {
               FEATURED HOTELS
             </Text>
 
-            <View className="relative">
+            <View className="relative mb-14">
               <Image
                 className="max-w-[386px] max-h-[200px] rounded-2xl"
                 source={require("../../assets/lagos.png")}
@@ -54,7 +54,9 @@ export default function home() {
           </View>
         </View>
       }
-      renderItem={({ item }) => <HotelCardListing hotel={item} />}
+      renderItem={({ item, index }) => (
+        <HotelCardListing hotel={item} index={index} />
+      )}
       contentContainerStyle={{ paddingBottom: 20 }}
     ></FlatList>
   );

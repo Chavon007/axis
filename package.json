@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/cinzel": "^0.4.2",
+    "@expo-google-fonts/cormorant-garamond": "^0.4.1",
     "@expo-google-fonts/cormorant-upright": "^0.4.1",
     "@expo-google-fonts/poppins": "^0.4.1",
     "@expo-google-fonts/righteous": "^0.4.1",
