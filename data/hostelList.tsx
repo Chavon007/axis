@@ -1,21 +1,5 @@
 const hotels = [
   {
-    name: "Radisson Blu Anchorage Hotel, Lagos",
-    address: "1a Ozumba Mbadiwe Ave, Victoria Island, Lagos",
-    rating: "4.7",
-    roomType: ["standard", "semi-deluxe", "deluxe"],
-    image: require("../assets/radisson.jpg"),
-    owner: "Radisson Hotel Group (operated by Rezidor Hotel Group)",
-    about:
-      "Perched along the Lagos Lagoon waterfront on Victoria Island, the Radisson Blu Anchorage is a 170-room luxury hotel designed by Swedish hospitality designer Christian Lundwall. It sits in the heart of Lagos' business district, steps from embassies, banks, and Mega Plaza. Guests enjoy stunning lagoon views, an infinity pool, fine dining at the Voyage Restaurant, and a rooftop Surface Bar & Grill with jetty access.",
-    customerServiceContact: "+234 (0) 708 061 0000",
-    socialMedia: {
-      facebook: "https://www.facebook.com/RadissonBlulagos/",
-      instagram: "https://www.instagram.com/radissonblu/",
-      twitter: "https://twitter.com/RadissonBlu",
-    },
-  },
-  {
     name: "Four Points by Sheraton Lagos",
     address: "Plot 9/10 Oniru Chieftaincy Estate, Victoria Island, Lagos",
     rating: "4.5",
@@ -30,6 +14,22 @@ const hotels = [
       facebook: "https://www.facebook.com/fourpointslagos/",
       instagram: "https://www.instagram.com/fourpoints.lagos/",
       twitter: "https://x.com/FourPointsLagos",
+    },
+  },
+  {
+    name: "Eko Hotels & Suites",
+    address: "Plot 1415 Adetokunbo Ademola St, Victoria Island, Lagos",
+    rating: "4.6",
+    roomType: ["standard", "semi-deluxe", "deluxe"],
+    image: require("../assets/eko.jpeg"),
+    owner: "Eko Hotels Ltd (owned by the Chagoury Group)",
+    about:
+      "Eko Hotels and Suites is one of Nigeria's largest and most iconic hospitality complexes, spanning over 10 hectares on Victoria Island. The property comprises five interconnected towers offering over 700 rooms and suites, multiple restaurants, a casino, a nightclub, tennis courts, three outdoor pools, and a private beach. It has hosted numerous heads of state, global celebrities, and major international conferences, cementing its status as Lagos' premier landmark hotel.",
+    customerServiceContact: "+234 (0) 1 277 9000",
+    socialMedia: {
+      facebook: "https://www.facebook.com/ekohotels/",
+      instagram: "https://www.instagram.com/ekohotels/",
+      twitter: "https://x.com/EkoHotels",
     },
   },
   {
