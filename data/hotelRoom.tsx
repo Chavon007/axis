@@ -3019,10 +3019,6 @@ const hotelRooms = {
     ],
   },
 
-  // ─────────────────────────────────────────────
-  // ROOMS DATA — PART 2 (Hotels 8–14)
-  // ─────────────────────────────────────────────
-
   // 8. WATERCRESS HOTELS & EVENTS
   "Watercress Hotels & Events": {
     standard: [

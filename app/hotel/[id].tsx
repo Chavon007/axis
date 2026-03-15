@@ -151,7 +151,7 @@ export default function HotelDetails() {
                 className="flex-row items-center bg-neutral-900 border border-neutral-800 active:border-yellow-700/40 active:bg-neutral-800 rounded-xl px-4 py-4 gap-3"
                 onPress={() =>
                   router.push({
-                    pathname: "/hotel/[id]",
+                    pathname: "/hotel/room/[id]",
                     params: { id: index },
                   })
                 }

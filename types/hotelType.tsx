@@ -33,10 +33,11 @@ interface HotelDetailsListing {
     twitter?: string;
   };
   about: string;
-  rooms: RoomCategories;
+  roomType: string[];
 }
 
 export type { Room, RoomCategories };
 export default HotelDetailsListing;
 export type HotelName = keyof typeof hotelRooms;
 export type RoomType = keyof RoomCategories;
+export type Hotel = keyof Room;
