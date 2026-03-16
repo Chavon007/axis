@@ -77,6 +77,9 @@ export default function ListOfRoomsByType() {
                 <Text className="text-white text-lg font-bold tracking-wide mb-1">
                   {item.name}
                 </Text>
+                <Text className="uppercase text-yellow-600 font-bold font-Roboto_700Bold text-xs">
+                    {item.id}
+                </Text>
 
                 {/* Description */}
 

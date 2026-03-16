@@ -9,22 +9,28 @@ export const getRoom = (hotelRoom: HotelName, roomType: RoomType): Room[] => {
   return hotel[roomType] ?? [];
 };
 
-export const getAllRooms = (hotelRoom: HotelName): Room[] => {
-  const allHotels = hotelRooms[hotelRoom];
+export const getAllRooms = (): (Room & { hotelName: HotelName })[] => {
+  return (Object.keys(hotelRooms) as HotelName[]).flatMap((hotelName) => {
+    const allHotels = hotelRooms[hotelName];
 
-  if (!allHotels) return [];
+    if (!allHotels) return [];
 
-  return [...allHotels.deluxe, ...allHotels.semiDeluxe, ...allHotels.standard];
+    return [
+      ...allHotels.deluxe,
+      ...allHotels.semiDeluxe,
+      ...allHotels.standard,
+    ].map((room) => ({ ...room, hotelName }));
+  });
 };
 
 export const toRoomTypeKey = (displayName: string): RoomType => {
   const normalized = displayName.toLowerCase().replace(/[\s\-_]+/g, "");
 
   const map: Record<string, RoomType> = {
-    "standard": "standard",
-    "semideluxe": "semiDeluxe",  
-    "semidelux": "semiDeluxe",  
-    "deluxe": "deluxe",
+    standard: "standard",
+    semideluxe: "semiDeluxe",
+    semidelux: "semiDeluxe",
+    deluxe: "deluxe",
   };
 
   return map[normalized] ?? (displayName as RoomType);
