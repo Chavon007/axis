@@ -1,3 +1,4 @@
+import { toRoomTypeKey } from "../../utils/hotelHelpeer";
 import {
   View,
   Text,
@@ -152,7 +153,10 @@ export default function HotelDetails() {
                 onPress={() =>
                   router.push({
                     pathname: "/hotel/room/[id]",
-                    params: { id: index },
+                    params: {
+                      hotelName: hotel.name,
+                      roomType: toRoomTypeKey(room), // ✅ converts "Standard" → "standard"
+                    },
                   })
                 }
               >

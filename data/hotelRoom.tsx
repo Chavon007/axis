@@ -1,4 +1,5 @@
 const hotelRooms = {
+  // 1. FOUR POINTS BY SHERATON LAGOS
   "Four Points by Sheraton Lagos": {
     standard: [
       {
@@ -10,10 +11,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/fourpoints/standard1_1.jpeg"),
-          require("../assets/rooms/fourpoints/standard1_2.jpeg"),
-          require("../assets/rooms/fourpoints/standard1_3.jpeg"),
-          require("../assets/rooms/fourpoints/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "A well-appointed standard room on the first floor featuring warm tones and modern furnishings. Includes a Sheraton Sweet Sleeper queen bed, work desk, flat-screen TV, and a private bathroom with a walk-in shower. Ideal for business travellers or couples.",
@@ -37,10 +38,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/fourpoints/standard2_1.jpeg"),
-          require("../assets/rooms/fourpoints/standard2_2.jpeg"),
-          require("../assets/rooms/fourpoints/standard2_3.jpeg"),
-          require("../assets/rooms/fourpoints/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "A quiet garden-facing room with a calming neutral palette, blackout curtains, Sheraton Sweet Sleeper bed, spacious wardrobe, and a modern en-suite shower bathroom. Perfect for guests seeking a peaceful retreat.",
@@ -64,10 +65,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/fourpoints/standard3_1.jpeg"),
-          require("../assets/rooms/fourpoints/standard3_2.jpeg"),
-          require("../assets/rooms/fourpoints/standard3_3.jpeg"),
-          require("../assets/rooms/fourpoints/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "A twin-bed standard room great for two travelling colleagues. Both single beds are fitted with premium linens, and the room comes with a shared work desk, well-lit bathroom, and all the essentials for a comfortable stay.",
@@ -91,10 +92,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/standard4_1.jpeg"),
-          require("../assets/rooms/fourpoints/standard4_2.jpeg"),
-          require("../assets/rooms/fourpoints/standard4_3.jpeg"),
-          require("../assets/rooms/fourpoints/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
           "A slightly larger standard room with a king-size bed, contemporary décor, warm lighting, a spacious bathroom, and a seating corner. Great for guests who value extra space without stepping into semi-deluxe.",
@@ -118,10 +119,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/fourpoints/standard5_1.jpeg"),
-          require("../assets/rooms/fourpoints/standard5_2.jpeg"),
-          require("../assets/rooms/fourpoints/standard5_3.jpeg"),
-          require("../assets/rooms/fourpoints/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Located on the third floor with elevated views of the hotel grounds. Finished in earthy textures and modern furnishings — queen bed, work desk, flat-screen TV, and a refreshing walk-in shower.",
@@ -147,10 +148,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/semideluxe1_1.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe1_2.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe1_3.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "A sophisticated semi-deluxe room with an upgraded king bed, soft-seating area, and a partially open bathroom with a soaking tub. Overlooks the hotel garden and is decorated in rich warm tones.",
@@ -176,10 +177,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/semideluxe2_1.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe2_2.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe2_3.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Sleek and contemporary layout with a king bed, plush armchairs, and a stylishly tiled bathroom with dual vanity and rain shower. Natural light fills the room through floor-to-ceiling curtains.",
@@ -204,10 +205,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/fourpoints/semideluxe3_1.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe3_2.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe3_3.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Family-friendly room with a king bed and additional single, suitable for up to three guests. Light warm interiors, generous wardrobe space, marble-finished bathroom, and a balcony with partial Victoria Island views.",
@@ -232,10 +233,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/fourpoints/semideluxe4_1.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe4_2.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe4_3.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Ideal for friends or small families, this twin-queen room has a generous layout with a sitting nook, large wardrobe, and a modern rainfall shower bathroom with complimentary Sheraton toiletries.",
@@ -260,10 +261,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/semideluxe5_1.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe5_2.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe5_3.jpeg"),
-          require("../assets/rooms/fourpoints/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
         ],
         description:
           "One of the most coveted semi-deluxe rooms on the sixth floor. Panoramic city views, a plush king bed, chaise lounge, walk-in wardrobe, soaking tub, and separate rainfall shower.",
@@ -291,10 +292,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/deluxe1_1.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe1_2.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe1_3.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "A spacious sanctuary with a separate living area, dining table, full minibar, and an opulent marble bathroom with deep soaking tub and rainfall shower. Sweeping ocean-side views from the seventh floor.",
@@ -322,10 +323,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/deluxe2_1.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe2_2.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe2_3.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Features a private study nook, king bed, marble bathroom, and a wide private balcony perfect for Lagos sunsets. Ideal for business travellers seeking an elevated base.",
@@ -352,10 +353,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + Sofa Bed",
         images: [
-          require("../assets/rooms/fourpoints/deluxe3_1.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe3_2.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe3_3.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Ideal for families — king bed, convertible sofa bed in the separate lounge, fully stocked minibar, dining area, and a luxurious double-vanity bathroom with a freestanding tub.",
@@ -383,10 +384,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/fourpoints/deluxe4_1.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe4_2.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe4_3.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
         ],
         description:
           "Premium bedding, curated art, fully stocked minibar, and floor-to-ceiling windows with sprawling city and lagoon views. Marble bathroom with rain shower and whirlpool tub.",
@@ -413,10 +414,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/fourpoints/deluxe5_1.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe5_2.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe5_3.jpeg"),
-          require("../assets/rooms/fourpoints/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
         ],
         description:
           "The crown jewel of Four Points Lagos. Two bedrooms, a grand living room, private terrace overlooking the Atlantic, full butler pantry, and a spa-grade bathroom with steam shower, jetted tub, and double vanity.",
@@ -451,10 +452,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/eko/standard1_1.jpeg"),
-          require("../assets/rooms/eko/standard1_2.jpeg"),
-          require("../assets/rooms/eko/standard1_3.jpeg"),
-          require("../assets/rooms/eko/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
         ],
         description:
           "A comfortable standard room in one of Nigeria's most iconic hotel complexes. Queen bed with premium bedding, modern décor, work desk, flat-screen TV, and en-suite bathroom. Access to three pools and multiple dining outlets.",
@@ -478,10 +479,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/eko/standard2_1.jpeg"),
-          require("../assets/rooms/eko/standard2_2.jpeg"),
-          require("../assets/rooms/eko/standard2_3.jpeg"),
-          require("../assets/rooms/eko/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "A bright, airy twin-bed standard room with individual reading lights, modern furniture, and a walk-in shower bathroom. Perfect for two guests travelling together.",
@@ -504,10 +505,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/standard3_1.jpeg"),
-          require("../assets/rooms/eko/standard3_2.jpeg"),
-          require("../assets/rooms/eko/standard3_3.jpeg"),
-          require("../assets/rooms/eko/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
           "A king standard room with contemporary furnishings and light-toned walls. Comfortable king bed, generous wardrobe, in-room safe, and a modern shower bathroom within the legendary Eko Hotels complex.",
@@ -531,10 +532,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/eko/standard4_1.jpeg"),
-          require("../assets/rooms/eko/standard4_2.jpeg"),
-          require("../assets/rooms/eko/standard4_3.jpeg"),
-          require("../assets/rooms/eko/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "A slightly larger standard room with a queen bed, cosy reading corner, wide-screen TV, and a rain shower bathroom. Full access to Eko Hotels' facilities including the casino and beach.",
@@ -557,10 +558,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/eko/standard5_1.jpeg"),
-          require("../assets/rooms/eko/standard5_2.jpeg"),
-          require("../assets/rooms/eko/standard5_3.jpeg"),
-          require("../assets/rooms/eko/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Third-floor standard room with warm lighting, neutral décor, queen bed, and a spacious en-suite bathroom with bathtub and shower. Great value within the sprawling Eko Hotels complex.",
@@ -585,10 +586,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/semideluxe1_1.jpeg"),
-          require("../assets/rooms/eko/semideluxe1_2.jpeg"),
-          require("../assets/rooms/eko/semideluxe1_3.jpeg"),
-          require("../assets/rooms/eko/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
         ],
         description:
           "Rich earthy tones, plush king bed, separate seating area, and a marble bathroom with soaking tub and rainfall shower. Partial ocean views and access to the exclusive pool deck.",
@@ -613,10 +614,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/semideluxe2_1.jpeg"),
-          require("../assets/rooms/eko/semideluxe2_2.jpeg"),
-          require("../assets/rooms/eko/semideluxe2_3.jpeg"),
-          require("../assets/rooms/eko/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Curated African art pieces, king bed, panoramic windows, and an en-suite with dual basins and walk-in shower. Popular choice for honeymooners and anniversary getaways.",
@@ -640,10 +641,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/eko/semideluxe3_1.jpeg"),
-          require("../assets/rooms/eko/semideluxe3_2.jpeg"),
-          require("../assets/rooms/eko/semideluxe3_3.jpeg"),
-          require("../assets/rooms/eko/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family-configured fifth-floor room with ocean views, king bed, and added single bed. Spacious layout, warm lighting, and a tiled bathroom with deep soaking tub and rainfall shower.",
@@ -667,10 +668,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/eko/semideluxe4_1.jpeg"),
-          require("../assets/rooms/eko/semideluxe4_2.jpeg"),
-          require("../assets/rooms/eko/semideluxe4_3.jpeg"),
-          require("../assets/rooms/eko/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Twin-queen semi-deluxe with a lounge corner, dual-access bathroom, and a scenic balcony. Fresh contemporary look with premium linen and plush towels.",
@@ -694,10 +695,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/semideluxe5_1.jpeg"),
-          require("../assets/rooms/eko/semideluxe5_2.jpeg"),
-          require("../assets/rooms/eko/semideluxe5_3.jpeg"),
-          require("../assets/rooms/eko/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
         ],
         description:
           "Sixth-floor room with sweeping Atlantic Ocean and Victoria Island skyline views. Plush king bed, chaise lounge, walk-in wardrobe, and a marble bathroom with freestanding tub.",
@@ -724,10 +725,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/deluxe1_1.jpeg"),
-          require("../assets/rooms/eko/deluxe1_2.jpeg"),
-          require("../assets/rooms/eko/deluxe1_3.jpeg"),
-          require("../assets/rooms/eko/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
         ],
         description:
           "King bedroom with a separate parlour, dining table, fully stocked bar cart, and Nigerian art. Marble bathroom with freestanding tub, rainfall shower, and dual vanity. Private balcony overlooks the Atlantic.",
@@ -756,10 +757,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/deluxe2_1.jpeg"),
-          require("../assets/rooms/eko/deluxe2_2.jpeg"),
-          require("../assets/rooms/eko/deluxe2_3.jpeg"),
-          require("../assets/rooms/eko/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
         ],
         description:
           "Private study, Nigerian contemporary art, a glass-enclosed steam shower, and a jetted tub. Round-the-clock butler service included.",
@@ -784,10 +785,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/eko/deluxe3_1.jpeg"),
-          require("../assets/rooms/eko/deluxe3_2.jpeg"),
-          require("../assets/rooms/eko/deluxe3_3.jpeg"),
-          require("../assets/rooms/eko/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two bedrooms, grand lounge, full dining setup, kitchen pantry, Jacuzzi, rainfall shower, and double vanity. Perfect for families or VIP delegations visiting Lagos.",
@@ -814,10 +815,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/eko/deluxe4_1.jpeg"),
-          require("../assets/rooms/eko/deluxe4_2.jpeg"),
-          require("../assets/rooms/eko/deluxe4_3.jpeg"),
-          require("../assets/rooms/eko/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
         ],
         description:
           "Rich mahogany and gold accents, king bed with bespoke headboard, sweeping ocean views, whirlpool tub, double-head shower. Complimentary champagne on arrival.",
@@ -843,10 +844,10 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/eko/deluxe5_1.jpeg"),
-          require("../assets/rooms/eko/deluxe5_2.jpeg"),
-          require("../assets/rooms/eko/deluxe5_3.jpeg"),
-          require("../assets/rooms/eko/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
         ],
         description:
           "Two king bedrooms, formal dining room, private cinema lounge, chef's kitchen, steam room, whirlpool bath, triple vanity, and private rooftop access with ocean views.",
@@ -881,10 +882,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/continental/standard1_1.jpeg"),
-          require("../assets/rooms/continental/standard1_2.jpeg"),
-          require("../assets/rooms/continental/standard1_3.jpeg"),
-          require("../assets/rooms/continental/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
         ],
         description:
           "On the 5th floor of West Africa's tallest hotel. Plush queen bed, sleek décor, work desk, and a modern rainfall shower bathroom with impressive city views.",
@@ -908,10 +909,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/continental/standard2_1.jpeg"),
-          require("../assets/rooms/continental/standard2_2.jpeg"),
-          require("../assets/rooms/continental/standard2_3.jpeg"),
-          require("../assets/rooms/continental/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Twin standard room with floor-to-ceiling windows framing the Lagos skyline. Individual workspace, flat-screen TV, and a modern tiled bathroom with complimentary toiletries.",
@@ -935,10 +936,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/standard3_1.jpeg"),
-          require("../assets/rooms/continental/standard3_2.jpeg"),
-          require("../assets/rooms/continental/standard3_3.jpeg"),
-          require("../assets/rooms/continental/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
           "Sixth-floor king room with Lagos Creek and Atlantic views. Dark wood accents, king bed, and a marble-finish bathroom with a walk-in shower.",
@@ -962,10 +963,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/continental/standard4_1.jpeg"),
-          require("../assets/rooms/continental/standard4_2.jpeg"),
-          require("../assets/rooms/continental/standard4_3.jpeg"),
-          require("../assets/rooms/continental/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Queen room with a cosy lounge chair and a spacious bathroom with bathtub and shower. Victoria Island CBD skyline views are stunning at night.",
@@ -989,10 +990,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/continental/standard5_1.jpeg"),
-          require("../assets/rooms/continental/standard5_2.jpeg"),
-          require("../assets/rooms/continental/standard5_3.jpeg"),
-          require("../assets/rooms/continental/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Seventh-floor room with panoramic Lagos waterfront views, premium pillows, blackout curtains, and a compact work desk.",
@@ -1018,10 +1019,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/semideluxe1_1.jpeg"),
-          require("../assets/rooms/continental/semideluxe1_2.jpeg"),
-          require("../assets/rooms/continental/semideluxe1_3.jpeg"),
-          require("../assets/rooms/continental/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "Generous 10th-floor room with plush king bed, dedicated lounge area, minibar, and a marble bathroom with soaking tub and walk-in shower. Breathtaking ocean and city views.",
@@ -1046,10 +1047,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/semideluxe2_1.jpeg"),
-          require("../assets/rooms/continental/semideluxe2_2.jpeg"),
-          require("../assets/rooms/continental/semideluxe2_3.jpeg"),
-          require("../assets/rooms/continental/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
         ],
         description:
           "Warm amber interiors, king bed, private work alcove, and a glass-enclosed bathroom with rainfall shower and dual basins. Spectacular Atlantic Ocean view.",
@@ -1074,10 +1075,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/semideluxe3_1.jpeg"),
-          require("../assets/rooms/continental/semideluxe3_2.jpeg"),
-          require("../assets/rooms/continental/semideluxe3_3.jpeg"),
-          require("../assets/rooms/continental/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "12th-floor room with elevated Lagos Creek views, king bed, chaise lounge, walk-in wardrobe, and a spa-grade bathroom with freestanding tub.",
@@ -1102,10 +1103,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/continental/semideluxe4_1.jpeg"),
-          require("../assets/rooms/continental/semideluxe4_2.jpeg"),
-          require("../assets/rooms/continental/semideluxe4_3.jpeg"),
-          require("../assets/rooms/continental/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
         ],
         description:
           "Family-configured room with king and single beds, sitting area, premium linens, and a stylish marble bathroom with rainshower. Panoramic views at every turn.",
@@ -1129,10 +1130,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/semideluxe5_1.jpeg"),
-          require("../assets/rooms/continental/semideluxe5_2.jpeg"),
-          require("../assets/rooms/continental/semideluxe5_3.jpeg"),
-          require("../assets/rooms/continental/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "15th-floor crown semi-deluxe. King bed, golden lighting, expansive seating area, walk-in wardrobe, and a luxury bathroom with steam shower and jetted tub.",
@@ -1160,10 +1161,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/deluxe1_1.jpeg"),
-          require("../assets/rooms/continental/deluxe1_2.jpeg"),
-          require("../assets/rooms/continental/deluxe1_3.jpeg"),
-          require("../assets/rooms/continental/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "18th-floor corner suite with 360-degree Lagos views, grand living room, dining alcove, jacuzzi tub, and steam shower.",
@@ -1189,10 +1190,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/continental/deluxe2_1.jpeg"),
-          require("../assets/rooms/continental/deluxe2_2.jpeg"),
-          require("../assets/rooms/continental/deluxe2_3.jpeg"),
-          require("../assets/rooms/continental/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
         ],
         description:
           "Floor-to-ceiling Atlantic Ocean views, full bar, private dining for four, rainfall shower, soaking tub, and heated floors.",
@@ -1219,10 +1220,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/continental/deluxe3_1.jpeg"),
-          require("../assets/rooms/continental/deluxe3_2.jpeg"),
-          require("../assets/rooms/continental/deluxe3_3.jpeg"),
-          require("../assets/rooms/continental/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two master king bedrooms, open-plan living and dining with handcrafted Nigerian pieces, freestanding tub, double vanity, and glass rainfall shower.",
@@ -1249,10 +1250,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Emperor King Bed",
         images: [
-          require("../assets/rooms/continental/deluxe4_1.jpeg"),
-          require("../assets/rooms/continental/deluxe4_2.jpeg"),
-          require("../assets/rooms/continental/deluxe4_3.jpeg"),
-          require("../assets/rooms/continental/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Emperor king bed, private cinema room, wine cellar, expansive terrace with 180° Atlantic views, plunge pool, steam shower, and triple vanity.",
@@ -1280,10 +1281,10 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "2 Kings + 1 Double",
         images: [
-          require("../assets/rooms/continental/deluxe5_1.jpeg"),
-          require("../assets/rooms/continental/deluxe5_2.jpeg"),
-          require("../assets/rooms/continental/deluxe5_3.jpeg"),
-          require("../assets/rooms/continental/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "Atop West Africa's tallest hotel. Three bedrooms, state room, VIP meeting room, chef's kitchen, private spa, steam room, plunge pool, and outdoor rooftop terrace with 360° views.",
@@ -1320,10 +1321,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/federal/standard1_1.jpeg"),
-          require("../assets/rooms/federal/standard1_2.jpeg"),
-          require("../assets/rooms/federal/standard1_3.jpeg"),
-          require("../assets/rooms/federal/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "A classic standard room at one of Nigeria's most historically significant hotels. Elegant queen bed, vintage-inspired accents, flat-screen TV, and a clean en-suite walk-in shower bathroom.",
@@ -1346,10 +1347,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/federal/standard2_1.jpeg"),
-          require("../assets/rooms/federal/standard2_2.jpeg"),
-          require("../assets/rooms/federal/standard2_3.jpeg"),
-          require("../assets/rooms/federal/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Twin standard room with ocean-facing windows, warm tones, two comfortable single beds, a clean workspace, and a modern bathroom.",
@@ -1373,10 +1374,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/standard3_1.jpeg"),
-          require("../assets/rooms/federal/standard3_2.jpeg"),
-          require("../assets/rooms/federal/standard3_3.jpeg"),
-          require("../assets/rooms/federal/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Atlantic Ocean view king room with premium bedding, a soaking tub, separate shower, and a complimentary minibar on arrival. Heritage charm meets modern comfort.",
@@ -1400,10 +1401,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/federal/standard4_1.jpeg"),
-          require("../assets/rooms/federal/standard4_2.jpeg"),
-          require("../assets/rooms/federal/standard4_3.jpeg"),
-          require("../assets/rooms/federal/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Cosy queen room overlooking the pool. Warm lighting, comfortable furnishings, an armchair, and a tiled bathroom with a rainfall shower.",
@@ -1427,10 +1428,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/federal/standard5_1.jpeg"),
-          require("../assets/rooms/federal/standard5_2.jpeg"),
-          require("../assets/rooms/federal/standard5_3.jpeg"),
-          require("../assets/rooms/federal/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
           "Third-floor room with direct Atlantic Ocean views, premium pillows, warm neutral décor, and a modern bathroom with complimentary Federal Palace toiletries.",
@@ -1456,10 +1457,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/semideluxe1_1.jpeg"),
-          require("../assets/rooms/federal/semideluxe1_2.jpeg"),
-          require("../assets/rooms/federal/semideluxe1_3.jpeg"),
-          require("../assets/rooms/federal/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Colonial heritage touches blended with modern comforts. King bed, sitting area, and a marble bathroom with soaking tub and rainfall shower. Breathtaking Atlantic Ocean panorama.",
@@ -1484,10 +1485,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/semideluxe2_1.jpeg"),
-          require("../assets/rooms/federal/semideluxe2_2.jpeg"),
-          require("../assets/rooms/federal/semideluxe2_3.jpeg"),
-          require("../assets/rooms/federal/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Classic and contemporary design merge in room 402. King bed in premium white linen, warm accent lighting, dual vanity bathroom, and views of the iconic Federal Palace Pool Club.",
@@ -1511,10 +1512,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/federal/semideluxe3_1.jpeg"),
-          require("../assets/rooms/federal/semideluxe3_2.jpeg"),
-          require("../assets/rooms/federal/semideluxe3_3.jpeg"),
-          require("../assets/rooms/federal/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Spacious semi-deluxe for up to three guests with king bed, extra single, wide-angle Atlantic view, marble bathroom with rainfall shower and bathtub.",
@@ -1539,10 +1540,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/federal/semideluxe4_1.jpeg"),
-          require("../assets/rooms/federal/semideluxe4_2.jpeg"),
-          require("../assets/rooms/federal/semideluxe4_3.jpeg"),
-          require("../assets/rooms/federal/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
         ],
         description:
           "Twin-queen room with ocean views, fresh white interiors, classic wooden furniture, walk-in shower, bathtub, and complimentary minibar. Turndown service included.",
@@ -1567,10 +1568,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/semideluxe5_1.jpeg"),
-          require("../assets/rooms/federal/semideluxe5_2.jpeg"),
-          require("../assets/rooms/federal/semideluxe5_3.jpeg"),
-          require("../assets/rooms/federal/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "Commanding sixth-floor room with unobstructed Atlantic Ocean views and a private balcony. King bed, lounge chair, walk-in wardrobe, freestanding tub, and separate rainfall shower.",
@@ -1598,10 +1599,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/deluxe1_1.jpeg"),
-          require("../assets/rooms/federal/deluxe1_2.jpeg"),
-          require("../assets/rooms/federal/deluxe1_3.jpeg"),
-          require("../assets/rooms/federal/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Colonial-era inspired décor, king bedroom, separate lounge with period furniture, dining setup, and a grand marble bathroom with clawfoot bathtub and shower. Steeped in Nigerian history.",
@@ -1628,10 +1629,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/federal/deluxe2_1.jpeg"),
-          require("../assets/rooms/federal/deluxe2_2.jpeg"),
-          require("../assets/rooms/federal/deluxe2_3.jpeg"),
-          require("../assets/rooms/federal/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
         ],
         description:
           "Arched windows, bespoke furniture, Atlantic views, private sitting room, steam shower, whirlpool tub, and double vanity.",
@@ -1658,10 +1659,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/federal/deluxe3_1.jpeg"),
-          require("../assets/rooms/federal/deluxe3_2.jpeg"),
-          require("../assets/rooms/federal/deluxe3_3.jpeg"),
-          require("../assets/rooms/federal/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two king bedrooms, living room with heritage art, private dining for four, jacuzzi tub, glass rainfall shower, and underfloor heating.",
@@ -1688,10 +1689,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Emperor King Bed",
         images: [
-          require("../assets/rooms/federal/deluxe4_1.jpeg"),
-          require("../assets/rooms/federal/deluxe4_2.jpeg"),
-          require("../assets/rooms/federal/deluxe4_3.jpeg"),
-          require("../assets/rooms/federal/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Emperor king bed with silk linens, panoramic ocean views, private study, cocktail bar, plunge tub, and steam shower.",
@@ -1718,10 +1719,10 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "2 Kings + 1 Double",
         images: [
-          require("../assets/rooms/federal/deluxe5_1.jpeg"),
-          require("../assets/rooms/federal/deluxe5_2.jpeg"),
-          require("../assets/rooms/federal/deluxe5_3.jpeg"),
-          require("../assets/rooms/federal/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "Where Nigeria's independence was declared. Three bedrooms, state room, VIP boardroom, gourmet kitchen, spa bathroom with steam room and plunge pool, and an outdoor terrace overlooking the Atlantic.",
@@ -1758,10 +1759,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/lala/standard1_1.jpeg"),
-          require("../assets/rooms/lala/standard1_2.jpeg"),
-          require("../assets/rooms/lala/standard1_3.jpeg"),
-          require("../assets/rooms/lala/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
           "Named after Nigeria's favourite flower. Warm, cosy, and filled with handpicked local art, rattan furniture, and terracotta tones. Double bed in organic cotton, boutique bathroom with handmade tiles and walk-in shower.",
@@ -1783,10 +1784,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/lala/standard2_1.jpeg"),
-          require("../assets/rooms/lala/standard2_2.jpeg"),
-          require("../assets/rooms/lala/standard2_3.jpeg"),
-          require("../assets/rooms/lala/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
         ],
         description:
           "Inspired by Nigeria's majestic Iroko tree. Warm wooden tones, handcrafted Iroko wood headboard, organic cotton bedding, and a bright tiled bathroom with walk-in shower.",
@@ -1808,10 +1809,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lala/standard3_1.jpeg"),
-          require("../assets/rooms/lala/standard3_2.jpeg"),
-          require("../assets/rooms/lala/standard3_3.jpeg"),
-          require("../assets/rooms/lala/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
           "Inspired by Nigerian culinary heritage with vibrant yellow and green Ankara textile accents. Queen bed, open wardrobe, and a cheerful tiled bathroom with a rainfall shower.",
@@ -1834,10 +1835,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lala/standard4_1.jpeg"),
-          require("../assets/rooms/lala/standard4_2.jpeg"),
-          require("../assets/rooms/lala/standard4_3.jpeg"),
-          require("../assets/rooms/lala/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
         ],
         description:
           "A romantic room with blush pink tones, floral wall art, and soft drapery. Queen bed in premium bedding, artisan tiled bathroom with walk-in shower and botanical toiletries.",
@@ -1860,10 +1861,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lala/standard5_1.jpeg"),
-          require("../assets/rooms/lala/standard5_2.jpeg"),
-          require("../assets/rooms/lala/standard5_3.jpeg"),
-          require("../assets/rooms/lala/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Pays homage to the ancient Benin Kingdom with bronze-inspired art, dark earthy tones, and hand-carved wood accents. Queen bed, reading nook, and a smart bathroom with walk-in shower.",
@@ -1888,10 +1889,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/semideluxe1_1.jpeg"),
-          require("../assets/rooms/lala/semideluxe1_2.jpeg"),
-          require("../assets/rooms/lala/semideluxe1_3.jpeg"),
-          require("../assets/rooms/lala/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "A tribute to the city — vibrant, dynamic, full of character. King bed, Lagos skyline artwork, minibar with local beverages, and a marble bathroom with soaking tub and rainfall shower.",
@@ -1915,10 +1916,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/semideluxe2_1.jpeg"),
-          require("../assets/rooms/lala/semideluxe2_2.jpeg"),
-          require("../assets/rooms/lala/semideluxe2_3.jpeg"),
-          require("../assets/rooms/lala/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "A celebration of Nigeria's culture in green and white — Nigeria's national colours. King bed, curated African artefacts, sitting corner, and a stylish bathroom with artisan tiles.",
@@ -1942,10 +1943,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/semideluxe3_1.jpeg"),
-          require("../assets/rooms/lala/semideluxe3_2.jpeg"),
-          require("../assets/rooms/lala/semideluxe3_3.jpeg"),
-          require("../assets/rooms/lala/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Inspired by Lagos' world-famous Afrobeats scene. Vinyl art prints, curated playlist speaker, bold colour choices, plush king bed, and a chic bathroom with rainfall shower.",
@@ -1969,10 +1970,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/semideluxe4_1.jpeg"),
-          require("../assets/rooms/lala/semideluxe4_2.jpeg"),
-          require("../assets/rooms/lala/semideluxe4_3.jpeg"),
-          require("../assets/rooms/lala/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "Named after Elegushi Beach. Cool blues, driftwood accents, shell wall art, king bed, balcony with garden view, and a clean white bathroom with soaking tub.",
@@ -1996,10 +1997,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/semideluxe5_1.jpeg"),
-          require("../assets/rooms/lala/semideluxe5_2.jpeg"),
-          require("../assets/rooms/lala/semideluxe5_3.jpeg"),
-          require("../assets/rooms/lala/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
         ],
         description:
           "A tribute to founder Amina Isa. Warm botanical art, local artisan furniture, dedicated dressing room, and a spa-style bathroom with freestanding tub and outdoor shower.",
@@ -2026,10 +2027,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Emperor King Bed",
         images: [
-          require("../assets/rooms/lala/deluxe1_1.jpeg"),
-          require("../assets/rooms/lala/deluxe1_2.jpeg"),
-          require("../assets/rooms/lala/deluxe1_3.jpeg"),
-          require("../assets/rooms/lala/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
         ],
         description:
           "Two-level boutique masterpiece. Lounge and dining below; emperor king bed with panoramic roof views above. Clawfoot tub, walk-in rain shower, and bespoke artisan tiles.",
@@ -2054,10 +2055,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/deluxe2_1.jpeg"),
-          require("../assets/rooms/lala/deluxe2_2.jpeg"),
-          require("../assets/rooms/lala/deluxe2_3.jpeg"),
-          require("../assets/rooms/lala/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "Exposed brick walls, vintage Lagos photography, Aso-oke throw over a plush king bed, cocktail cart, armchairs, record player, and a marble bathroom with soaking tub and rainfall shower.",
@@ -2082,10 +2083,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + Sofa Bed",
         images: [
-          require("../assets/rooms/lala/deluxe3_1.jpeg"),
-          require("../assets/rooms/lala/deluxe3_2.jpeg"),
-          require("../assets/rooms/lala/deluxe3_3.jpeg"),
-          require("../assets/rooms/lala/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Named after Nigeria's most beloved dish. Terracotta and saffron tones, king bed, sofa bed, kitchenette stocked with Nigerian snacks, deep soaking tub, and walk-in shower.",
@@ -2110,10 +2111,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lala/deluxe4_1.jpeg"),
-          require("../assets/rooms/lala/deluxe4_2.jpeg"),
-          require("../assets/rooms/lala/deluxe4_3.jpeg"),
-          require("../assets/rooms/lala/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
           "Inspired by Ile-Ife, the Yoruba spiritual heartland. Terracotta sculpture art, amber lighting, raffia wall panels, king bed in gold-toned linens, soaking tub, and botanical bath amenities.",
@@ -2138,10 +2139,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Emperor King Bed",
         images: [
-          require("../assets/rooms/lala/deluxe5_1.jpeg"),
-          require("../assets/rooms/lala/deluxe5_2.jpeg"),
-          require("../assets/rooms/lala/deluxe5_3.jpeg"),
-          require("../assets/rooms/lala/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
         ],
         description:
           "Personally curated by the founder. Custom Iroko bed frame, hand-painted bathroom tiles, private rooftop terrace, outdoor shower, soaking tub, and a private chef arrangement.",
@@ -2160,7 +2161,6 @@ const hotelRooms = {
       },
     ],
   },
-
   // 6. MAISON FAHRENHEIT HOTEL
   "Maison Fahrenheit Hotel": {
     standard: [
@@ -2173,10 +2173,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/maison/standard1_1.jpeg"),
-          require("../assets/rooms/maison/standard1_2.jpeg"),
-          require("../assets/rooms/maison/standard1_3.jpeg"),
-          require("../assets/rooms/maison/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "W Hotels-inspired ultramodern design with vintage touches. Queen bed with designer linen, statement lighting, eclectic art, and a tiled bathroom with walk-in shower.",
@@ -2199,10 +2199,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/maison/standard2_1.jpeg"),
-          require("../assets/rooms/maison/standard2_2.jpeg"),
-          require("../assets/rooms/maison/standard2_3.jpeg"),
-          require("../assets/rooms/maison/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
           "New York loft aesthetic — exposed concrete, bold geometric art, warm Edison bulb lighting. Queen bed with bespoke headboard, designer bathroom with rainfall shower and luxury French toiletries.",
@@ -2225,10 +2225,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/maison/standard3_1.jpeg"),
-          require("../assets/rooms/maison/standard3_2.jpeg"),
-          require("../assets/rooms/maison/standard3_3.jpeg"),
-          require("../assets/rooms/maison/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
         ],
         description:
           "Retro-modern interior with velvet upholstery, polished brass fixtures, and bespoke wardrobe panelling. Egyptian cotton queen bed and a heated towel rail bathroom with walk-in shower. Partial ocean view.",
@@ -2251,10 +2251,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/maison/standard4_1.jpeg"),
-          require("../assets/rooms/maison/standard4_2.jpeg"),
-          require("../assets/rooms/maison/standard4_3.jpeg"),
-          require("../assets/rooms/maison/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Mid-century modern theme with walnut wood furniture, tufted queen bed, and curated art prints. Geometric-tiled bathroom with rainfall shower and exclusive Maison Fahrenheit amenities.",
@@ -2277,10 +2277,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/maison/standard5_1.jpeg"),
-          require("../assets/rooms/maison/standard5_2.jpeg"),
-          require("../assets/rooms/maison/standard5_3.jpeg"),
-          require("../assets/rooms/maison/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
         ],
         description:
           "Parisian-inspired aesthetic — soft greys, mirrored furniture, floral art. Queen bed with duvet and decorative throw. Marble bathroom with walk-in shower.",
@@ -2305,10 +2305,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/semideluxe1_1.jpeg"),
-          require("../assets/rooms/maison/semideluxe1_2.jpeg"),
-          require("../assets/rooms/maison/semideluxe1_3.jpeg"),
-          require("../assets/rooms/maison/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Gallery-style wall art, king bed, chaise lounge, floor-to-ceiling windows with ocean views, soaking tub, separate rainfall shower, and dual vanity with Maison Fahrenheit luxury toiletries.",
@@ -2333,10 +2333,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/semideluxe2_1.jpeg"),
-          require("../assets/rooms/maison/semideluxe2_2.jpeg"),
-          require("../assets/rooms/maison/semideluxe2_3.jpeg"),
-          require("../assets/rooms/maison/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
         ],
         description:
           "Industrial-chic aesthetic — exposed pipe art, leather seating, dark wood finishes. Luxurious king bed and premium marble bathroom. Atlantic Ocean views through metal-framed windows.",
@@ -2361,10 +2361,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/semideluxe3_1.jpeg"),
-          require("../assets/rooms/maison/semideluxe3_2.jpeg"),
-          require("../assets/rooms/maison/semideluxe3_3.jpeg"),
-          require("../assets/rooms/maison/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Bohemian-inspired room with macramé wall art, terracotta tones, canopy king bed, freestanding soaking tub, vintage rainfall shower, and a balcony with ocean views.",
@@ -2390,10 +2390,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/semideluxe4_1.jpeg"),
-          require("../assets/rooms/maison/semideluxe4_2.jpeg"),
-          require("../assets/rooms/maison/semideluxe4_3.jpeg"),
-          require("../assets/rooms/maison/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "High ceilings, monochrome art, statement furniture. King bed with custom upholstered frame, double walk-in shower, floating double vanity, and a front-row seat to the Lagos Atlantic sunset.",
@@ -2417,10 +2417,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/semideluxe5_1.jpeg"),
-          require("../assets/rooms/maison/semideluxe5_2.jpeg"),
-          require("../assets/rooms/maison/semideluxe5_3.jpeg"),
-          require("../assets/rooms/maison/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Art Deco escape with gold accents, velvet drapes, tufted king bed, marble bathroom with claw-foot tub, separate glass shower, and heated floors.",
@@ -2447,10 +2447,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/deluxe1_1.jpeg"),
-          require("../assets/rooms/maison/deluxe1_2.jpeg"),
-          require("../assets/rooms/maison/deluxe1_3.jpeg"),
-          require("../assets/rooms/maison/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Named after the iconic rooftop bar. King bed, open-plan lounge, full Atlantic panorama, private bar, soaking tub, glass rainfall shower, and complimentary access to Rue 80 rooftop lounge.",
@@ -2477,10 +2477,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/deluxe2_1.jpeg"),
-          require("../assets/rooms/maison/deluxe2_2.jpeg"),
-          require("../assets/rooms/maison/deluxe2_3.jpeg"),
-          require("../assets/rooms/maison/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
         ],
         description:
           "Italian luxury aesthetic — terrazzo floors, linen drapery, fresh floral arrangements. Private sitting room, full bar, soaking tub, marble walk-in shower, and luxury Italian toiletries.",
@@ -2506,10 +2506,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/deluxe3_1.jpeg"),
-          require("../assets/rooms/maison/deluxe3_2.jpeg"),
-          require("../assets/rooms/maison/deluxe3_3.jpeg"),
-          require("../assets/rooms/maison/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Structural artworks, double-height reading lounge, raw-edge wooden furnishings, floor-to-ceiling ocean windows, freestanding black tub, and open rainfall shower.",
@@ -2535,10 +2535,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/maison/deluxe4_1.jpeg"),
-          require("../assets/rooms/maison/deluxe4_2.jpeg"),
-          require("../assets/rooms/maison/deluxe4_3.jpeg"),
-          require("../assets/rooms/maison/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "A curated gallery of Nigerian contemporary art sourced from emerging Lagos artists. King bedroom, private gallery lounge, wine rack, soaking tub, and steam shower.",
@@ -2564,10 +2564,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Queen",
         images: [
-          require("../assets/rooms/maison/deluxe5_1.jpeg"),
-          require("../assets/rooms/maison/deluxe5_2.jpeg"),
-          require("../assets/rooms/maison/deluxe5_3.jpeg"),
-          require("../assets/rooms/maison/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "360-degree ocean and city views from a private terrace. Two bedrooms, dramatic living space, private chef kitchen, cocktail bar, plunge tub, steam shower, and bespoke mosaic tiles.",
@@ -2602,10 +2602,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/marriott/standard1_1.jpeg"),
-          require("../assets/rooms/marriott/standard1_2.jpeg"),
-          require("../assets/rooms/marriott/standard1_3.jpeg"),
-          require("../assets/rooms/marriott/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "A polished standard room at Lagos' premier five-star conference hotel. Marriott Heavenly Bed queen mattress, work desk, flat-screen TV, and a sleek marble bathroom with a walk-in shower.",
@@ -2629,10 +2629,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/marriott/standard2_1.jpeg"),
-          require("../assets/rooms/marriott/standard2_2.jpeg"),
-          require("../assets/rooms/marriott/standard2_3.jpeg"),
-          require("../assets/rooms/marriott/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Smart twin-bed room suited for two business travellers. Both beds have Marriott premium linens, individual workspaces, flat-screen TV, and a modern tiled bathroom.",
@@ -2655,10 +2655,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/standard3_1.jpeg"),
-          require("../assets/rooms/marriott/standard3_2.jpeg"),
-          require("../assets/rooms/marriott/standard3_3.jpeg"),
-          require("../assets/rooms/marriott/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
           "Well-appointed king room with Heavenly Bed mattress, warm contemporary interior, spacious wardrobe, and a marble bathroom with a rainfall shower.",
@@ -2681,10 +2681,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/marriott/standard4_1.jpeg"),
-          require("../assets/rooms/marriott/standard4_2.jpeg"),
-          require("../assets/rooms/marriott/standard4_3.jpeg"),
-          require("../assets/rooms/marriott/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Quiet second-floor room with warm lighting, plush queen bed, seating corner, and a spacious tiled bathroom with bathtub and shower. Steps from the hotel's outdoor pool.",
@@ -2707,10 +2707,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/marriott/standard5_1.jpeg"),
-          require("../assets/rooms/marriott/standard5_2.jpeg"),
-          require("../assets/rooms/marriott/standard5_3.jpeg"),
-          require("../assets/rooms/marriott/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Third-floor room with partial Ikeja skyline views. Marriott Heavenly Bed, blackout curtains, work desk, and a modern bathroom with complimentary Marriott toiletries.",
@@ -2736,10 +2736,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/semideluxe1_1.jpeg"),
-          require("../assets/rooms/marriott/semideluxe1_2.jpeg"),
-          require("../assets/rooms/marriott/semideluxe1_3.jpeg"),
-          require("../assets/rooms/marriott/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Refined semi-deluxe with Heavenly King bed, dedicated lounge seating, minibar, and a marble bathroom with soaking tub and separate rainfall shower. Partial city views.",
@@ -2764,10 +2764,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/semideluxe2_1.jpeg"),
-          require("../assets/rooms/marriott/semideluxe2_2.jpeg"),
-          require("../assets/rooms/marriott/semideluxe2_3.jpeg"),
-          require("../assets/rooms/marriott/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
         ],
         description:
           "Sleek and modern room with king bed, plush armchairs, and an elegant marble bathroom featuring dual vanity and a rainfall shower.",
@@ -2791,10 +2791,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/marriott/semideluxe3_1.jpeg"),
-          require("../assets/rooms/marriott/semideluxe3_2.jpeg"),
-          require("../assets/rooms/marriott/semideluxe3_3.jpeg"),
-          require("../assets/rooms/marriott/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
         ],
         description:
           "Family-friendly semi-deluxe with king bed and single, spacious layout, minibar, and a marble bathroom with soaking tub and rainfall shower. Upper-floor Ikeja GRA views.",
@@ -2818,10 +2818,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/marriott/semideluxe4_1.jpeg"),
-          require("../assets/rooms/marriott/semideluxe4_2.jpeg"),
-          require("../assets/rooms/marriott/semideluxe4_3.jpeg"),
-          require("../assets/rooms/marriott/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Twin-queen room with warm lighting, lounge corner, generous wardrobe, and a modern bathroom with Marriott premium toiletries and a rainfall shower.",
@@ -2845,10 +2845,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/semideluxe5_1.jpeg"),
-          require("../assets/rooms/marriott/semideluxe5_2.jpeg"),
-          require("../assets/rooms/marriott/semideluxe5_3.jpeg"),
-          require("../assets/rooms/marriott/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
         ],
         description:
           "Sixth-floor standout with panoramic Ikeja views, plush king bed, chaise lounge, walk-in wardrobe, soaking tub, and separate rainfall shower.",
@@ -2876,10 +2876,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/deluxe1_1.jpeg"),
-          require("../assets/rooms/marriott/deluxe1_2.jpeg"),
-          require("../assets/rooms/marriott/deluxe1_3.jpeg"),
-          require("../assets/rooms/marriott/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Grand suite with Heavenly King bedroom, separate living area, dining table for two, fully stocked minibar, and a marble bathroom with jetted tub and rainfall shower. Sweeping Ikeja city views.",
@@ -2906,10 +2906,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/deluxe2_1.jpeg"),
-          require("../assets/rooms/marriott/deluxe2_2.jpeg"),
-          require("../assets/rooms/marriott/deluxe2_3.jpeg"),
-          require("../assets/rooms/marriott/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Private study, king bed with bespoke headboard, fully stocked minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -2934,10 +2934,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/marriott/deluxe3_1.jpeg"),
-          require("../assets/rooms/marriott/deluxe3_2.jpeg"),
-          require("../assets/rooms/marriott/deluxe3_3.jpeg"),
-          require("../assets/rooms/marriott/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining for four, fully stocked pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -2964,10 +2964,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/marriott/deluxe4_1.jpeg"),
-          require("../assets/rooms/marriott/deluxe4_2.jpeg"),
-          require("../assets/rooms/marriott/deluxe4_3.jpeg"),
-          require("../assets/rooms/marriott/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Premium linen, curated artwork, floor-to-ceiling windows with city views, fully stocked minibar, whirlpool tub, and double-head shower. Turndown and butler service included.",
@@ -2992,10 +2992,10 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "2 Kings + 1 Double",
         images: [
-          require("../assets/rooms/marriott/deluxe5_1.jpeg"),
-          require("../assets/rooms/marriott/deluxe5_2.jpeg"),
-          require("../assets/rooms/marriott/deluxe5_3.jpeg"),
-          require("../assets/rooms/marriott/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "Three bedrooms, formal state room, VIP meeting area, chef's kitchen, private spa with steam room, plunge pool, triple vanity, and a wraparound terrace with city views.",
@@ -3031,10 +3031,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/watercress/standard1_1.jpeg"),
-          require("../assets/rooms/watercress/standard1_2.jpeg"),
-          require("../assets/rooms/watercress/standard1_3.jpeg"),
-          require("../assets/rooms/watercress/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
           "A clean, well-maintained standard room in the heart of Allen, Ikeja. Double bed, modern furnishings, flat-screen TV, and an en-suite bathroom with a walk-in shower. Great value for business and leisure guests.",
@@ -3057,10 +3057,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/watercress/standard2_1.jpeg"),
-          require("../assets/rooms/watercress/standard2_2.jpeg"),
-          require("../assets/rooms/watercress/standard2_3.jpeg"),
-          require("../assets/rooms/watercress/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Tidy twin-bed standard room with neutral décor, individual reading lights, and a clean tiled bathroom with a shower. Perfect for two guests on a budget-friendly Lagos stay.",
@@ -3082,10 +3082,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/watercress/standard3_1.jpeg"),
-          require("../assets/rooms/watercress/standard3_2.jpeg"),
-          require("../assets/rooms/watercress/standard3_3.jpeg"),
-          require("../assets/rooms/watercress/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Second-floor queen room with warm lighting, clean furnishings, wall-mounted TV, work desk, and a tiled bathroom with walk-in shower.",
@@ -3107,10 +3107,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/watercress/standard4_1.jpeg"),
-          require("../assets/rooms/watercress/standard4_2.jpeg"),
-          require("../assets/rooms/watercress/standard4_3.jpeg"),
-          require("../assets/rooms/watercress/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
           "Quiet standard room with comfortable queen bed, bright lighting, adequate wardrobe space, and a simple but clean bathroom. Ideal for short business stays in Ikeja.",
@@ -3132,10 +3132,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/watercress/standard5_1.jpeg"),
-          require("../assets/rooms/watercress/standard5_2.jpeg"),
-          require("../assets/rooms/watercress/standard5_3.jpeg"),
-          require("../assets/rooms/watercress/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Third-floor standard room with a slightly elevated view of the Allen neighbourhood. Queen bed, modern décor, and an en-suite bathroom with a rainfall shower head.",
@@ -3159,10 +3159,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/semideluxe1_1.jpeg"),
-          require("../assets/rooms/watercress/semideluxe1_2.jpeg"),
-          require("../assets/rooms/watercress/semideluxe1_3.jpeg"),
-          require("../assets/rooms/watercress/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "Well-furnished semi-deluxe with king bed, dedicated seating area, minibar, and a modern bathroom with soaking tub and shower. A step up in comfort at an affordable price point.",
@@ -3186,10 +3186,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/semideluxe2_1.jpeg"),
-          require("../assets/rooms/watercress/semideluxe2_2.jpeg"),
-          require("../assets/rooms/watercress/semideluxe2_3.jpeg"),
-          require("../assets/rooms/watercress/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Contemporary furnishings, king bed with premium linen, minibar, and a tiled bathroom with a rainfall shower and bathtub.",
@@ -3212,10 +3212,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/watercress/semideluxe3_1.jpeg"),
-          require("../assets/rooms/watercress/semideluxe3_2.jpeg"),
-          require("../assets/rooms/watercress/semideluxe3_3.jpeg"),
-          require("../assets/rooms/watercress/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
           "Family-friendly semi-deluxe with king bed and an additional single. Spacious layout, warm lighting, and a modern bathroom with soaking tub and shower.",
@@ -3238,10 +3238,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/watercress/semideluxe4_1.jpeg"),
-          require("../assets/rooms/watercress/semideluxe4_2.jpeg"),
-          require("../assets/rooms/watercress/semideluxe4_3.jpeg"),
-          require("../assets/rooms/watercress/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Twin-queen semi-deluxe with modern décor, lounge corner, generous wardrobe, and a clean bathroom with rainfall shower.",
@@ -3264,10 +3264,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/semideluxe5_1.jpeg"),
-          require("../assets/rooms/watercress/semideluxe5_2.jpeg"),
-          require("../assets/rooms/watercress/semideluxe5_3.jpeg"),
-          require("../assets/rooms/watercress/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Allen neighbourhood views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and separate rainfall shower.",
@@ -3294,10 +3294,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/deluxe1_1.jpeg"),
-          require("../assets/rooms/watercress/deluxe1_2.jpeg"),
-          require("../assets/rooms/watercress/deluxe1_3.jpeg"),
-          require("../assets/rooms/watercress/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, fully stocked minibar, and a marble bathroom with soaking tub and rainfall shower.",
@@ -3323,10 +3323,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/deluxe2_1.jpeg"),
-          require("../assets/rooms/watercress/deluxe2_2.jpeg"),
-          require("../assets/rooms/watercress/deluxe2_3.jpeg"),
-          require("../assets/rooms/watercress/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
         ],
         description:
           "Private study, king bed, fully stocked minibar, and a spa bathroom with steam shower and bathtub. Ideal for executives and long-stay guests in Ikeja.",
@@ -3351,10 +3351,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/watercress/deluxe3_1.jpeg"),
-          require("../assets/rooms/watercress/deluxe3_2.jpeg"),
-          require("../assets/rooms/watercress/deluxe3_3.jpeg"),
-          require("../assets/rooms/watercress/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, fully stocked pantry, freestanding tub, and double vanity. Great for families or small groups.",
@@ -3379,10 +3379,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/watercress/deluxe4_1.jpeg"),
-          require("../assets/rooms/watercress/deluxe4_2.jpeg"),
-          require("../assets/rooms/watercress/deluxe4_3.jpeg"),
-          require("../assets/rooms/watercress/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
           "Premium linen, curated artwork, floor-to-ceiling windows with Allen views, whirlpool tub, and a double-head shower. Turndown and butler service included.",
@@ -3407,10 +3407,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/watercress/deluxe5_1.jpeg"),
-          require("../assets/rooms/watercress/deluxe5_2.jpeg"),
-          require("../assets/rooms/watercress/deluxe5_3.jpeg"),
-          require("../assets/rooms/watercress/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
         ],
         description:
           "Watercress flagship suite. Two bedrooms, formal state lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace with Lagos mainland views.",
@@ -3444,10 +3444,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/protea/standard1_1.jpeg"),
-          require("../assets/rooms/protea/standard1_2.jpeg"),
-          require("../assets/rooms/protea/standard1_3.jpeg"),
-          require("../assets/rooms/protea/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
           "A reliable and comfortable standard room from Africa's leading hotel brand. Queen bed with quality linen, flat-screen TV, work desk, and a clean en-suite bathroom with a walk-in shower.",
@@ -3470,10 +3470,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/protea/standard2_1.jpeg"),
-          require("../assets/rooms/protea/standard2_2.jpeg"),
-          require("../assets/rooms/protea/standard2_3.jpeg"),
-          require("../assets/rooms/protea/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Twin-bed standard room with individual reading lights, modern furniture, and a clean tiled bathroom. Well-suited for two business travellers in Ikeja.",
@@ -3495,10 +3495,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/standard3_1.jpeg"),
-          require("../assets/rooms/protea/standard3_2.jpeg"),
-          require("../assets/rooms/protea/standard3_3.jpeg"),
-          require("../assets/rooms/protea/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "King standard room with warm décor, premium linen, work desk, flat-screen TV, and a modern bathroom with a rainfall shower.",
@@ -3521,10 +3521,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/protea/standard4_1.jpeg"),
-          require("../assets/rooms/protea/standard4_2.jpeg"),
-          require("../assets/rooms/protea/standard4_3.jpeg"),
-          require("../assets/rooms/protea/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
           "Slightly larger standard room with a queen bed, lounge chair, pool views, and a bathroom with bathtub and shower.",
@@ -3547,10 +3547,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/protea/standard5_1.jpeg"),
-          require("../assets/rooms/protea/standard5_2.jpeg"),
-          require("../assets/rooms/protea/standard5_3.jpeg"),
-          require("../assets/rooms/protea/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Third-floor standard room with views of the Ikeja neighbourhood. Queen bed, blackout curtains, work desk, and a modern en-suite bathroom with a walk-in shower.",
@@ -3575,10 +3575,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/semideluxe1_1.jpeg"),
-          require("../assets/rooms/protea/semideluxe1_2.jpeg"),
-          require("../assets/rooms/protea/semideluxe1_3.jpeg"),
-          require("../assets/rooms/protea/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Well-appointed semi-deluxe with king bed, lounge seating, minibar, and a modern bathroom with soaking tub and separate shower. Partial Ikeja skyline view.",
@@ -3602,10 +3602,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/semideluxe2_1.jpeg"),
-          require("../assets/rooms/protea/semideluxe2_2.jpeg"),
-          require("../assets/rooms/protea/semideluxe2_3.jpeg"),
-          require("../assets/rooms/protea/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Contemporary décor, king bed with Protea premium linen, minibar, and a bathroom with dual vanity and rainfall shower.",
@@ -3628,10 +3628,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/protea/semideluxe3_1.jpeg"),
-          require("../assets/rooms/protea/semideluxe3_2.jpeg"),
-          require("../assets/rooms/protea/semideluxe3_3.jpeg"),
-          require("../assets/rooms/protea/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
         ],
         description:
           "Family-friendly semi-deluxe with king and single beds, warm lighting, spacious layout, and a bathroom with soaking tub and shower.",
@@ -3654,10 +3654,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/protea/semideluxe4_1.jpeg"),
-          require("../assets/rooms/protea/semideluxe4_2.jpeg"),
-          require("../assets/rooms/protea/semideluxe4_3.jpeg"),
-          require("../assets/rooms/protea/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "Twin-queen semi-deluxe with lounge corner, warm décor, and a modern bathroom with premium Protea toiletries and a rainfall shower.",
@@ -3680,10 +3680,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/semideluxe5_1.jpeg"),
-          require("../assets/rooms/protea/semideluxe5_2.jpeg"),
-          require("../assets/rooms/protea/semideluxe5_3.jpeg"),
-          require("../assets/rooms/protea/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with panoramic Ikeja views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -3710,10 +3710,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/deluxe1_1.jpeg"),
-          require("../assets/rooms/protea/deluxe1_2.jpeg"),
-          require("../assets/rooms/protea/deluxe1_3.jpeg"),
-          require("../assets/rooms/protea/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, minibar, marble bathroom with soaking tub and rainfall shower. Sweeping Ikeja views.",
@@ -3740,10 +3740,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/deluxe2_1.jpeg"),
-          require("../assets/rooms/protea/deluxe2_2.jpeg"),
-          require("../assets/rooms/protea/deluxe2_3.jpeg"),
-          require("../assets/rooms/protea/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Private study, king bed, fully stocked minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -3768,10 +3768,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/protea/deluxe3_1.jpeg"),
-          require("../assets/rooms/protea/deluxe3_2.jpeg"),
-          require("../assets/rooms/protea/deluxe3_3.jpeg"),
-          require("../assets/rooms/protea/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, stocked pantry, and a luxury bathroom with freestanding tub, double vanity, and rainfall shower.",
@@ -3797,10 +3797,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/protea/deluxe4_1.jpeg"),
-          require("../assets/rooms/protea/deluxe4_2.jpeg"),
-          require("../assets/rooms/protea/deluxe4_3.jpeg"),
-          require("../assets/rooms/protea/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Premium bedding, curated artwork, city-view windows, whirlpool tub, and double-head shower. Turndown and butler service included.",
@@ -3825,10 +3825,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/protea/deluxe5_1.jpeg"),
-          require("../assets/rooms/protea/deluxe5_2.jpeg"),
-          require("../assets/rooms/protea/deluxe5_3.jpeg"),
-          require("../assets/rooms/protea/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "Protea Ikeja's flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace with Lagos skyline views.",
@@ -3862,10 +3862,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/lagosairport/standard1_1.jpeg"),
-          require("../assets/rooms/lagosairport/standard1_2.jpeg"),
-          require("../assets/rooms/lagosairport/standard1_3.jpeg"),
-          require("../assets/rooms/lagosairport/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "A simple, functional standard room ideal for transit guests and airport layovers. Double bed, flat-screen TV, work desk, and a clean tiled bathroom with a walk-in shower.",
@@ -3887,10 +3887,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/lagosairport/standard2_1.jpeg"),
-          require("../assets/rooms/lagosairport/standard2_2.jpeg"),
-          require("../assets/rooms/lagosairport/standard2_3.jpeg"),
-          require("../assets/rooms/lagosairport/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
           "Twin standard room with two single beds, individual reading lights, and a clean bathroom. Practical and budget-friendly for short stays near the Murtala Muhammed International Airport.",
@@ -3912,10 +3912,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lagosairport/standard3_1.jpeg"),
-          require("../assets/rooms/lagosairport/standard3_2.jpeg"),
-          require("../assets/rooms/lagosairport/standard3_3.jpeg"),
-          require("../assets/rooms/lagosairport/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
           "Second-floor queen room with comfortable furnishings, work desk, flat-screen TV, and a clean tiled bathroom. A reliable transit accommodation for travellers on the go.",
@@ -3937,10 +3937,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lagosairport/standard4_1.jpeg"),
-          require("../assets/rooms/lagosairport/standard4_2.jpeg"),
-          require("../assets/rooms/lagosairport/standard4_3.jpeg"),
-          require("../assets/rooms/lagosairport/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
           "A quiet standard room with warm lighting, queen bed, adequate storage, and a clean bathroom. Great for early morning departures or late-night arrivals.",
@@ -3962,10 +3962,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lagosairport/standard5_1.jpeg"),
-          require("../assets/rooms/lagosairport/standard5_2.jpeg"),
-          require("../assets/rooms/lagosairport/standard5_3.jpeg"),
-          require("../assets/rooms/lagosairport/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
           "Best standard room in the hotel on the third floor with road views. Queen bed, modern bathroom, and easy access to the hotel restaurant and bar.",
@@ -3989,10 +3989,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/semideluxe1_1.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe1_2.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe1_3.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "Comfortable semi-deluxe with king bed, seating area, minibar, and a bathroom with soaking tub and shower. A worthwhile upgrade for extended transit stays.",
@@ -4016,10 +4016,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/semideluxe2_1.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe2_2.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe2_3.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
           "Contemporary décor, king bed with quality linen, minibar, and a bathroom with rainfall shower. A comfortable option for business guests staying near the airport.",
@@ -4041,10 +4041,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/lagosairport/semideluxe3_1.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe3_2.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe3_3.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family or group-friendly room with king bed and single, spacious layout, and a bathroom with soaking tub and shower.",
@@ -4067,10 +4067,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/lagosairport/semideluxe4_1.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe4_2.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe4_3.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
           "Twin-queen semi-deluxe with warm décor, lounge corner, and a bathroom with rainfall shower. Practical and comfortable for extended transit stays.",
@@ -4093,10 +4093,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/semideluxe5_1.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe5_2.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe5_3.jpeg"),
-          require("../assets/rooms/lagosairport/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with views of Obafemi Awolowo Way, king bed, walk-in wardrobe, and a bathroom with soaking tub and rainfall shower.",
@@ -4122,10 +4122,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/deluxe1_1.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe1_2.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe1_3.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Spacious deluxe suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower.",
@@ -4151,10 +4151,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/deluxe2_1.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe2_2.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe2_3.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "King bed, private study corner, fully stocked minibar, and a bathroom with a steam shower and bathtub. Good option for executives on layover.",
@@ -4179,10 +4179,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/lagosairport/deluxe3_1.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe3_2.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe3_3.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, dining setup, stocked pantry, and a bathroom with freestanding tub and double vanity.",
@@ -4207,10 +4207,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lagosairport/deluxe4_1.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe4_2.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe4_3.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
           "Premium bedding, whirlpool tub, double-head shower, and road views. Turndown and butler service included.",
@@ -4235,10 +4235,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/lagosairport/deluxe5_1.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe5_2.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe5_3.jpeg"),
-          require("../assets/rooms/lagosairport/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
         ],
         description:
           "The flagship suite. Two bedrooms, formal lounge, kitchenette, spa bathroom with plunge tub, steam shower, and a terrace with Lagos airport corridor views.",
@@ -4259,7 +4259,6 @@ const hotelRooms = {
     ],
   },
 
-  // 11. PRESKEN HOTELS
   "Presken Hotels": {
     standard: [
       {
@@ -4271,13 +4270,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/presken/standard1_1.jpeg"),
-          require("../assets/rooms/presken/standard1_2.jpeg"),
-          require("../assets/rooms/presken/standard1_3.jpeg"),
-          require("../assets/rooms/presken/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
-          "A clean, well-maintained standard room at Presken's flagship Allen, Ikeja property. Queen bed, flat-screen TV, work desk, and an en-suite bathroom with a walk-in shower.",
+          "Clean, well-maintained standard room at Presken's Allen, Ikeja property. Queen bed, flat-screen TV, work desk, and an en-suite bathroom with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4296,13 +4295,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/presken/standard2_1.jpeg"),
-          require("../assets/rooms/presken/standard2_2.jpeg"),
-          require("../assets/rooms/presken/standard2_3.jpeg"),
-          require("../assets/rooms/presken/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
-          "Twin standard room with individual reading lights, modern furniture, flat-screen TV, and a clean tiled bathroom. Great for two guests on a budget-conscious Lagos stay.",
+          "Twin standard room with individual reading lights, modern furniture, and a clean tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4321,13 +4320,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/standard3_1.jpeg"),
-          require("../assets/rooms/presken/standard3_2.jpeg"),
-          require("../assets/rooms/presken/standard3_3.jpeg"),
-          require("../assets/rooms/presken/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
-          "A king standard room with premium linen, a work desk, flat-screen TV, and a modern rainfall shower bathroom. Reliable and comfortable in the heart of Ikeja.",
+          "King standard room with premium linen, work desk, and a modern rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4346,13 +4345,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/presken/standard4_1.jpeg"),
-          require("../assets/rooms/presken/standard4_2.jpeg"),
-          require("../assets/rooms/presken/standard4_3.jpeg"),
-          require("../assets/rooms/presken/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
-          "Slightly larger queen standard room with lounge chair, wide wardrobe, bright bathroom with bathtub and shower, and pool-facing views.",
+          "Larger queen standard room with lounge chair, wide wardrobe, and a bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4372,13 +4371,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/presken/standard5_1.jpeg"),
-          require("../assets/rooms/presken/standard5_2.jpeg"),
-          require("../assets/rooms/presken/standard5_3.jpeg"),
-          require("../assets/rooms/presken/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with Allen views, queen bed, blackout curtains, and a clean walk-in shower bathroom with complimentary Presken toiletries.",
+          "Third-floor standard room with Allen views, queen bed, blackout curtains, and a clean walk-in shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4400,10 +4399,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/semideluxe1_1.jpeg"),
-          require("../assets/rooms/presken/semideluxe1_2.jpeg"),
-          require("../assets/rooms/presken/semideluxe1_3.jpeg"),
-          require("../assets/rooms/presken/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "Well-furnished semi-deluxe with king bed, lounge seating, minibar, and a modern bathroom with soaking tub and shower. Partial Ikeja skyline view.",
@@ -4427,13 +4426,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/semideluxe2_1.jpeg"),
-          require("../assets/rooms/presken/semideluxe2_2.jpeg"),
-          require("../assets/rooms/presken/semideluxe2_3.jpeg"),
-          require("../assets/rooms/presken/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
-          "Contemporary furnishings, king bed with Presken premium linen, minibar, and a bathroom with dual vanity and rainfall shower.",
+          "Contemporary furnishings, king bed, minibar, and a bathroom with dual vanity and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -4453,10 +4452,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/presken/semideluxe3_1.jpeg"),
-          require("../assets/rooms/presken/semideluxe3_2.jpeg"),
-          require("../assets/rooms/presken/semideluxe3_3.jpeg"),
-          require("../assets/rooms/presken/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family-friendly room with king and single beds, warm lighting, spacious bathroom with soaking tub and shower.",
@@ -4479,13 +4478,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/presken/semideluxe4_1.jpeg"),
-          require("../assets/rooms/presken/semideluxe4_2.jpeg"),
-          require("../assets/rooms/presken/semideluxe4_3.jpeg"),
-          require("../assets/rooms/presken/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
-          "Twin-queen semi-deluxe with warm décor, lounge corner, and a modern bathroom with rainfall shower. Ideal for shared occupancy.",
+          "Twin-queen semi-deluxe with warm décor, lounge corner, and a modern bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -4505,10 +4504,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/semideluxe5_1.jpeg"),
-          require("../assets/rooms/presken/semideluxe5_2.jpeg"),
-          require("../assets/rooms/presken/semideluxe5_3.jpeg"),
-          require("../assets/rooms/presken/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Allen skyline views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -4535,10 +4534,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/deluxe1_1.jpeg"),
-          require("../assets/rooms/presken/deluxe1_2.jpeg"),
-          require("../assets/rooms/presken/deluxe1_3.jpeg"),
-          require("../assets/rooms/presken/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower. Sweeping Ikeja views.",
@@ -4565,10 +4564,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/deluxe2_1.jpeg"),
-          require("../assets/rooms/presken/deluxe2_2.jpeg"),
-          require("../assets/rooms/presken/deluxe2_3.jpeg"),
-          require("../assets/rooms/presken/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -4593,10 +4592,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/presken/deluxe3_1.jpeg"),
-          require("../assets/rooms/presken/deluxe3_2.jpeg"),
-          require("../assets/rooms/presken/deluxe3_3.jpeg"),
-          require("../assets/rooms/presken/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -4622,13 +4621,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/presken/deluxe4_1.jpeg"),
-          require("../assets/rooms/presken/deluxe4_2.jpeg"),
-          require("../assets/rooms/presken/deluxe4_3.jpeg"),
-          require("../assets/rooms/presken/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
-          "Premium linen, curated artwork, Allen views, whirlpool tub, and double-head shower. Turndown and butler service included.",
+          "Premium linen, curated artwork, Allen views, whirlpool tub, and double-head shower. Butler service included.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -4650,10 +4649,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/presken/deluxe5_1.jpeg"),
-          require("../assets/rooms/presken/deluxe5_2.jpeg"),
-          require("../assets/rooms/presken/deluxe5_3.jpeg"),
-          require("../assets/rooms/presken/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "Presken's flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace with Allen skyline views.",
@@ -4675,7 +4674,6 @@ const hotelRooms = {
     ],
   },
 
-  // 12. LI TOUR INTERNATIONAL HOTEL
   "Li Tour International Hotel": {
     standard: [
       {
@@ -4687,13 +4685,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/litour/standard1_1.jpeg"),
-          require("../assets/rooms/litour/standard1_2.jpeg"),
-          require("../assets/rooms/litour/standard1_3.jpeg"),
-          require("../assets/rooms/litour/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
         ],
         description:
-          "A clean and comfortable standard room on one of Ikeja's busiest streets. Double bed, flat-screen TV, work desk, and a tiled bathroom with a walk-in shower. Known for Li Tour's warm and attentive service.",
+          "Clean and comfortable standard room on one of Ikeja's busiest streets. Double bed, flat-screen TV, work desk, and a tiled bathroom with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4712,13 +4710,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/litour/standard2_1.jpeg"),
-          require("../assets/rooms/litour/standard2_2.jpeg"),
-          require("../assets/rooms/litour/standard2_3.jpeg"),
-          require("../assets/rooms/litour/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
         ],
         description:
-          "Twin standard room with individual reading lights, bright décor, and a clean bathroom. Well-suited for two business guests or companions travelling together.",
+          "Twin standard room with individual reading lights, bright décor, and a clean bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4737,13 +4735,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/litour/standard3_1.jpeg"),
-          require("../assets/rooms/litour/standard3_2.jpeg"),
-          require("../assets/rooms/litour/standard3_3.jpeg"),
-          require("../assets/rooms/litour/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
         ],
         description:
-          "Second-floor queen room with comfortable furnishings, wall-mounted TV, work desk, and a modern tiled bathroom with a walk-in shower. Consistently well-reviewed by guests.",
+          "Second-floor queen room with comfortable furnishings, wall-mounted TV, and a modern tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4762,13 +4760,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/litour/standard4_1.jpeg"),
-          require("../assets/rooms/litour/standard4_2.jpeg"),
-          require("../assets/rooms/litour/standard4_3.jpeg"),
-          require("../assets/rooms/litour/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
         ],
         description:
-          "Slightly larger queen room with lounge chair, wide wardrobe, and a tiled bathroom with bathtub and shower. Easy access to the hotel bar and restaurant.",
+          "Slightly larger queen room with lounge chair, wide wardrobe, and a tiled bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4787,13 +4785,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/litour/standard5_1.jpeg"),
-          require("../assets/rooms/litour/standard5_2.jpeg"),
-          require("../assets/rooms/litour/standard5_3.jpeg"),
-          require("../assets/rooms/litour/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with Adeniyi Jones street views, queen bed, and a clean walk-in shower bathroom with complimentary Li Tour toiletries.",
+          "Third-floor standard room with Adeniyi Jones street views, queen bed, and a clean walk-in shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -4814,10 +4812,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/semideluxe1_1.jpeg"),
-          require("../assets/rooms/litour/semideluxe1_2.jpeg"),
-          require("../assets/rooms/litour/semideluxe1_3.jpeg"),
-          require("../assets/rooms/litour/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
         ],
         description:
           "Comfortable semi-deluxe with king bed, seating area, minibar, and a modern bathroom with soaking tub and shower.",
@@ -4841,13 +4839,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/semideluxe2_1.jpeg"),
-          require("../assets/rooms/litour/semideluxe2_2.jpeg"),
-          require("../assets/rooms/litour/semideluxe2_3.jpeg"),
-          require("../assets/rooms/litour/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
         ],
         description:
-          "Contemporary décor, king bed with quality linen, minibar, and a bathroom with dual vanity and rainfall shower.",
+          "Contemporary décor, king bed, minibar, and a bathroom with dual vanity and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -4867,10 +4865,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/litour/semideluxe3_1.jpeg"),
-          require("../assets/rooms/litour/semideluxe3_2.jpeg"),
-          require("../assets/rooms/litour/semideluxe3_3.jpeg"),
-          require("../assets/rooms/litour/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
         ],
         description:
           "Family-friendly room with king bed, additional single, warm lighting, and a bathroom with soaking tub and shower.",
@@ -4893,13 +4891,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/litour/semideluxe4_1.jpeg"),
-          require("../assets/rooms/litour/semideluxe4_2.jpeg"),
-          require("../assets/rooms/litour/semideluxe4_3.jpeg"),
-          require("../assets/rooms/litour/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, and a modern bathroom with rainfall shower. Great for shared occupancy.",
+          "Twin-queen room with lounge corner, warm décor, and a modern bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -4919,10 +4917,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/semideluxe5_1.jpeg"),
-          require("../assets/rooms/litour/semideluxe5_2.jpeg"),
-          require("../assets/rooms/litour/semideluxe5_3.jpeg"),
-          require("../assets/rooms/litour/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Adeniyi Jones views, king bed, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -4948,10 +4946,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/deluxe1_1.jpeg"),
-          require("../assets/rooms/litour/deluxe1_2.jpeg"),
-          require("../assets/rooms/litour/deluxe1_3.jpeg"),
-          require("../assets/rooms/litour/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower.",
@@ -4977,10 +4975,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/deluxe2_1.jpeg"),
-          require("../assets/rooms/litour/deluxe2_2.jpeg"),
-          require("../assets/rooms/litour/deluxe2_3.jpeg"),
-          require("../assets/rooms/litour/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -5005,10 +5003,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/litour/deluxe3_1.jpeg"),
-          require("../assets/rooms/litour/deluxe3_2.jpeg"),
-          require("../assets/rooms/litour/deluxe3_3.jpeg"),
-          require("../assets/rooms/litour/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -5034,10 +5032,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/litour/deluxe4_1.jpeg"),
-          require("../assets/rooms/litour/deluxe4_2.jpeg"),
-          require("../assets/rooms/litour/deluxe4_3.jpeg"),
-          require("../assets/rooms/litour/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
         ],
         description:
           "Premium linen, whirlpool tub, double-head shower, and street-level Ikeja views. Butler service included.",
@@ -5062,13 +5060,13 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/litour/deluxe5_1.jpeg"),
-          require("../assets/rooms/litour/deluxe5_2.jpeg"),
-          require("../assets/rooms/litour/deluxe5_3.jpeg"),
-          require("../assets/rooms/litour/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
         ],
         description:
-          "Li Tour's flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and Ikeja skyline views.",
+          "Li Tour flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and Ikeja skyline views.",
         amenities: [
           "Free Wi-Fi",
           "Dual Smart TVs",
@@ -5086,7 +5084,6 @@ const hotelRooms = {
     ],
   },
 
-  // 13. PROVIDHA HOTEL & SUITES
   "Providha Hotel & Suites": {
     standard: [
       {
@@ -5098,13 +5095,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/providha/standard1_1.jpeg"),
-          require("../assets/rooms/providha/standard1_2.jpeg"),
-          require("../assets/rooms/providha/standard1_3.jpeg"),
-          require("../assets/rooms/providha/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
-          "A modern standard room on the ground floor of this stylish Opebi hotel. Queen bed, flat-screen TV, work desk, and a smart en-suite bathroom with a rainfall shower.",
+          "Modern standard room in this stylish Opebi hotel. Queen bed, flat-screen TV, work desk, and a smart bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5123,13 +5120,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/providha/standard2_1.jpeg"),
-          require("../assets/rooms/providha/standard2_2.jpeg"),
-          require("../assets/rooms/providha/standard2_3.jpeg"),
-          require("../assets/rooms/providha/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
         ],
         description:
-          "Twin standard room with warm décor, individual reading lights, flat-screen TV, and a tiled bathroom. Ideal for two business travellers in the Mobolaji Bank Anthony Way corridor.",
+          "Twin standard room with warm décor, individual reading lights, and a tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5148,13 +5145,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/standard3_1.jpeg"),
-          require("../assets/rooms/providha/standard3_2.jpeg"),
-          require("../assets/rooms/providha/standard3_3.jpeg"),
-          require("../assets/rooms/providha/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
         ],
         description:
-          "King standard room with premium linen, work desk, and a marble-finish bathroom with a rainfall shower. Contemporary and stylish at a competitive price point.",
+          "King standard room with premium linen and a marble-finish bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5173,13 +5170,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/providha/standard4_1.jpeg"),
-          require("../assets/rooms/providha/standard4_2.jpeg"),
-          require("../assets/rooms/providha/standard4_3.jpeg"),
-          require("../assets/rooms/providha/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
         ],
         description:
-          "Larger queen standard room with lounge chair, wide wardrobe, pool views, and a bathroom with bathtub and shower.",
+          "Larger queen room with lounge chair, pool views, and a bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5199,13 +5196,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/providha/standard5_1.jpeg"),
-          require("../assets/rooms/providha/standard5_2.jpeg"),
-          require("../assets/rooms/providha/standard5_3.jpeg"),
-          require("../assets/rooms/providha/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with Opebi skyline views, queen bed, blackout curtains, and a clean rainfall shower bathroom.",
+          "Third-floor standard room with Opebi skyline views, queen bed, blackout curtains, and a rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5227,13 +5224,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/semideluxe1_1.jpeg"),
-          require("../assets/rooms/providha/semideluxe1_2.jpeg"),
-          require("../assets/rooms/providha/semideluxe1_3.jpeg"),
-          require("../assets/rooms/providha/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
         ],
         description:
-          "Elegantly furnished semi-deluxe with king bed, lounge seating, minibar, and a bathroom with soaking tub and shower. Great Opebi corridor views.",
+          "Elegantly furnished semi-deluxe with king bed, lounge seating, minibar, and a bathroom with soaking tub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -5254,13 +5251,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/semideluxe2_1.jpeg"),
-          require("../assets/rooms/providha/semideluxe2_2.jpeg"),
-          require("../assets/rooms/providha/semideluxe2_3.jpeg"),
-          require("../assets/rooms/providha/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
         ],
         description:
-          "Modern king room with dual vanity bathroom, rainfall shower, minibar, and warm contemporary décor.",
+          "Modern king room with dual vanity bathroom, rainfall shower, and minibar.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -5280,10 +5277,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/providha/semideluxe3_1.jpeg"),
-          require("../assets/rooms/providha/semideluxe3_2.jpeg"),
-          require("../assets/rooms/providha/semideluxe3_3.jpeg"),
-          require("../assets/rooms/providha/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
         ],
         description:
           "Family room with king and single beds, spacious bathroom with soaking tub and shower.",
@@ -5306,13 +5303,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/providha/semideluxe4_1.jpeg"),
-          require("../assets/rooms/providha/semideluxe4_2.jpeg"),
-          require("../assets/rooms/providha/semideluxe4_3.jpeg"),
-          require("../assets/rooms/providha/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, and a bathroom with rainfall shower and quality Providha toiletries.",
+          "Twin-queen room with lounge corner and a bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -5332,10 +5329,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/semideluxe5_1.jpeg"),
-          require("../assets/rooms/providha/semideluxe5_2.jpeg"),
-          require("../assets/rooms/providha/semideluxe5_3.jpeg"),
-          require("../assets/rooms/providha/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with rooftop bar access, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -5363,13 +5360,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/deluxe1_1.jpeg"),
-          require("../assets/rooms/providha/deluxe1_2.jpeg"),
-          require("../assets/rooms/providha/deluxe1_3.jpeg"),
-          require("../assets/rooms/providha/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
         ],
         description:
-          "Spacious suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower. Sweeping Opebi views.",
+          "Spacious suite with king bedroom, separate lounge, dining area, minibar, marble bathroom with soaking tub and rainfall shower. Opebi views.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -5393,10 +5390,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/deluxe2_1.jpeg"),
-          require("../assets/rooms/providha/deluxe2_2.jpeg"),
-          require("../assets/rooms/providha/deluxe2_3.jpeg"),
-          require("../assets/rooms/providha/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, spa bathroom with steam shower and whirlpool tub.",
@@ -5421,10 +5418,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/providha/deluxe3_1.jpeg"),
-          require("../assets/rooms/providha/deluxe3_2.jpeg"),
-          require("../assets/rooms/providha/deluxe3_3.jpeg"),
-          require("../assets/rooms/providha/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -5450,10 +5447,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/providha/deluxe4_1.jpeg"),
-          require("../assets/rooms/providha/deluxe4_2.jpeg"),
-          require("../assets/rooms/providha/deluxe4_3.jpeg"),
-          require("../assets/rooms/providha/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
         ],
         description:
           "Premium linen, curated artwork, whirlpool tub, double-head shower, and Opebi skyline views. Butler service included.",
@@ -5478,10 +5475,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/providha/deluxe5_1.jpeg"),
-          require("../assets/rooms/providha/deluxe5_2.jpeg"),
-          require("../assets/rooms/providha/deluxe5_3.jpeg"),
-          require("../assets/rooms/providha/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
           "Providha's flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, rooftop access, and panoramic Opebi views.",
@@ -5503,7 +5500,6 @@ const hotelRooms = {
     ],
   },
 
-  // 14. LILYGATE HOTEL
   "Lilygate Hotel": {
     standard: [
       {
@@ -5515,13 +5511,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lilygate/standard1_1.jpeg"),
-          require("../assets/rooms/lilygate/standard1_2.jpeg"),
-          require("../assets/rooms/lilygate/standard1_3.jpeg"),
-          require("../assets/rooms/lilygate/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
         ],
         description:
-          "A serene and tastefully designed standard room in quiet Lekki Phase 1. Queen bed with fresh linens, flat-screen TV, work desk, and a clean en-suite bathroom with a walk-in shower.",
+          "Serene and tastefully designed standard room in quiet Lekki Phase 1. Queen bed, flat-screen TV, work desk, and a clean en-suite with walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5540,13 +5536,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/lilygate/standard2_1.jpeg"),
-          require("../assets/rooms/lilygate/standard2_2.jpeg"),
-          require("../assets/rooms/lilygate/standard2_3.jpeg"),
-          require("../assets/rooms/lilygate/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
-          "Twin standard room with bright décor, individual reading lights, flat-screen TV, and a clean tiled bathroom. Perfect for two business guests or friends in Lekki.",
+          "Twin standard room with bright décor, individual reading lights, and a clean tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5565,13 +5561,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/standard3_1.jpeg"),
-          require("../assets/rooms/lilygate/standard3_2.jpeg"),
-          require("../assets/rooms/lilygate/standard3_3.jpeg"),
-          require("../assets/rooms/lilygate/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
         ],
         description:
-          "King standard room with warm contemporary décor, premium linen, and a modern bathroom with a rainfall shower. Well-reviewed for Lilygate's attentive customer service.",
+          "King standard room with warm contemporary décor, premium linen, and a modern bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5590,13 +5586,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lilygate/standard4_1.jpeg"),
-          require("../assets/rooms/lilygate/standard4_2.jpeg"),
-          require("../assets/rooms/lilygate/standard4_3.jpeg"),
-          require("../assets/rooms/lilygate/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
-          "Larger queen room with a lounge chair, pool views, and a bright bathroom with bathtub and shower. A comfortable mid-range option in Lekki Phase 1.",
+          "Larger queen room with a lounge chair, pool views, and a bright bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5616,10 +5612,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/lilygate/standard5_1.jpeg"),
-          require("../assets/rooms/lilygate/standard5_2.jpeg"),
-          require("../assets/rooms/lilygate/standard5_3.jpeg"),
-          require("../assets/rooms/lilygate/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
           "Third-floor standard room with partial Lekki views, queen bed, blackout curtains, and a clean walk-in shower bathroom.",
@@ -5644,10 +5640,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/semideluxe1_1.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe1_2.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe1_3.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
         ],
         description:
           "Refined semi-deluxe with king bed, lounge seating, minibar, and a stylish bathroom with soaking tub and shower.",
@@ -5671,13 +5667,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/semideluxe2_1.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe2_2.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe2_3.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
         ],
         description:
-          "Contemporary king room with dual vanity, rainfall shower, and minibar. A polished mid-range option with Lekki views.",
+          "Contemporary king room with dual vanity, rainfall shower, and minibar.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -5697,10 +5693,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/lilygate/semideluxe3_1.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe3_2.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe3_3.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Family-friendly room with king and single beds, spacious layout, and a bathroom with soaking tub and shower.",
@@ -5723,13 +5719,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/lilygate/semideluxe4_1.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe4_2.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe4_3.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, and a rainfall shower bathroom with Lilygate premium toiletries.",
+          "Twin-queen room with lounge corner and a rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -5749,10 +5745,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/semideluxe5_1.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe5_2.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe5_3.jpeg"),
-          require("../assets/rooms/lilygate/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with outdoor pool views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -5780,13 +5776,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/deluxe1_1.jpeg"),
-          require("../assets/rooms/lilygate/deluxe1_2.jpeg"),
-          require("../assets/rooms/lilygate/deluxe1_3.jpeg"),
-          require("../assets/rooms/lilygate/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
         ],
         description:
-          "Spacious suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower. Lekki Phase 1 views.",
+          "Spacious suite with king bedroom, separate lounge, dining area, minibar, marble bathroom with soaking tub and rainfall shower. Lekki Phase 1 views.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -5810,10 +5806,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/deluxe2_1.jpeg"),
-          require("../assets/rooms/lilygate/deluxe2_2.jpeg"),
-          require("../assets/rooms/lilygate/deluxe2_3.jpeg"),
-          require("../assets/rooms/lilygate/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -5838,10 +5834,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/lilygate/deluxe3_1.jpeg"),
-          require("../assets/rooms/lilygate/deluxe3_2.jpeg"),
-          require("../assets/rooms/lilygate/deluxe3_3.jpeg"),
-          require("../assets/rooms/lilygate/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -5867,10 +5863,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/lilygate/deluxe4_1.jpeg"),
-          require("../assets/rooms/lilygate/deluxe4_2.jpeg"),
-          require("../assets/rooms/lilygate/deluxe4_3.jpeg"),
-          require("../assets/rooms/lilygate/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Premium linen, curated artwork, whirlpool tub, double-head shower, and Lekki Expressway views. Butler service included.",
@@ -5895,10 +5891,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/lilygate/deluxe5_1.jpeg"),
-          require("../assets/rooms/lilygate/deluxe5_2.jpeg"),
-          require("../assets/rooms/lilygate/deluxe5_3.jpeg"),
-          require("../assets/rooms/lilygate/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
         ],
         description:
           "Lilygate's flagship suite. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace overlooking Lekki Phase 1.",
@@ -5919,7 +5915,7 @@ const hotelRooms = {
       },
     ],
   },
-  // 15. GOLDEN TULIP LEKKI
+
   "Golden Tulip Lekki": {
     standard: [
       {
@@ -5931,13 +5927,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/golden/standard1_1.jpeg"),
-          require("../assets/rooms/golden/standard1_2.jpeg"),
-          require("../assets/rooms/golden/standard1_3.jpeg"),
-          require("../assets/rooms/golden/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
-          "An elegantly appointed standard room at this international luxury boutique hotel on the Lekki Peninsula. Queen bed with premium linen, flat-screen TV, work desk, and a bathroom with walk-in shower.",
+          "Elegantly appointed standard room at this international boutique hotel on the Lekki Peninsula. Queen bed, flat-screen TV, work desk, and a bathroom with walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5956,13 +5952,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/golden/standard2_1.jpeg"),
-          require("../assets/rooms/golden/standard2_2.jpeg"),
-          require("../assets/rooms/golden/standard2_3.jpeg"),
-          require("../assets/rooms/golden/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
-          "Twin standard room with warm Lekki-inspired décor, individual reading lights, flat-screen TV, and a clean tiled bathroom. Great for two guests exploring the Lekki corridor.",
+          "Twin standard room with warm Lekki-inspired décor, individual reading lights, and a clean tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -5981,13 +5977,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/standard3_1.jpeg"),
-          require("../assets/rooms/golden/standard3_2.jpeg"),
-          require("../assets/rooms/golden/standard3_3.jpeg"),
-          require("../assets/rooms/golden/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
-          "King standard room with upscale furnishings, premium bedding, and a marble-finish bathroom with a rainfall shower. Access to the ODODO Restaurant's daily buffet.",
+          "King standard room with upscale furnishings, premium bedding, and a marble-finish bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6006,13 +6002,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/golden/standard4_1.jpeg"),
-          require("../assets/rooms/golden/standard4_2.jpeg"),
-          require("../assets/rooms/golden/standard4_3.jpeg"),
-          require("../assets/rooms/golden/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
-          "Larger queen room with lounge chair, pool-side views, and a bright bathroom with bathtub and shower. Warm international hospitality in the heart of Lekki.",
+          "Larger queen room with lounge chair, pool-side views, and a bright bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6032,13 +6028,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/golden/standard5_1.jpeg"),
-          require("../assets/rooms/golden/standard5_2.jpeg"),
-          require("../assets/rooms/golden/standard5_3.jpeg"),
-          require("../assets/rooms/golden/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with tranquil Lekki neighbourhood views, queen bed, blackout curtains, and a clean walk-in shower bathroom with Golden Tulip toiletries.",
+          "Third-floor standard room with tranquil Lekki neighbourhood views, queen bed, blackout curtains, and a clean walk-in shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6060,13 +6056,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/semideluxe1_1.jpeg"),
-          require("../assets/rooms/golden/semideluxe1_2.jpeg"),
-          require("../assets/rooms/golden/semideluxe1_3.jpeg"),
-          require("../assets/rooms/golden/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
-          "Upscale semi-deluxe with plush king bed, dedicated lounge area, minibar, and a stylish marble bathroom with soaking tub and rainfall shower. Partial Atlantic views.",
+          "Upscale semi-deluxe with plush king bed, dedicated lounge area, minibar, and a marble bathroom with soaking tub and rainfall shower. Partial Atlantic views.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6088,13 +6084,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/semideluxe2_1.jpeg"),
-          require("../assets/rooms/golden/semideluxe2_2.jpeg"),
-          require("../assets/rooms/golden/semideluxe2_3.jpeg"),
-          require("../assets/rooms/golden/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
-          "Contemporary king room with dual vanity, rainfall shower, and a scenic Lekki-Ikoyi Link Bridge view. Golden Tulip premium toiletries included.",
+          "Contemporary king room with dual vanity, rainfall shower, and a scenic Lekki-Ikoyi Link Bridge view.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6115,10 +6111,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/golden/semideluxe3_1.jpeg"),
-          require("../assets/rooms/golden/semideluxe3_2.jpeg"),
-          require("../assets/rooms/golden/semideluxe3_3.jpeg"),
-          require("../assets/rooms/golden/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family room with king and single beds, warm lighting, and a marble bathroom with soaking tub and shower. Partial ocean view from the fifth floor.",
@@ -6142,13 +6138,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/golden/semideluxe4_1.jpeg"),
-          require("../assets/rooms/golden/semideluxe4_2.jpeg"),
-          require("../assets/rooms/golden/semideluxe4_3.jpeg"),
-          require("../assets/rooms/golden/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, pool-side views, and a rainfall shower bathroom with quality linen. Ideal for two guests sharing.",
+          "Twin-queen room with lounge corner, pool-side views, and a rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6169,10 +6165,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/semideluxe5_1.jpeg"),
-          require("../assets/rooms/golden/semideluxe5_2.jpeg"),
-          require("../assets/rooms/golden/semideluxe5_3.jpeg"),
-          require("../assets/rooms/golden/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Admiralty Way and lagoon views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -6200,10 +6196,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/deluxe1_1.jpeg"),
-          require("../assets/rooms/golden/deluxe1_2.jpeg"),
-          require("../assets/rooms/golden/deluxe1_3.jpeg"),
-          require("../assets/rooms/golden/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower. Sweeping Lekki lagoon views.",
@@ -6230,10 +6226,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/deluxe2_1.jpeg"),
-          require("../assets/rooms/golden/deluxe2_2.jpeg"),
-          require("../assets/rooms/golden/deluxe2_3.jpeg"),
-          require("../assets/rooms/golden/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Private study, king bed, cocktail lounge, minibar, and a spa bathroom with steam shower and jetted tub.",
@@ -6259,10 +6255,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/golden/deluxe3_1.jpeg"),
-          require("../assets/rooms/golden/deluxe3_2.jpeg"),
-          require("../assets/rooms/golden/deluxe3_3.jpeg"),
-          require("../assets/rooms/golden/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower. Ideal for families and VIP guests.",
@@ -6288,10 +6284,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/golden/deluxe4_1.jpeg"),
-          require("../assets/rooms/golden/deluxe4_2.jpeg"),
-          require("../assets/rooms/golden/deluxe4_3.jpeg"),
-          require("../assets/rooms/golden/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
           "Premium bedding, curated art, lagoon views, whirlpool tub, double-head shower. Complimentary cocktail lounge access and butler service.",
@@ -6317,10 +6313,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/golden/deluxe5_1.jpeg"),
-          require("../assets/rooms/golden/deluxe5_2.jpeg"),
-          require("../assets/rooms/golden/deluxe5_3.jpeg"),
-          require("../assets/rooms/golden/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "Golden Tulip Lekki's flagship. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, private terrace, and sweeping Atlantic and lagoon views.",
@@ -6343,7 +6339,6 @@ const hotelRooms = {
     ],
   },
 
-  // 16. MONTY SUITES LEKKI
   "Monty Suites Lekki": {
     standard: [
       {
@@ -6355,13 +6350,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/monty/standard1_1.jpeg"),
-          require("../assets/rooms/monty/standard1_2.jpeg"),
-          require("../assets/rooms/monty/standard1_3.jpeg"),
-          require("../assets/rooms/monty/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
-          "A comfortable and modern standard room in the heart of Lekki Phase 1. Queen bed with quality linen, flat-screen TV, work desk, and a clean en-suite bathroom with a walk-in shower.",
+          "Comfortable and modern standard room in the heart of Lekki Phase 1. Queen bed, flat-screen TV, work desk, and a clean en-suite bathroom with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6380,13 +6375,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/monty/standard2_1.jpeg"),
-          require("../assets/rooms/monty/standard2_2.jpeg"),
-          require("../assets/rooms/monty/standard2_3.jpeg"),
-          require("../assets/rooms/monty/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
         ],
         description:
-          "Twin standard room with a home-like feel, individual reading lights, flat-screen TV, and a tiled bathroom. Perfect for extended-stay guests or two travelling together.",
+          "Twin standard room with a home-like feel, individual reading lights, flat-screen TV, and a tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6405,13 +6400,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/standard3_1.jpeg"),
-          require("../assets/rooms/monty/standard3_2.jpeg"),
-          require("../assets/rooms/monty/standard3_3.jpeg"),
-          require("../assets/rooms/monty/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
         ],
         description:
-          "King standard room with contemporary furnishings, premium linen, and a modern bathroom with rainfall shower. A solid base for business or leisure in Lekki.",
+          "King standard room with contemporary furnishings, premium linen, and a modern bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6430,13 +6425,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/monty/standard4_1.jpeg"),
-          require("../assets/rooms/monty/standard4_2.jpeg"),
-          require("../assets/rooms/monty/standard4_3.jpeg"),
-          require("../assets/rooms/monty/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
         ],
         description:
-          "Larger queen room with a lounge chair, warm décor, and a bathroom with bathtub and shower. Easy access to Lekki's restaurants and nightlife hubs.",
+          "Larger queen room with a lounge chair, warm décor, and a bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6455,10 +6450,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/monty/standard5_1.jpeg"),
-          require("../assets/rooms/monty/standard5_2.jpeg"),
-          require("../assets/rooms/monty/standard5_3.jpeg"),
-          require("../assets/rooms/monty/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
         ],
         description:
           "Third-floor standard room with Adebayo Doherty Road views, queen bed, blackout curtains, and a clean walk-in shower bathroom.",
@@ -6483,13 +6478,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/semideluxe1_1.jpeg"),
-          require("../assets/rooms/monty/semideluxe1_2.jpeg"),
-          require("../assets/rooms/monty/semideluxe1_3.jpeg"),
-          require("../assets/rooms/monty/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
         ],
         description:
-          "Well-appointed semi-deluxe with king bed, lounge seating, minibar, and a modern bathroom with soaking tub and shower. Quiet Lekki Phase 1 views.",
+          "Well-appointed semi-deluxe with king bed, lounge seating, minibar, and a modern bathroom with soaking tub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6510,13 +6505,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/semideluxe2_1.jpeg"),
-          require("../assets/rooms/monty/semideluxe2_2.jpeg"),
-          require("../assets/rooms/monty/semideluxe2_3.jpeg"),
-          require("../assets/rooms/monty/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
         ],
         description:
-          "Contemporary king room with dual vanity, rainfall shower, and minibar. A comfortable mid-range stay in the Lekki corridor.",
+          "Contemporary king room with dual vanity, rainfall shower, and minibar.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6536,10 +6531,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/monty/semideluxe3_1.jpeg"),
-          require("../assets/rooms/monty/semideluxe3_2.jpeg"),
-          require("../assets/rooms/monty/semideluxe3_3.jpeg"),
-          require("../assets/rooms/monty/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
         ],
         description:
           "Family-friendly semi-deluxe with king and single beds, spacious layout, and a bathroom with soaking tub and shower.",
@@ -6562,13 +6557,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/monty/semideluxe4_1.jpeg"),
-          require("../assets/rooms/monty/semideluxe4_2.jpeg"),
-          require("../assets/rooms/monty/semideluxe4_3.jpeg"),
-          require("../assets/rooms/monty/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, and a bathroom with rainfall shower. Great for two professionals sharing a Lekki base.",
+          "Twin-queen room with lounge corner, warm décor, and a bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6588,10 +6583,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/semideluxe5_1.jpeg"),
-          require("../assets/rooms/monty/semideluxe5_2.jpeg"),
-          require("../assets/rooms/monty/semideluxe5_3.jpeg"),
-          require("../assets/rooms/monty/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Lekki Phase 1 skyline views, king bed, chaise lounge, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -6618,10 +6613,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/deluxe1_1.jpeg"),
-          require("../assets/rooms/monty/deluxe1_2.jpeg"),
-          require("../assets/rooms/monty/deluxe1_3.jpeg"),
-          require("../assets/rooms/monty/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
         ],
         description:
           "Spacious suite with king bedroom, separate lounge, dining area, minibar, marble bathroom with soaking tub and rainfall shower. Lekki Phase 1 views.",
@@ -6648,10 +6643,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/deluxe2_1.jpeg"),
-          require("../assets/rooms/monty/deluxe2_2.jpeg"),
-          require("../assets/rooms/monty/deluxe2_3.jpeg"),
-          require("../assets/rooms/monty/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, and a spa bathroom with steam shower and whirlpool tub.",
@@ -6676,10 +6671,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/monty/deluxe3_1.jpeg"),
-          require("../assets/rooms/monty/deluxe3_2.jpeg"),
-          require("../assets/rooms/monty/deluxe3_3.jpeg"),
-          require("../assets/rooms/monty/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -6705,10 +6700,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/monty/deluxe4_1.jpeg"),
-          require("../assets/rooms/monty/deluxe4_2.jpeg"),
-          require("../assets/rooms/monty/deluxe4_3.jpeg"),
-          require("../assets/rooms/monty/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
         ],
         description:
           "Premium linen, whirlpool tub, double-head shower, and Lekki corridor views. Butler service included.",
@@ -6733,13 +6728,13 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/monty/deluxe5_1.jpeg"),
-          require("../assets/rooms/monty/deluxe5_2.jpeg"),
-          require("../assets/rooms/monty/deluxe5_3.jpeg"),
-          require("../assets/rooms/monty/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
         ],
         description:
-          "Monty Suites' flagship. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace overlooking Lekki Phase 1.",
+          "Monty Suites flagship. Two bedrooms, formal lounge, chef's kitchen, plunge tub, steam shower, triple vanity, and a terrace overlooking Lekki Phase 1.",
         amenities: [
           "Free Wi-Fi",
           "Dual Smart TVs",
@@ -6758,7 +6753,6 @@ const hotelRooms = {
     ],
   },
 
-  // 17. GEORGE RESIDENCE
   "George Residence": {
     standard: [
       {
@@ -6770,13 +6764,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/standard1_1.jpeg"),
-          require("../assets/rooms/george/standard1_2.jpeg"),
-          require("../assets/rooms/george/standard1_3.jpeg"),
-          require("../assets/rooms/george/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
         ],
         description:
-          "A beautifully designed studio apartment from this CNN Partner Hotel brand. King bed, fully equipped kitchenette, lounge area, flat-screen TV, and a modern bathroom with a rainfall shower.",
+          "Beautifully designed studio apartment from this CNN Partner Hotel brand. King bed, fully equipped kitchenette, lounge area, flat-screen TV, and a modern bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6797,13 +6791,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/standard2_1.jpeg"),
-          require("../assets/rooms/george/standard2_2.jpeg"),
-          require("../assets/rooms/george/standard2_3.jpeg"),
-          require("../assets/rooms/george/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
         ],
         description:
-          "Contemporary studio apartment with warm home-inspired décor, king bed, kitchenette stocked with essentials, lounge seating, and a tiled bathroom with a walk-in shower.",
+          "Contemporary studio apartment with warm home-inspired décor, king bed, kitchenette stocked with essentials, and a tiled bathroom with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6824,13 +6818,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/standard3_1.jpeg"),
-          require("../assets/rooms/george/standard3_2.jpeg"),
-          require("../assets/rooms/george/standard3_3.jpeg"),
-          require("../assets/rooms/george/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
         ],
         description:
-          "Second-floor studio apartment with natural light, king bed, kitchenette, a cosy lounge, and a modern rainfall shower bathroom. Five-star service standards throughout.",
+          "Second-floor studio apartment with natural light, king bed, kitchenette, a cosy lounge, and a modern rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6851,13 +6845,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/standard4_1.jpeg"),
-          require("../assets/rooms/george/standard4_2.jpeg"),
-          require("../assets/rooms/george/standard4_3.jpeg"),
-          require("../assets/rooms/george/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
         ],
         description:
-          "Larger studio with king bed, a dining nook, fully equipped kitchenette, lounge seating, and a bathroom with bathtub and shower. Great for guests on extended Lekki stays.",
+          "Larger studio with king bed, a dining nook, fully equipped kitchenette, lounge seating, and a bathroom with bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6878,13 +6872,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/standard5_1.jpeg"),
-          require("../assets/rooms/george/standard5_2.jpeg"),
-          require("../assets/rooms/george/standard5_3.jpeg"),
-          require("../assets/rooms/george/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
         ],
         description:
-          "Third-floor studio with neighbourhood views, king bed, kitchenette, blackout curtains, and a clean walk-in shower bathroom. The George Residence signature comfort.",
+          "Third-floor studio with neighbourhood views, king bed, kitchenette, blackout curtains, and a clean walk-in shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -6907,13 +6901,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/semideluxe1_1.jpeg"),
-          require("../assets/rooms/george/semideluxe1_2.jpeg"),
-          require("../assets/rooms/george/semideluxe1_3.jpeg"),
-          require("../assets/rooms/george/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
         ],
         description:
-          "Premium one-bedroom apartment with separate living room, full kitchen, king bed, and a marble bathroom with soaking tub and rainfall shower. CNN Partner Hotel standards throughout.",
+          "Premium one-bedroom apartment with separate living room, full kitchen, king bed, and a marble bathroom with soaking tub and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6934,13 +6928,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/semideluxe2_1.jpeg"),
-          require("../assets/rooms/george/semideluxe2_2.jpeg"),
-          require("../assets/rooms/george/semideluxe2_3.jpeg"),
-          require("../assets/rooms/george/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
         ],
         description:
-          "Contemporary one-bedroom apartment with king bed, dual vanity bathroom, rainfall shower, full kitchen, and a lounge-dining area. Ideal for the long-stay professional.",
+          "Contemporary one-bedroom apartment with king bed, dual vanity bathroom, rainfall shower, and full kitchen. Ideal for the long-stay professional.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -6961,10 +6955,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/george/semideluxe3_1.jpeg"),
-          require("../assets/rooms/george/semideluxe3_2.jpeg"),
-          require("../assets/rooms/george/semideluxe3_3.jpeg"),
-          require("../assets/rooms/george/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
         ],
         description:
           "Family-configured apartment with king bed, additional single, full kitchen, spacious lounge, and a marble bathroom with soaking tub and shower.",
@@ -6988,13 +6982,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/george/semideluxe4_1.jpeg"),
-          require("../assets/rooms/george/semideluxe4_2.jpeg"),
-          require("../assets/rooms/george/semideluxe4_3.jpeg"),
-          require("../assets/rooms/george/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
         ],
         description:
-          "Twin-queen apartment with open-plan living-dining, full kitchen, and a bathroom with rainfall shower and George Residence premium toiletries.",
+          "Twin-queen apartment with open-plan living-dining, full kitchen, and a bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7014,10 +7008,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/george/semideluxe5_1.jpeg"),
-          require("../assets/rooms/george/semideluxe5_2.jpeg"),
-          require("../assets/rooms/george/semideluxe5_3.jpeg"),
-          require("../assets/rooms/george/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
         ],
         description:
           "Top-floor one-bedroom apartment with Lekki views, king bed, chaise lounge, walk-in wardrobe, full kitchen, soaking tub, and rainfall shower.",
@@ -7045,10 +7039,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/george/deluxe1_1.jpeg"),
-          require("../assets/rooms/george/deluxe1_2.jpeg"),
-          require("../assets/rooms/george/deluxe1_3.jpeg"),
-          require("../assets/rooms/george/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
         ],
         description:
           "Grand two-bedroom apartment with two king beds, expansive open-plan lounge and dining, a full kitchen, and two marble bathrooms each with rainfall showers.",
@@ -7073,10 +7067,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/george/deluxe2_1.jpeg"),
-          require("../assets/rooms/george/deluxe2_2.jpeg"),
-          require("../assets/rooms/george/deluxe2_3.jpeg"),
-          require("../assets/rooms/george/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
         ],
         description:
           "Two king bedrooms, fully equipped kitchen, formal dining for four, a separate study, and two spa-grade bathrooms with soaking tubs and rainfall showers.",
@@ -7102,13 +7096,13 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "3 King Beds",
         images: [
-          require("../assets/rooms/george/deluxe3_1.jpeg"),
-          require("../assets/rooms/george/deluxe3_2.jpeg"),
-          require("../assets/rooms/george/deluxe3_3.jpeg"),
-          require("../assets/rooms/george/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
         ],
         description:
-          "Luxury penthouse with three king bedrooms, grand lounge, chef's kitchen, private rooftop terrace, and three spa bathrooms each with soaking tub and rainfall shower. Sweeping Lekki skyline views.",
+          "Luxury penthouse with three king bedrooms, grand lounge, chef's kitchen, private rooftop terrace, and three spa bathrooms each with soaking tub and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Triple Smart TVs",
@@ -7133,10 +7127,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/george/deluxe4_1.jpeg"),
-          require("../assets/rooms/george/deluxe4_2.jpeg"),
-          require("../assets/rooms/george/deluxe4_3.jpeg"),
-          require("../assets/rooms/george/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
         ],
         description:
           "Two king bedrooms, private cinema room, wine cellar, chef's kitchen, a private terrace, and two luxury bathrooms with plunge tubs and steam showers.",
@@ -7163,13 +7157,13 @@ const hotelRooms = {
         maxGuests: 8,
         beds: "4 King Beds",
         images: [
-          require("../assets/rooms/george/deluxe5_1.jpeg"),
-          require("../assets/rooms/george/deluxe5_2.jpeg"),
-          require("../assets/rooms/george/deluxe5_3.jpeg"),
-          require("../assets/rooms/george/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
         ],
         description:
-          "The crown of George Residence. Four king bedrooms, a state room, private cinema, chef's kitchen, four marble spa bathrooms, a rooftop pool terrace, and sweeping Lagos skyline views. Dedicated concierge and 24/7 butler service.",
+          "The crown of George Residence. Four king bedrooms, a state room, private cinema, chef's kitchen, four marble spa bathrooms, a rooftop pool terrace, and sweeping Lagos skyline views.",
         amenities: [
           "Free Wi-Fi",
           "Multiple Smart TVs",
@@ -7188,7 +7182,7 @@ const hotelRooms = {
       },
     ],
   },
-  // 18. THE BICKLEY PARK HOTEL
+
   "The Bickley Park Hotel": {
     standard: [
       {
@@ -7200,13 +7194,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/bickley/standard1_1.jpeg"),
-          require("../assets/rooms/bickley/standard1_2.jpeg"),
-          require("../assets/rooms/bickley/standard1_3.jpeg"),
-          require("../assets/rooms/bickley/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
-          "An elegantly appointed standard room at one of Lekki's most sought-after boutique hotels. Queen bed with premium linen, warm contemporary décor, flat-screen TV, and a sleek en-suite bathroom with a walk-in shower.",
+          "Elegantly appointed standard room at one of Lekki's most sought-after boutique hotels. Queen bed, warm contemporary décor, flat-screen TV, and a sleek en-suite with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7226,13 +7220,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/bickley/standard2_1.jpeg"),
-          require("../assets/rooms/bickley/standard2_2.jpeg"),
-          require("../assets/rooms/bickley/standard2_3.jpeg"),
-          require("../assets/rooms/bickley/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
-          "Stylish twin-bed standard room with warm lighting, individual reading lights, flat-screen TV, and a clean tiled bathroom. A refined experience along the scenic Admiralty Way.",
+          "Stylish twin-bed standard room with warm lighting, individual reading lights, flat-screen TV, and a clean tiled bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7252,13 +7246,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/standard3_1.jpeg"),
-          require("../assets/rooms/bickley/standard3_2.jpeg"),
-          require("../assets/rooms/bickley/standard3_3.jpeg"),
-          require("../assets/rooms/bickley/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
-          "King standard room with refined aesthetic, premium linen, a work desk, and a modern bathroom with a rainfall shower. Close to the Lekki-Ikoyi Link Bridge.",
+          "King standard room with refined aesthetic, premium linen, a work desk, and a modern bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7278,13 +7272,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/bickley/standard4_1.jpeg"),
-          require("../assets/rooms/bickley/standard4_2.jpeg"),
-          require("../assets/rooms/bickley/standard4_3.jpeg"),
-          require("../assets/rooms/bickley/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
-          "Larger queen standard room with lounge chair, pool view, and a bright bathroom with both bathtub and shower. Personalised Bickley Park service included.",
+          "Larger queen standard room with lounge chair, pool view, and a bright bathroom with both bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7305,13 +7299,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/bickley/standard5_1.jpeg"),
-          require("../assets/rooms/bickley/standard5_2.jpeg"),
-          require("../assets/rooms/bickley/standard5_3.jpeg"),
-          require("../assets/rooms/bickley/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with Admiralty Way views, queen bed, blackout curtains, and a clean walk-in shower bathroom. Round-the-clock guest services included.",
+          "Third-floor standard room with Admiralty Way views, queen bed, blackout curtains, and a clean walk-in shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7334,10 +7328,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/semideluxe1_1.jpeg"),
-          require("../assets/rooms/bickley/semideluxe1_2.jpeg"),
-          require("../assets/rooms/bickley/semideluxe1_3.jpeg"),
-          require("../assets/rooms/bickley/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
           "Luxurious semi-deluxe with king bed, dedicated lounge area, minibar, and a marble bathroom with soaking tub and rainfall shower. Partial waterfront views.",
@@ -7362,13 +7356,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/semideluxe2_1.jpeg"),
-          require("../assets/rooms/bickley/semideluxe2_2.jpeg"),
-          require("../assets/rooms/bickley/semideluxe2_3.jpeg"),
-          require("../assets/rooms/bickley/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
-          "Contemporary king room with dual vanity, rainfall shower, chaise lounge, and minibar. A serene Admiralty Way setting with refined boutique touches.",
+          "Contemporary king room with dual vanity, rainfall shower, chaise lounge, and minibar.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7389,10 +7383,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/bickley/semideluxe3_1.jpeg"),
-          require("../assets/rooms/bickley/semideluxe3_2.jpeg"),
-          require("../assets/rooms/bickley/semideluxe3_3.jpeg"),
-          require("../assets/rooms/bickley/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family-friendly semi-deluxe with king and single beds, pool views, and a marble bathroom with soaking tub and rainfall shower.",
@@ -7416,13 +7410,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/bickley/semideluxe4_1.jpeg"),
-          require("../assets/rooms/bickley/semideluxe4_2.jpeg"),
-          require("../assets/rooms/bickley/semideluxe4_3.jpeg"),
-          require("../assets/rooms/bickley/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, pool views, and a rainfall shower bathroom with Bickley Park premium toiletries.",
+          "Twin-queen room with lounge corner, warm décor, pool views, and a rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7443,10 +7437,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/semideluxe5_1.jpeg"),
-          require("../assets/rooms/bickley/semideluxe5_2.jpeg"),
-          require("../assets/rooms/bickley/semideluxe5_3.jpeg"),
-          require("../assets/rooms/bickley/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with illuminated outdoor pool views, king bed, walk-in wardrobe, chaise lounge, soaking tub, and rainfall shower.",
@@ -7474,10 +7468,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/deluxe1_1.jpeg"),
-          require("../assets/rooms/bickley/deluxe1_2.jpeg"),
-          require("../assets/rooms/bickley/deluxe1_3.jpeg"),
-          require("../assets/rooms/bickley/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
           "Stunning waterfront suite with king bedroom, separate lounge, dining area, minibar, and a marble bathroom with soaking tub and rainfall shower. Admiralty Way and Lekki lagoon views.",
@@ -7504,13 +7498,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/deluxe2_1.jpeg"),
-          require("../assets/rooms/bickley/deluxe2_2.jpeg"),
-          require("../assets/rooms/bickley/deluxe2_3.jpeg"),
-          require("../assets/rooms/bickley/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
-          "Private study, king bed, cocktail bar, minibar, and a spa bathroom with steam shower and jetted tub. Serene boutique luxury by the lagoon.",
+          "Private study, king bed, cocktail bar, minibar, and a spa bathroom with steam shower and jetted tub.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -7533,10 +7527,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/bickley/deluxe3_1.jpeg"),
-          require("../assets/rooms/bickley/deluxe3_2.jpeg"),
-          require("../assets/rooms/bickley/deluxe3_3.jpeg"),
-          require("../assets/rooms/bickley/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, formal dining, pantry, freestanding tub, double vanity, and rainfall shower. Magnificent waterfront views.",
@@ -7563,10 +7557,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/bickley/deluxe4_1.jpeg"),
-          require("../assets/rooms/bickley/deluxe4_2.jpeg"),
-          require("../assets/rooms/bickley/deluxe4_3.jpeg"),
-          require("../assets/rooms/bickley/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
           "Premium linen, curated boutique art, whirlpool tub, double-head shower, and lagoon views. Spa treatment and butler service included.",
@@ -7592,10 +7586,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/bickley/deluxe5_1.jpeg"),
-          require("../assets/rooms/bickley/deluxe5_2.jpeg"),
-          require("../assets/rooms/bickley/deluxe5_3.jpeg"),
-          require("../assets/rooms/bickley/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
           "The Bickley Park's crown jewel. Two king bedrooms, state lounge, chef's pantry, plunge tub, steam shower, triple vanity, and a private terrace with panoramic Admiralty Way and Lekki lagoon views.",
@@ -7618,7 +7612,6 @@ const hotelRooms = {
     ],
   },
 
-  // 19. VICTORIA SUITES HOTEL
   "Victoria Suites Hotel": {
     standard: [
       {
@@ -7630,13 +7623,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Double Bed",
         images: [
-          require("../assets/rooms/victoria/standard1_1.jpeg"),
-          require("../assets/rooms/victoria/standard1_2.jpeg"),
-          require("../assets/rooms/victoria/standard1_3.jpeg"),
-          require("../assets/rooms/victoria/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
         ],
         description:
-          "A budget-friendly standard room in the lively Surulere neighbourhood. Double bed, flat-screen TV, work desk, and a clean en-suite bathroom with a shower. Practical and affordable for guests on the Lagos mainland.",
+          "Budget-friendly standard room in the lively Surulere neighbourhood. Double bed, flat-screen TV, work desk, and a clean en-suite bathroom with a shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7655,13 +7648,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/victoria/standard2_1.jpeg"),
-          require("../assets/rooms/victoria/standard2_2.jpeg"),
-          require("../assets/rooms/victoria/standard2_3.jpeg"),
-          require("../assets/rooms/victoria/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
         ],
         description:
-          "Twin standard room with functional décor, individual reading lights, flat-screen TV, and a clean bathroom. Ideal for two guests on a budget-conscious Lagos stay near the National Stadium.",
+          "Twin standard room with functional décor, individual reading lights, flat-screen TV, and a clean bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7680,13 +7673,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/victoria/standard3_1.jpeg"),
-          require("../assets/rooms/victoria/standard3_2.jpeg"),
-          require("../assets/rooms/victoria/standard3_3.jpeg"),
-          require("../assets/rooms/victoria/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
         ],
         description:
-          "A second-floor queen standard room with comfortable furnishings, wall-mounted TV, work desk, and a tiled bathroom. Great value in the heart of Surulere.",
+          "Second-floor queen standard room with comfortable furnishings and a tiled bathroom. Great value in the heart of Surulere.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7705,13 +7698,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/victoria/standard4_1.jpeg"),
-          require("../assets/rooms/victoria/standard4_2.jpeg"),
-          require("../assets/rooms/victoria/standard4_3.jpeg"),
-          require("../assets/rooms/victoria/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
         ],
         description:
-          "A slightly larger queen room with lounge chair and a tiled bathroom with shower. Easy access to the hotel restaurant and Surulere's entertainment venues.",
+          "Slightly larger queen room with lounge chair and a tiled bathroom with shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7730,13 +7723,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/victoria/standard5_1.jpeg"),
-          require("../assets/rooms/victoria/standard5_2.jpeg"),
-          require("../assets/rooms/victoria/standard5_3.jpeg"),
-          require("../assets/rooms/victoria/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
         ],
         description:
-          "Third-floor standard room with Surulere neighbourhood views, queen bed, and a simple clean bathroom. The best-value standard option at Victoria Suites.",
+          "Third-floor standard room with Surulere neighbourhood views, queen bed, and a simple clean bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -7757,13 +7750,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/semideluxe1_1.jpeg"),
-          require("../assets/rooms/victoria/semideluxe1_2.jpeg"),
-          require("../assets/rooms/victoria/semideluxe1_3.jpeg"),
-          require("../assets/rooms/victoria/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
         ],
         description:
-          "A comfortable semi-deluxe room with a king bed, seating area, minibar, and a bathroom with a soaking tub and shower. A worthwhile upgrade in affordable Surulere.",
+          "Comfortable semi-deluxe room with a king bed, seating area, minibar, and a bathroom with a soaking tub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7784,13 +7777,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/semideluxe2_1.jpeg"),
-          require("../assets/rooms/victoria/semideluxe2_2.jpeg"),
-          require("../assets/rooms/victoria/semideluxe2_3.jpeg"),
-          require("../assets/rooms/victoria/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
         ],
         description:
-          "Contemporary décor, king bed with quality linen, minibar, and a bathroom with rainfall shower. A comfortable mid-range option on the Lagos mainland.",
+          "Contemporary décor, king bed, minibar, and a bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7809,10 +7802,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/victoria/semideluxe3_1.jpeg"),
-          require("../assets/rooms/victoria/semideluxe3_2.jpeg"),
-          require("../assets/rooms/victoria/semideluxe3_3.jpeg"),
-          require("../assets/rooms/victoria/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
         ],
         description:
           "Family-friendly room with king and single beds, warm lighting, and a bathroom with soaking tub and shower.",
@@ -7835,13 +7828,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/victoria/semideluxe4_1.jpeg"),
-          require("../assets/rooms/victoria/semideluxe4_2.jpeg"),
-          require("../assets/rooms/victoria/semideluxe4_3.jpeg"),
-          require("../assets/rooms/victoria/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
         ],
         description:
-          "Twin-queen room with lounge corner, warm décor, and a clean bathroom with rainfall shower. Good value for two guests sharing.",
+          "Twin-queen room with lounge corner, warm décor, and a clean bathroom with rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -7861,10 +7854,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/semideluxe5_1.jpeg"),
-          require("../assets/rooms/victoria/semideluxe5_2.jpeg"),
-          require("../assets/rooms/victoria/semideluxe5_3.jpeg"),
-          require("../assets/rooms/victoria/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
         ],
         description:
           "Top-floor semi-deluxe with Surulere skyline views, king bed, walk-in wardrobe, soaking tub, and rainfall shower.",
@@ -7890,13 +7883,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/deluxe1_1.jpeg"),
-          require("../assets/rooms/victoria/deluxe1_2.jpeg"),
-          require("../assets/rooms/victoria/deluxe1_3.jpeg"),
-          require("../assets/rooms/victoria/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
         ],
         description:
-          "The best room at Victoria Suites — a spacious suite with king bedroom, separate lounge, dining area, minibar, and a bathroom with soaking tub and rainfall shower.",
+          "The best room at Victoria Suites — spacious suite with king bedroom, separate lounge, dining area, minibar, and a bathroom with soaking tub and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "55-inch Smart TV",
@@ -7919,10 +7912,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/deluxe2_1.jpeg"),
-          require("../assets/rooms/victoria/deluxe2_2.jpeg"),
-          require("../assets/rooms/victoria/deluxe2_3.jpeg"),
-          require("../assets/rooms/victoria/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
         ],
         description:
           "Private study, king bed, minibar, and a bathroom with steam shower and bathtub. An executive-level experience at a Surulere price.",
@@ -7947,10 +7940,10 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/victoria/deluxe3_1.jpeg"),
-          require("../assets/rooms/victoria/deluxe3_2.jpeg"),
-          require("../assets/rooms/victoria/deluxe3_3.jpeg"),
-          require("../assets/rooms/victoria/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
         ],
         description:
           "Two king bedrooms, grand lounge, dining area, pantry, freestanding tub, double vanity, and rainfall shower.",
@@ -7976,10 +7969,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/victoria/deluxe4_1.jpeg"),
-          require("../assets/rooms/victoria/deluxe4_2.jpeg"),
-          require("../assets/rooms/victoria/deluxe4_3.jpeg"),
-          require("../assets/rooms/victoria/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
         ],
         description:
           "Premium linen, whirlpool tub, double-head shower, and Surulere neighbourhood views. Butler service included.",
@@ -8004,13 +7997,13 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "1 King + 1 Double",
         images: [
-          require("../assets/rooms/victoria/deluxe5_1.jpeg"),
-          require("../assets/rooms/victoria/deluxe5_2.jpeg"),
-          require("../assets/rooms/victoria/deluxe5_3.jpeg"),
-          require("../assets/rooms/victoria/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
         ],
         description:
-          "Victoria Suites' flagship. Two bedrooms, formal lounge, kitchenette, plunge tub, steam shower, triple vanity, and a terrace with Lagos mainland views.",
+          "Victoria Suites flagship. Two bedrooms, formal lounge, kitchenette, plunge tub, steam shower, triple vanity, and a terrace with Lagos mainland views.",
         amenities: [
           "Free Wi-Fi",
           "Dual Smart TVs",
@@ -8029,7 +8022,6 @@ const hotelRooms = {
     ],
   },
 
-  // 20. THE GEORGE LAGOS HOTEL
   "The George Lagos Hotel": {
     standard: [
       {
@@ -8041,13 +8033,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/thegeorge/standard1_1.jpeg"),
-          require("../assets/rooms/thegeorge/standard1_2.jpeg"),
-          require("../assets/rooms/thegeorge/standard1_3.jpeg"),
-          require("../assets/rooms/thegeorge/standard1_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?w=800&q=80",
+          "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800&q=80",
         ],
         description:
-          "Named in honour of Leonardo da Vinci, this standard room is adorned with Renaissance-inspired art prints and warm amber lighting. Queen bed with premium linen, flat-screen TV, work desk, and a marble-finish bathroom with a walk-in shower. A cultural retreat in leafy Ikoyi.",
+          "Named in honour of Leonardo da Vinci, adorned with Renaissance-inspired art prints and warm amber lighting. Queen bed, flat-screen TV, work desk, and a marble-finish bathroom with a walk-in shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -8068,13 +8060,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Single Beds",
         images: [
-          require("../assets/rooms/thegeorge/standard2_1.jpeg"),
-          require("../assets/rooms/thegeorge/standard2_2.jpeg"),
-          require("../assets/rooms/thegeorge/standard2_3.jpeg"),
-          require("../assets/rooms/thegeorge/standard2_4.jpeg"),
+          "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185008-b033106af5c3?w=800&q=80",
         ],
         description:
-          "Inspired by the Sistine Chapel's creator, this room blends sculptural art references with warm contemporary furnishings. Two single beds, flat-screen TV, and an en-suite bathroom with a rainfall shower.",
+          "Inspired by the Sistine Chapel's creator, blending sculptural art references with warm contemporary furnishings. Two single beds and an en-suite bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -8094,13 +8086,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/standard3_1.jpeg"),
-          require("../assets/rooms/thegeorge/standard3_2.jpeg"),
-          require("../assets/rooms/thegeorge/standard3_3.jpeg"),
-          require("../assets/rooms/thegeorge/standard3_4.jpeg"),
+          "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=800&q=80",
+          "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?w=800&q=80",
+          "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800&q=80",
+          "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=800&q=80",
         ],
         description:
-          "Dedicated to Raphael, master of harmony and balance. This king standard room features curated Raphaelite art prints, premium bedding, and a sleek marble bathroom with a rainfall shower.",
+          "Dedicated to Raphael, master of harmony and balance. Features curated Raphaelite art prints, premium bedding, and a sleek marble bathroom with a rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -8121,13 +8113,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/thegeorge/standard4_1.jpeg"),
-          require("../assets/rooms/thegeorge/standard4_2.jpeg"),
-          require("../assets/rooms/thegeorge/standard4_3.jpeg"),
-          require("../assets/rooms/thegeorge/standard4_4.jpeg"),
+          "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=800&q=80",
+          "https://images.unsplash.com/photo-1605346434674-a440ca4dc4c0?w=800&q=80",
+          "https://images.unsplash.com/photo-1587985064135-0366536eab42?w=800&q=80",
+          "https://images.unsplash.com/photo-1566665797739-1674de7a421a?w=800&q=80",
         ],
         description:
-          "Inspired by Sandro Botticelli's fluid masterpieces. Features a queen bed, lounge chair, flowing wall art, and a bright bathroom with a bathtub and shower. A romantic and artistic Ikoyi escape.",
+          "Inspired by Sandro Botticelli's fluid masterpieces. Queen bed, lounge chair, flowing wall art, and a bright bathroom with a bathtub and shower.",
         amenities: [
           "Free Wi-Fi",
           "Flat-screen TV",
@@ -8148,10 +8140,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 Queen Bed",
         images: [
-          require("../assets/rooms/thegeorge/standard5_1.jpeg"),
-          require("../assets/rooms/thegeorge/standard5_2.jpeg"),
-          require("../assets/rooms/thegeorge/standard5_3.jpeg"),
-          require("../assets/rooms/thegeorge/standard5_4.jpeg"),
+          "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800&q=80",
+          "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=80",
+          "https://images.unsplash.com/photo-1529290130-4ca3753253ae?w=800&q=80",
+          "https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800&q=80",
         ],
         description:
           "Influenced by the dramatic chiaroscuro of Caravaggio. Bold dark tones, dramatic art, queen bed, blackout curtains, and a modern bathroom with a walk-in shower.",
@@ -8178,13 +8170,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/semideluxe1_1.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe1_2.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe1_3.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80",
+          "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800&q=80",
+          "https://images.unsplash.com/photo-1571508601891-ca5e7a713859?w=800&q=80",
+          "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800&q=80",
         ],
         description:
-          "A tribute to da Vinci's genius. King bed, dedicated art-gallery-style wall space, minibar, chaise lounge, and a marble bathroom with soaking tub and rainfall shower. Partial Ikoyi garden views.",
+          "A tribute to da Vinci's genius. King bed, gallery-style wall space, minibar, chaise lounge, and a marble bathroom with soaking tub and rainfall shower. Partial Ikoyi garden views.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -8206,13 +8198,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/semideluxe2_1.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe2_2.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe2_3.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800&q=80",
+          "https://images.unsplash.com/photo-1584622781564-1d987f7333c1?w=800&q=80",
+          "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=800&q=80",
+          "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800&q=80",
         ],
         description:
-          "Inspired by Michelangelo's grandeur — vaulted art ceiling prints, king bed, dual vanity, rainfall shower, and minibar. A dramatic semi-deluxe boutique experience in Ikoyi.",
+          "Inspired by Michelangelo's grandeur — vaulted art ceiling prints, king bed, dual vanity, rainfall shower, and minibar.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -8233,10 +8225,10 @@ const hotelRooms = {
         maxGuests: 3,
         beds: "1 King + 1 Single",
         images: [
-          require("../assets/rooms/thegeorge/semideluxe3_1.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe3_2.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe3_3.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&q=80",
+          "https://images.unsplash.com/photo-1570213489059-0aac6626cade?w=800&q=80",
+          "https://images.unsplash.com/photo-1615460549969-36fa19521a4f?w=800&q=80",
+          "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800&q=80",
         ],
         description:
           "Family-configured semi-deluxe with a king bed, extra single, Raphael-inspired art, and a marble bathroom with soaking tub and rainfall shower. Ikoyi treetop views.",
@@ -8260,13 +8252,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "2 Queen Beds",
         images: [
-          require("../assets/rooms/thegeorge/semideluxe4_1.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe4_2.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe4_3.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80",
+          "https://images.unsplash.com/photo-1551776235-dde6d482980b?w=800&q=80",
+          "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?w=800&q=80",
+          "https://images.unsplash.com/photo-1553653924-39b70295f8da?w=800&q=80",
         ],
         description:
-          "Twin-queen semi-deluxe with flowing Botticelli-inspired art, lounge corner, pool views, and a rainfall shower bathroom with premium George Lagos toiletries.",
+          "Twin-queen semi-deluxe with flowing Botticelli-inspired art, lounge corner, pool views, and a rainfall shower bathroom.",
         amenities: [
           "Free Wi-Fi",
           "Smart TV",
@@ -8287,10 +8279,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/semideluxe5_1.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe5_2.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe5_3.jpeg"),
-          require("../assets/rooms/thegeorge/semideluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1606402179428-a57976d71fa4?w=800&q=80",
+          "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&q=80",
+          "https://images.unsplash.com/photo-1590490359683-658d3d23f972?w=800&q=80",
+          "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800&q=80",
         ],
         description:
           "Named after Titian, master of colour. Rich warm tones, king bed, chaise lounge, walk-in wardrobe, and a marble bathroom with freestanding tub and rainfall shower. Garden and Ikoyi skyline views.",
@@ -8318,13 +8310,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/deluxe1_1.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe1_2.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe1_3.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe1_4.jpeg"),
+          "https://images.unsplash.com/photo-1609602644879-c661c23c2898?w=800&q=80",
+          "https://images.unsplash.com/photo-1590073242678-70ee3fc28f8a?w=800&q=80",
+          "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=800&q=80",
+          "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
         ],
         description:
-          "The flagship da Vinci experience. A grand suite with a Renaissance-gallery living room, king bedroom, dining for two, Da Vinci Bar & Restaurant proximity, and a marble bathroom with freestanding tub and steam shower. Ikoyi's most artistically distinguished hotel room.",
+          "The flagship da Vinci experience. Grand suite with a Renaissance-gallery living room, king bedroom, dining for two, and a marble bathroom with freestanding tub and steam shower. Ikoyi's most artistically distinguished hotel room.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -8348,10 +8340,10 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/deluxe2_1.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe2_2.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe2_3.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe2_4.jpeg"),
+          "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=800&q=80",
+          "https://images.unsplash.com/photo-1617098900591-3f90928e8c54?w=800&q=80",
+          "https://images.unsplash.com/photo-1614604397139-e0e8c59af7c6?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030490-4a484a7b3ba6?w=800&q=80",
         ],
         description:
           "Inspired by the Sistine Chapel. A ceiling hand-painted with Renaissance motifs, king bed, private lounge, cocktail bar, and a spa bathroom with a jetted tub and rainfall shower.",
@@ -8377,13 +8369,13 @@ const hotelRooms = {
         maxGuests: 4,
         beds: "2 King Beds",
         images: [
-          require("../assets/rooms/thegeorge/deluxe3_1.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe3_2.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe3_3.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe3_4.jpeg"),
+          "https://images.unsplash.com/photo-1591088398332-8a7791972843?w=800&q=80",
+          "https://images.unsplash.com/photo-1596386461350-326ccb383e9f?w=800&q=80",
+          "https://images.unsplash.com/photo-1629140727571-9b5c6f6267b4?w=800&q=80",
+          "https://images.unsplash.com/photo-1600210492486-724fe5c67fb3?w=800&q=80",
         ],
         description:
-          "Named after the hotel's signature cocktail lounge. Two king bedrooms, grand lounge, formal dining, pantry, and a marble bathroom with a freestanding tub, double vanity, and rainfall shower.",
+          "Two king bedrooms, grand lounge, formal dining, pantry, and a marble bathroom with a freestanding tub, double vanity, and rainfall shower.",
         amenities: [
           "Free Wi-Fi",
           "Dual Smart TVs",
@@ -8406,13 +8398,13 @@ const hotelRooms = {
         maxGuests: 2,
         beds: "1 King Bed",
         images: [
-          require("../assets/rooms/thegeorge/deluxe4_1.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe4_2.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe4_3.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe4_4.jpeg"),
+          "https://images.unsplash.com/photo-1634646944462-870c67fe1e1b?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
+          "https://images.unsplash.com/photo-1560185127-6a26a23f7b68?w=800&q=80",
+          "https://images.unsplash.com/photo-1630660664869-c9d3cc676880?w=800&q=80",
         ],
         description:
-          "A suite dedicated to the elegance of Ikoyi itself. Lush garden views, curated Nigerian and Renaissance art, king bed, cocktail bar, whirlpool tub, and a double-head shower.",
+          "Lush garden views, curated Nigerian and Renaissance art, king bed, cocktail bar, whirlpool tub, and a double-head shower.",
         amenities: [
           "Free Wi-Fi",
           "65-inch Smart TV",
@@ -8435,13 +8427,13 @@ const hotelRooms = {
         maxGuests: 6,
         beds: "2 Kings + 1 Double",
         images: [
-          require("../assets/rooms/thegeorge/deluxe5_1.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe5_2.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe5_3.jpeg"),
-          require("../assets/rooms/thegeorge/deluxe5_4.jpeg"),
+          "https://images.unsplash.com/photo-1631049421450-348ccd7f8949?w=800&q=80",
+          "https://images.unsplash.com/photo-1614605600950-75c7c0ba1d12?w=800&q=80",
+          "https://images.unsplash.com/photo-1602872030222-db32a57ca8c7?w=800&q=80",
+          "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=800&q=80",
         ],
         description:
-          "The Renaissance Presidential Suite is The George Lagos' crowning masterpiece. Three bedrooms, a state room styled like a Renaissance salon, a private gallery of original Nigerian and Italian art, a chef's kitchen, a spa suite with plunge pool and steam shower, a private rooftop terrace, and 24/7 dedicated concierge and butler service. Lagos' most artistically extraordinary hotel suite.",
+          "The Renaissance Presidential Suite — The George Lagos' crowning masterpiece. Three bedrooms, a state room styled like a Renaissance salon, a private gallery of original Nigerian and Italian art, chef's kitchen, a spa suite with plunge pool and steam shower, and a private rooftop terrace.",
         amenities: [
           "Free Wi-Fi",
           "Triple Smart TVs",

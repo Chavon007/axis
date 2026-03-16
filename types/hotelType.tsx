@@ -8,7 +8,7 @@ interface Room {
   size: string;
   maxGuests: number;
   beds: string;
-  images: any[];
+  images: string[];
   description: string;
   amenities: string[];
 }
