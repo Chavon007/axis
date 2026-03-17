@@ -10,7 +10,7 @@ export default function Form() {
   const [formData, setFormData] = useState<Form>({
     fullName: "",
     email: "",
-    number: 0,
+    number: "",
     nin: "",
     guest: 1,
     request: "",
@@ -71,10 +71,8 @@ export default function Form() {
         <View>
           <Text>Phone Number</Text>
           <TextInput
-            value={formData.number.toString()}
-            onChangeText={(e) =>
-              setFormData({ ...formData, number: parseInt(e) })
-            }
+            value={formData.number}
+            onChangeText={(e) => setFormData({ ...formData, number: e })}
             keyboardType="phone-pad"
             placeholder="+2348143654678"
           />
@@ -115,6 +113,8 @@ export default function Form() {
         <View>
           <Text>SPECIAL REQUESTS (optional)</Text>
           <TextInput
+            value={formData.request}
+            onChangeText={(e) => setFormData({ ...formData, request: e })}
             multiline={true}
             numberOfLines={4}
             placeholder="Enter message"
