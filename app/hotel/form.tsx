@@ -3,44 +3,54 @@ import React from "react";
 import { TextInput } from "react-native-gesture-handler";
 import { useState } from "react";
 import { useRouter } from "expo-router";
-import {  Form } from "@/types/formtype";
+import { Form } from "@/types/formtype";
 
 export default function Form() {
-    const router = useRouter();
-    const [formData, setFormData] = useState<Form>({
-        fullName:"", email:"", number:0, nin:"", guest:1, request:""
-    })
+  const router = useRouter();
+  const [formData, setFormData] = useState<Form>({
+    fullName: "",
+    email: "",
+    number: 0,
+    nin: "",
+    guest: 1,
+    request: "",
+  });
 
-    const [loading, setLoading] = useState(false)
-    const [error, setError] = useState("")
-    const [success, setSuccess] = useState("")
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
-
-    const handleSubmit = () => {
-    setLoading(true)
-    setError("")
-    setSuccess("")
-        if(!formData.email || !formData.fullName || !formData.guest || !formData.nin || !formData.number){
-            setError("Please fill all required fields")
-            setLoading(false)
-            return
-        }  if(! /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)){
-            setError("Please use a valid email address")
-            setLoading(false)
-            return
-        } 
-         if( formData.nin.length !== 11 ){
-            setError("NIN must be exactly 11 digits")
-            setLoading(false)
-            return
-        }
-       setTimeout(() => {
-                setSuccess("Personal details submitted successfully")
-                setLoading(false)
-                router.push("/booking")
-            }, 3000)
-        
+  const handleSubmit = () => {
+    setLoading(true);
+    setError("");
+    setSuccess("");
+    if (
+      !formData.email ||
+      !formData.fullName ||
+      !formData.guest ||
+      !formData.nin ||
+      !formData.number
+    ) {
+      setError("Please fill all required fields");
+      setLoading(false);
+      return;
     }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
+      setError("Please use a valid email address");
+      setLoading(false);
+      return;
+    }
+    if (formData.nin.length !== 11) {
+      setError("NIN must be exactly 11 digits");
+      setLoading(false);
+      return;
+    }
+    setTimeout(() => {
+      setSuccess("Personal details submitted successfully");
+      setLoading(false);
+      router.push("/booking");
+    }, 3000);
+  };
   return (
     <View>
       <Text>Your details</Text>
@@ -50,17 +60,31 @@ export default function Form() {
         <Text>GUEST INFORMATION</Text>
         <View>
           <Text>Full Name</Text>
-          <TextInput keyboardType="default" placeholder="Salvation Azuh" />
+          <TextInput
+            value={formData.fullName}
+            keyboardType="default"
+            placeholder="Salvation Azuh"
+            onChangeText={(e) => setFormData({ ...formData, fullName: e })}
+          />
         </View>
 
         <View>
           <Text>Phone Number</Text>
-          <TextInput keyboardType="phone-pad" placeholder="+2348143654678" />
+          <TextInput
+            value={formData.number.toString()}
+            onChangeText={(e) =>
+              setFormData({ ...formData, number: parseInt(e) })
+            }
+            keyboardType="phone-pad"
+            placeholder="+2348143654678"
+          />
         </View>
 
         <View>
           <Text>EMAIL ADDRESS *</Text>
           <TextInput
+            value={formData.email}
+            onChangeText={(e) => setFormData({ ...formData, email: e })}
             keyboardType="email-address"
             placeholder="email@exmaple.com"
           />
@@ -68,12 +92,24 @@ export default function Form() {
 
         <View>
           <Text>NIN (NATIONAL ID NUMBER) *</Text>
-          <TextInput keyboardType="number-pad" placeholder="-----------" />
+          <TextInput
+            value={formData.nin}
+            onChangeText={(e) => setFormData({ ...formData, nin: e })}
+            keyboardType="number-pad"
+            placeholder="-----------"
+          />
         </View>
 
         <View>
           <Text>NUMBER OF GUESTS</Text>
-          <TextInput keyboardType="number-pad" placeholder="1 adult" />
+          <TextInput
+            value={formData.guest.toString()}
+            onChangeText={(e) =>
+              setFormData({ ...formData, guest: parseInt(e) })
+            }
+            keyboardType="number-pad"
+            placeholder="1 adult"
+          />
         </View>
 
         <View>
@@ -89,9 +125,12 @@ export default function Form() {
           Your details are used for reservation verification at check-in only.
         </Text>
 
-        <TouchableOpacity onPress={() => }>
-          <Text>Next</Text>
+        <TouchableOpacity onPress={handleSubmit} disabled={loading}>
+          <Text>{loading ? "Loading..." : "Next"}</Text>
         </TouchableOpacity>
+
+        {error && <Text>{error}</Text>}
+        {error && <Text>{success}</Text>}
       </View>
     </View>
   );
