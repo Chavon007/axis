@@ -78,7 +78,7 @@ export default function ListOfRoomsByType() {
                   {item.name}
                 </Text>
                 <Text className="uppercase text-yellow-600 font-bold font-Roboto_700Bold text-xs">
-                    {item.id}
+                  {item.id}
                 </Text>
 
                 {/* Description */}
@@ -143,7 +143,7 @@ export default function ListOfRoomsByType() {
                     className="bg-yellow-600 px-5 py-3 rounded-xl"
                     onPress={() =>
                       router.push({
-                        pathname: "./booking",
+                        pathname: "/hotel/form",
                         params: { hotelName, roomId: item.id },
                       })
                     }

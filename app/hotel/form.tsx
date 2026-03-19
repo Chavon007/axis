@@ -1,12 +1,18 @@
-import { View, Text, TouchableOpacity } from "react-native";
-import React from "react";
-import { TextInput } from "react-native-gesture-handler";
-import { useState } from "react";
-import { useRouter } from "expo-router";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  TextInput,
+} from "react-native";
+import React, { useState } from "react";
+import { useRouter, useLocalSearchParams } from "expo-router";
 import { Form } from "@/types/formtype";
 
-export default function Form() {
+export default function FormPage() {
   const router = useRouter();
+
+  const { hotelName, roomId } = useLocalSearchParams();
   const [formData, setFormData] = useState<Form>({
     fullName: "",
     email: "",
@@ -24,114 +30,154 @@ export default function Form() {
     setLoading(true);
     setError("");
     setSuccess("");
+
     if (
-      !formData.email ||
       !formData.fullName ||
-      !formData.guest ||
+      !formData.email ||
+      !formData.number ||
       !formData.nin ||
-      !formData.number
+      !formData.guest
     ) {
       setError("Please fill all required fields");
       setLoading(false);
       return;
     }
+
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       setError("Please use a valid email address");
       setLoading(false);
       return;
     }
+
     if (formData.nin.length !== 11) {
       setError("NIN must be exactly 11 digits");
       setLoading(false);
       return;
     }
+
     setTimeout(() => {
       setSuccess("Personal details submitted successfully");
       setLoading(false);
-      router.push("/booking");
-    }, 3000);
+      router.push({
+        pathname: "/hotel/calendar",
+        params: { hotelName, roomId },
+      });
+    }, 2000);
   };
+
   return (
-    <View>
-      <Text>Your details</Text>
-      <Text>Step 1 of 3</Text>
+    <ScrollView
+      className="flex-1 bg-neutral-950 px-5 pt-6"
+      showsVerticalScrollIndicator={false}
+    >
+      <Text className="text-white text-2xl font-bold mb-1">Your Details</Text>
+      <Text className="text-neutral-400 mb-6">Step 1 of 3</Text>
 
-      <View>
-        <Text>GUEST INFORMATION</Text>
-        <View>
-          <Text>Full Name</Text>
-          <TextInput
-            value={formData.fullName}
-            keyboardType="default"
-            placeholder="Salvation Azuh"
-            onChangeText={(e) => setFormData({ ...formData, fullName: e })}
-          />
-        </View>
+      {/* Guest Information Section */}
+      <Text className="text-yellow-600 text-xs font-bold tracking-[2px] uppercase mb-3">
+        Guest Information
+      </Text>
 
-        <View>
-          <Text>Phone Number</Text>
-          <TextInput
-            value={formData.number}
-            onChangeText={(e) => setFormData({ ...formData, number: e })}
-            keyboardType="phone-pad"
-            placeholder="+2348143654678"
-          />
-        </View>
-
-        <View>
-          <Text>EMAIL ADDRESS *</Text>
-          <TextInput
-            value={formData.email}
-            onChangeText={(e) => setFormData({ ...formData, email: e })}
-            keyboardType="email-address"
-            placeholder="email@exmaple.com"
-          />
-        </View>
-
-        <View>
-          <Text>NIN (NATIONAL ID NUMBER) *</Text>
-          <TextInput
-            value={formData.nin}
-            onChangeText={(e) => setFormData({ ...formData, nin: e })}
-            keyboardType="number-pad"
-            placeholder="-----------"
-          />
-        </View>
-
-        <View>
-          <Text>NUMBER OF GUESTS</Text>
-          <TextInput
-            value={formData.guest.toString()}
-            onChangeText={(e) =>
-              setFormData({ ...formData, guest: parseInt(e) })
-            }
-            keyboardType="number-pad"
-            placeholder="1 adult"
-          />
-        </View>
-
-        <View>
-          <Text>SPECIAL REQUESTS (optional)</Text>
-          <TextInput
-            value={formData.request}
-            onChangeText={(e) => setFormData({ ...formData, request: e })}
-            multiline={true}
-            numberOfLines={4}
-            placeholder="Enter message"
-          />
-        </View>
-
-        <Text>
-          Your details are used for reservation verification at check-in only.
-        </Text>
-
-        <TouchableOpacity onPress={handleSubmit} disabled={loading}>
-          <Text>{loading ? "Loading..." : "Next"}</Text>
-        </TouchableOpacity>
-
-        {error && <Text>{error}</Text>}
-        {error && <Text>{success}</Text>}
+      {/* Full Name */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">Full Name</Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.fullName}
+          placeholder="Salvation Azuh"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, fullName: e })}
+        />
       </View>
-    </View>
+
+      {/* Phone Number */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">Phone Number</Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.number}
+          keyboardType="phone-pad"
+          placeholder="+2348143654678"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, number: e })}
+        />
+      </View>
+
+      {/* Email */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">Email Address *</Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.email}
+          keyboardType="email-address"
+          placeholder="email@example.com"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, email: e })}
+        />
+      </View>
+
+      {/* NIN */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">
+          NIN (National ID Number) *
+        </Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.nin}
+          keyboardType="number-pad"
+          placeholder="-----------"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, nin: e })}
+        />
+      </View>
+
+      {/* Number of Guests */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">Number of Guests</Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.guest.toString()}
+          keyboardType="number-pad"
+          placeholder="1 adult"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, guest: parseInt(e) })}
+        />
+      </View>
+
+      {/* Special Requests */}
+      <View className="mb-4">
+        <Text className="text-neutral-300 mb-1">
+          Special Requests (Optional)
+        </Text>
+        <TextInput
+          className="bg-neutral-900 border border-neutral-800 rounded-xl px-4 py-3 text-white"
+          value={formData.request}
+          multiline
+          numberOfLines={4}
+          placeholder="Enter message"
+          placeholderTextColor="#888"
+          onChangeText={(e) => setFormData({ ...formData, request: e })}
+        />
+      </View>
+
+      <Text className="text-neutral-500 text-sm mb-6">
+        Your details are used for reservation verification at check-in only.
+      </Text>
+
+      {/* Submit Button */}
+      <TouchableOpacity
+        className="bg-yellow-600 py-3 rounded-xl items-center mb-4"
+        onPress={handleSubmit}
+        disabled={loading}
+      >
+        <Text className="text-neutral-950 font-bold text-base">
+          {loading ? "Loading..." : "Next"}
+        </Text>
+      </TouchableOpacity>
+
+      {/* Error / Success */}
+      {error ? <Text className="text-red-500 mb-2">{error}</Text> : null}
+      {success ? <Text className="text-green-500">{success}</Text> : null}
+    </ScrollView>
   );
 }
