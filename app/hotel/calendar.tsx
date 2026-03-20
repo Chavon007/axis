@@ -6,7 +6,7 @@ import { Calendar } from "react-native-calendars";
 import { useLocalSearchParams } from "expo-router";
 
 const CalendarDate = () => {
-  const { hotelName, roomId } = useLocalSearchParams();
+  const { hotelName, roomId, price } = useLocalSearchParams();
 
   const [selectDate, setSelectDate] = useState<BookingDate>({
     checkInDate: "",
@@ -26,7 +26,7 @@ const CalendarDate = () => {
       setMarkedDate({
         [dateStr]: { startingDay: true },
       });
-    } else if (selectDate.checkOutDate && !selectDate.checkOutDate) {
+    } else if (selectDate.checkInDate && !selectDate.checkOutDate) {
       setSelectDate({ ...selectDate, checkOutDate: dateStr });
     }
 
@@ -37,9 +37,9 @@ const CalendarDate = () => {
     for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) {
       const str = d.toISOString().split("T")[0];
       if (str === selectDate.checkInDate) {
-        range[str] = { startingDay: true };
+        range[str] = { startingDay: true, color: "#C9A84C", textColor: "#000" };
       } else if (str === dateStr) {
-        range[str] = { endingDate: true };
+        range[str] = { endingDate: true, color: "#C9A84C", textColor: "#000" };
       } else {
         range[str];
       }
@@ -47,9 +47,25 @@ const CalendarDate = () => {
     setMarkedDate(range);
   };
 
+  const calculatePrice = () => {
+    if (!selectDate.checkInDate || !selectDate.checkOutDate) return null;
+
+    const checkIn = new Date(selectDate.checkInDate);
+    const checkOut = new Date(selectDate.checkOutDate);
+
+    const nights = Math.round(
+      checkIn.getTime() - checkOut.getTime() / (1000 * 60 * 60 * 24),
+    );
+
+    const total = nights * Number(price);
+
+    return { total, nights };
+  };
+
+  const bookingSummary = calculatePrice();
+
   return (
     <View className="flex-1 bg-neutral-950 px-5 pt-12 pb-10">
-
       <View className="rounded-2xl overflow-hidden border border-neutral-800 mb-6">
         <Calendar
           markedDates={markedDates}
@@ -82,10 +98,18 @@ const CalendarDate = () => {
           Your Booking
         </Text>
         <View className="h-px bg-neutral-800 mb-4" />
-        <Text className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Hotel</Text>
-        <Text className="text-white text-base font-semibold tracking-wide mb-3">{hotelName}</Text>
-        <Text className="text-neutral-500 text-xs tracking-widest uppercase mb-1">Room ID</Text>
-        <Text className="text-white text-base font-semibold tracking-wide">{roomId}</Text>
+        <Text className="text-neutral-500 text-xs tracking-widest uppercase mb-1">
+          Hotel
+        </Text>
+        <Text className="text-white text-base font-semibold tracking-wide mb-3">
+          {hotelName}
+        </Text>
+        <Text className="text-neutral-500 text-xs tracking-widest uppercase mb-1">
+          Room ID
+        </Text>
+        <Text className="text-white text-base font-semibold tracking-wide">
+          {roomId}
+        </Text>
       </View>
 
       {/* Date Summary */}
@@ -101,13 +125,52 @@ const CalendarDate = () => {
         </Text>
       </Text>
 
+      {/* Booking Summary */}
+      {bookingSummary && (
+        <View className="bg-neutral-900 border border-yellow-700/30 rounded-2xl px-5 py-4 mb-6">
+          <Text className="text-yellow-600 text-xs font-bold tracking-[3px] uppercase mb-3">
+            Price Summary
+          </Text>
+          <View className="h-px bg-neutral-800 mb-4" />
+
+          <View className="flex-row justify-between items-center mb-3">
+            <Text className="text-neutral-500 text-xs tracking-widest uppercase">
+              Duration
+            </Text>
+            <Text className="text-white text-sm font-semibold">
+              {bookingSummary.nights} Night
+              {bookingSummary.nights > 1 ? "s" : ""}
+            </Text>
+          </View>
+
+          <View className="flex-row justify-between items-center mb-3">
+            <Text className="text-neutral-500 text-xs tracking-widest uppercase">
+              Price / Night
+            </Text>
+            <Text className="text-white text-sm font-semibold">
+              ₦{Number(price).toLocaleString()}
+            </Text>
+          </View>
+
+          <View className="h-px bg-neutral-800 mb-3" />
+
+          <View className="flex-row justify-between items-center">
+            <Text className="text-yellow-600 text-xs font-bold tracking-[3px] uppercase">
+              Total
+            </Text>
+            <Text className="text-yellow-500 text-base font-bold">
+              ₦{bookingSummary.total.toLocaleString()}
+            </Text>
+          </View>
+        </View>
+      )}
+
       {/* CTA */}
       <TouchableOpacity className="bg-yellow-600 active:bg-yellow-700 rounded-xl py-4 items-center justify-center">
         <Text className="text-black text-sm font-bold tracking-[3px] uppercase">
           Make Payment
         </Text>
       </TouchableOpacity>
-
     </View>
   );
 };

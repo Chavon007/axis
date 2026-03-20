@@ -144,7 +144,11 @@ export default function ListOfRoomsByType() {
                     onPress={() =>
                       router.push({
                         pathname: "/hotel/form",
-                        params: { hotelName, roomId: item.id },
+                        params: {
+                          hotelName,
+                          roomId: item.id,
+                          price: item.price,
+                        },
                       })
                     }
                   >

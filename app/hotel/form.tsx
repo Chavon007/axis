@@ -12,7 +12,7 @@ import { Form } from "@/types/formtype";
 export default function FormPage() {
   const router = useRouter();
 
-  const { hotelName, roomId } = useLocalSearchParams();
+  const { hotelName, roomId, price } = useLocalSearchParams();
   const [formData, setFormData] = useState<Form>({
     fullName: "",
     email: "",
@@ -60,7 +60,7 @@ export default function FormPage() {
       setLoading(false);
       router.push({
         pathname: "/hotel/calendar",
-        params: { hotelName, roomId },
+        params: { hotelName, roomId, price },
       });
     }, 2000);
   };
