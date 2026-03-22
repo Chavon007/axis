@@ -60,7 +60,7 @@ export default function FormPage() {
       setLoading(false);
       router.push({
         pathname: "/hotel/calendar",
-        params: { hotelName, roomId, price },
+        params: { hotelName, roomId, price, fullName: formData.fullName },
       });
     }, 2000);
   };

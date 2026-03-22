@@ -3,19 +3,21 @@ import { View, Text, TouchableOpacity, ScrollView, Modal } from "react-native";
 import { useState } from "react";
 import { BookingDate } from "@/types/datetype";
 import { Calendar } from "react-native-calendars";
-import { useLocalSearchParams } from "expo-router";
+import { useLocalSearchParams, useRouter } from "expo-router";
 import { Stack } from "expo-router";
 import { WebView } from "react-native-webview";
 import { HandlePayment } from "@/utils/payment";
 
 const CalendarDate = () => {
-  const { hotelName, roomId, price } = useLocalSearchParams();
+  const { hotelName, roomId, price, fullName, roomName } =
+    useLocalSearchParams();
 
   const [selectDate, setSelectDate] = useState<BookingDate>({
     checkInDate: "",
     checkOutDate: "",
   });
 
+  const router = useRouter();
   const [showWebView, setShowWebView] = useState(false);
 
   const [markedDates, setMarkedDate] = useState<{ [key: string]: any }>({});
@@ -74,7 +76,7 @@ const CalendarDate = () => {
 
   const bookingSummary = calculatePrice();
 
-  const paymentUrl = `https://paystack.shop/pay/axis-payment?amount=${(bookingSummary?.total ?? 0)}`;
+  const paymentUrl = `https://paystack.shop/pay/axis-payment?amount=${bookingSummary?.total ?? 0}`;
 
   return (
     <>
@@ -208,8 +210,20 @@ const CalendarDate = () => {
                 onNavigationStateChange={(navState) => {
                   const result = HandlePayment({ url: navState.url });
 
-                  if (result) {
+                  if (result === "Success") {
                     setShowWebView(false);
+                    router.push({
+                      pathname: "/hotel/receipt",
+                      params: {
+                        hotelName,
+                        roomId,
+                        checkOutDate: selectDate.checkOutDate,
+                        checckInDate: selectDate.checkInDate,
+                        fullName,
+                        total: bookingSummary?.total,
+                        roomName,
+                      },
+                    });
                   }
                 }}
               />

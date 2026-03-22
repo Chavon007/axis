@@ -148,6 +148,7 @@ export default function ListOfRoomsByType() {
                           hotelName,
                           roomId: item.id,
                           price: item.price,
+                          roomName: item.name,
                         },
                       })
                     }
