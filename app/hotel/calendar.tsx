@@ -218,7 +218,7 @@ const CalendarDate = () => {
                         hotelName,
                         roomId,
                         checkOutDate: selectDate.checkOutDate,
-                        checckInDate: selectDate.checkInDate,
+                        checkInDate: selectDate.checkInDate,
                         fullName,
                         total: bookingSummary?.total,
                         roomName,
