@@ -1,10 +1,12 @@
 import React from "react";
-import { View, Text, TouchableOpacity, ScrollView } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, Modal } from "react-native";
 import { useState } from "react";
 import { BookingDate } from "@/types/datetype";
 import { Calendar } from "react-native-calendars";
 import { useLocalSearchParams } from "expo-router";
 import { Stack } from "expo-router";
+import { WebView } from "react-native-webview";
+import { HandlePayment } from "@/utils/payment";
 
 const CalendarDate = () => {
   const { hotelName, roomId, price } = useLocalSearchParams();
@@ -13,6 +15,8 @@ const CalendarDate = () => {
     checkInDate: "",
     checkOutDate: "",
   });
+
+  const [showWebView, setShowWebView] = useState(false);
 
   const [markedDates, setMarkedDate] = useState<{ [key: string]: any }>({});
 
@@ -43,7 +47,7 @@ const CalendarDate = () => {
       } else if (str === dateStr) {
         range[str] = { endingDate: true, color: "#C9A84C", textColor: "#000" };
       } else {
-        range[str];
+        range[str] = { color: "#C9A84C", textColor: "#000" };
       }
     }
     setMarkedDate(range);
@@ -69,6 +73,8 @@ const CalendarDate = () => {
   };
 
   const bookingSummary = calculatePrice();
+
+  const paymentUrl = `https://paystack.shop/pay/axis-payment?amount=${(bookingSummary?.total ?? 0)}`;
 
   return (
     <>
@@ -181,11 +187,34 @@ const CalendarDate = () => {
           )}
 
           {/* CTA */}
-          <TouchableOpacity className="bg-yellow-600 active:bg-yellow-700 rounded-xl py-4 items-center justify-center">
+          <TouchableOpacity
+            onPress={() => setShowWebView(true)}
+            className="bg-yellow-600 active:bg-yellow-700 rounded-xl py-4 items-center justify-center"
+          >
             <Text className="text-black text-sm font-bold tracking-[3px] uppercase">
               Make Payment
             </Text>
           </TouchableOpacity>
+
+          <Modal visible={showWebView} animationType="slide">
+            <View className="flex-1">
+              <TouchableOpacity
+                onPress={() => setShowWebView(false)}
+              ></TouchableOpacity>
+
+              <WebView
+                className="flex-1"
+                source={{ uri: paymentUrl }}
+                onNavigationStateChange={(navState) => {
+                  const result = HandlePayment({ url: navState.url });
+
+                  if (result) {
+                    setShowWebView(false);
+                  }
+                }}
+              />
+            </View>
+          </Modal>
         </View>
       </ScrollView>
     </>
