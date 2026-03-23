@@ -19,6 +19,18 @@ interface RoomCategories {
   deluxe: Room[];
 }
 
+export interface Bookings {
+  bookingId: string;
+  fullName: string;
+  hotelName: string;
+  checkOutDate: string;
+  checkInDate: string;
+  roomType: string;
+  roomId: string;
+  roomName: string;
+  confirmed: boolean;
+}
+
 interface HotelDetailsListing {
   id: string;
   name: string;
@@ -38,6 +50,7 @@ interface HotelDetailsListing {
 
 export type { Room, RoomCategories };
 export default HotelDetailsListing;
+
 export type HotelName = keyof typeof hotelRooms;
 export type RoomType = keyof RoomCategories;
 export type Hotel = keyof Room;
