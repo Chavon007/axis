@@ -1,9 +1,17 @@
-import { View, Text, TouchableOpacity, ScrollView, StatusBar } from "react-native";
+import { useState } from "react";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  StatusBar,
+} from "react-native";
 import { useLocalSearchParams, useRouter } from "expo-router/build/hooks";
 import React from "react";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { Stack } from "expo-router";
+import { handleDownloadPdf } from "@/utils/generatePdf";
 
 export default function Receipt() {
   const {
@@ -25,6 +33,24 @@ export default function Receipt() {
   }>();
 
   const router = useRouter();
+
+  const receiptParams = {
+    hotelName,
+    roomId,
+    total,
+    roomName,
+    checkInDate,
+    checkOutDate,
+    fullName,
+  };
+  const [loading, setLoading] = useState(false);
+
+  const handleSharingDownload = async () => {
+    setLoading(true);
+    await handleDownloadPdf(receiptParams);
+
+    setLoading(false);
+  };
 
   return (
     <>
@@ -119,14 +145,26 @@ export default function Receipt() {
 
         {/* Actions */}
         <View className="px-5 flex-row gap-3">
-          <TouchableOpacity className="flex-1 flex-row items-center justify-center gap-2 bg-neutral-900 border border-neutral-800 py-3 rounded-xl">
+          <TouchableOpacity
+            className="flex-1 flex-row items-center justify-center gap-2 bg-neutral-900 border border-neutral-800 py-3 rounded-xl"
+            onPress={handleSharingDownload}
+            disabled={loading}
+          >
             <AntDesign name="share-alt" size={16} color="#C9A84C" />
-            <Text className="text-yellow-500 text-sm">Share</Text>
+            <Text className="text-yellow-500 text-sm">
+              {loading ? "Sharing..." : "Share"}
+            </Text>
           </TouchableOpacity>
 
-          <TouchableOpacity className="flex-1 flex-row items-center justify-center gap-2 bg-neutral-900 border border-neutral-800 py-3 rounded-xl">
+          <TouchableOpacity
+            className="flex-1 flex-row items-center justify-center gap-2 bg-neutral-900 border border-neutral-800 py-3 rounded-xl"
+            onPress={handleSharingDownload}
+            disabled={loading}
+          >
             <AntDesign name="download" size={16} color="#C9A84C" />
-            <Text className="text-yellow-500 text-sm">Download</Text>
+            <Text className="text-yellow-500 text-sm">
+              {loading ? "Generating..." : "Download"}
+            </Text>
           </TouchableOpacity>
         </View>
 
