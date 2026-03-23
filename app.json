@@ -18,8 +18,33 @@
         "backgroundImage": "./assets/AXIS.png",
         "monochromeImage": "./assets/AXIS.png"
       },
+      "intentFilters": [
+        {
+          "action": "android.intent.action.DIAL",
+          "data": [
+            {
+              "scheme": "tel"
+            }
+          ],
+          "category": [
+            "android.intent.category.DEFAULT"
+          ]
+        },
+        {
+          "action": "android.intent.action.DIAL",
+          "data": [
+            {
+              "scheme": "tel"
+            }
+          ],
+          "category": [
+            "android.intent.category.DEFAULT"
+          ]
+        }
+      ],
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.AXIS"
     },
     "web": {
       "output": "static",
