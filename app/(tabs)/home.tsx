@@ -1,18 +1,28 @@
 import { FlatList, View, Text, Image } from "react-native";
-import React from "react";
+import React, { useState } from "react";
 import SearchBar from "@/components/searchBar";
 import LocationButton from "@/components/locationButton";
 import hotels from "@/data/hostelList";
 import HotelCardListing from "@/components/HotelCardListing";
+
 export default function home() {
+  const [selectedLocation, setSelectedLocation] = useState("all");
+
+  const filterLocation =
+    selectedLocation === "all"
+      ? hotels
+      : hotels.filter((hotel) =>
+          hotel.address.toLowerCase().includes(selectedLocation.toLowerCase()),
+        );
+
   return (
     <FlatList
-      data={hotels}
-      keyExtractor={(item, index) => index.toString()}
+      data={filterLocation}
+      keyExtractor={( item, index) => index.toString()}
       ListHeaderComponent={
         <View>
           <SearchBar />
-          <LocationButton />
+          <LocationButton onSelectLocation={setSelectedLocation} />
           <View className="w-[95%] mt-3 mx-auto">
             <Text className="ml-2 mb-2 font-Righteous_400Regular text-sm text-[#000000]">
               FEATURED HOTELS
