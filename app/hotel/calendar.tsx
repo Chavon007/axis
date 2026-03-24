@@ -34,10 +34,12 @@ const CalendarDate = () => {
       setMarkedDate({
         [dateStr]: { startingDay: true },
       });
+      return;
     } else if (selectDate.checkInDate && !selectDate.checkOutDate) {
       if (dateStr <= selectDate.checkInDate) {
         setSelectDate({ checkInDate: dateStr, checkOutDate: "" });
         setMarkedDate({ [dateStr]: { startingDay: true } });
+        return;
       }
       setSelectDate({ ...selectDate, checkOutDate: dateStr });
     }

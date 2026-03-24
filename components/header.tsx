@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Header() {
   return (
-    <View className=" pt-2  pr-3 flex flex-row items-center">
+    <View className="   pr-3 flex flex-row items-center">
       <Image
-        className=" mt-2"
+        className=" "
         source={require("../assets/axis2.png")}
         style={{ width: 70, height: 35 }}
       />
-      <View className="mt-5">
+      <View className="">
         <Text className="text-2xl text-[#0B0A0A] font-black font-Cinzel_700Bold">
           AXIS
         </Text>

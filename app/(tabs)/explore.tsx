@@ -141,8 +141,9 @@ export default function Explore() {
                     className="bg-[#5B55D3] px-5 py-3 rounded-xl"
                     onPress={() =>
                       router.push({
-                        pathname: "./booking",
-                        params: { hotelName: item.hotelName, roomId: item.id },
+                        pathname: "/hotel/form",
+                        params: { hotelName: item.hotelName, roomId: item.id, price: item.price,
+                          roomName: item.name, },
                       })
                     }
                   >

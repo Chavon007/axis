@@ -22,11 +22,11 @@ export default function Booking() {
   return (
     <ScrollView className="bg-[#F7F7F7] flex-1 p-4">
       <Text className="text-2xl font-CormorantGaramond_600SemiBold text-[#000000] mb-4">
-        Your Bookings
+        My Bookings
       </Text>
 
       {bookings.length === 0 ? (
-        <Text className="text-center text-[#8F8F8F] mt-20 text-lg">
+        <Text className="text-center flex justify-center items-center text-[#8F8F8F] mt-20 text-lg">
           You have no bookings
         </Text>
       ) : (
