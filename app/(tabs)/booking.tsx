@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import BookingCard from "@/components/bookingCard";
 
-export default function booking() {
+export default function Booking() {
   const [bookings, setBookings] = useState([]);
 
   useEffect(() => {
@@ -18,20 +18,24 @@ export default function booking() {
     };
     fetchBookings();
   }, []);
+
   return (
-    <ScrollView>
-      <Text>Your bookings</Text>
-      <View>
-        {bookings.length === 0 ? (
-          <Text>You have no bookings</Text>
-        ) : (
-          <View>
-            {bookings.map((room, index) => (
-              <BookingCard key={index} booking={room} />
-            ))}
-          </View>
-        )}
-      </View>
+    <ScrollView className="bg-[#F7F7F7] flex-1 p-4">
+      <Text className="text-2xl font-CormorantGaramond_600SemiBold text-[#000000] mb-4">
+        Your Bookings
+      </Text>
+
+      {bookings.length === 0 ? (
+        <Text className="text-center text-[#8F8F8F] mt-20 text-lg">
+          You have no bookings
+        </Text>
+      ) : (
+        <View className="space-y-4">
+          {bookings.map((room, index) => (
+            <BookingCard key={index} booking={room} />
+          ))}
+        </View>
+      )}
     </ScrollView>
   );
 }
