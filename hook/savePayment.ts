@@ -4,7 +4,7 @@ export const SavePayment = async (booking: Bookings) => {
   try {
     const existing = await AsyncStorage.getItem("bookings");
     const bookings = existing ? JSON.parse(existing) : [];
-    bookings.push(booking);
+    bookings.push({ ...booking, status: "active" });
     await AsyncStorage.setItem("bookings", JSON.stringify(bookings));
   } catch (err) {
     console.warn(err);
