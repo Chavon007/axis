@@ -7,21 +7,27 @@ import HotelCardListing from "@/components/HotelCardListing";
 
 export default function home() {
   const [selectedLocation, setSelectedLocation] = useState("all");
+  const [searchText, setSearchText] = useState("");
 
-  const filterLocation =
-    selectedLocation === "all"
-      ? hotels
-      : hotels.filter((hotel) =>
-          hotel.address.toLowerCase().includes(selectedLocation.toLowerCase()),
-        );
+  const filterLocation = hotels.filter((hotel) => {
+    const matchesLocation =
+      selectedLocation === "all" ||
+      hotel.address.toLowerCase().includes(selectedLocation.toLowerCase());
+
+    const matchesSerach = hotel.name
+      .toLowerCase()
+      .includes(searchText.toLowerCase());
+
+    return matchesLocation && matchesSerach;
+  });
 
   return (
     <FlatList
       data={filterLocation}
-      keyExtractor={( item, index) => index.toString()}
+      keyExtractor={(item, index) => index.toString()}
       ListHeaderComponent={
         <View>
-          <SearchBar />
+          <SearchBar value={searchText} onChangeText={setSearchText} />
           <LocationButton onSelectLocation={setSelectedLocation} />
           <View className="w-[95%] mt-3 mx-auto">
             <Text className="ml-2 mb-2 font-Righteous_400Regular text-sm text-[#000000]">
