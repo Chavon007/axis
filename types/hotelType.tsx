@@ -28,7 +28,8 @@ export interface Bookings {
   roomType: string;
   roomId: string;
   roomName: string;
-  confirmed: boolean;
+  status: "active" | "past";
+  total: any;
 }
 
 interface HotelDetailsListing {

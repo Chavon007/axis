@@ -8,38 +8,41 @@ interface BookingCardProps {
 export default function BookingCard({ booking }: BookingCardProps) {
   const router = useRouter();
   return (
-    <Pressable
-      onPress={() =>
-        router.push({
-          pathname: "/hotel/receipt",
-          params: {
-            hotelName: booking.hotelName,
-            roomId: booking.roomId,
-            roomName: booking.roomName,
-            checkInDate: booking.checkInDate,
-            checkOutDate: booking.checkOutDate,
-          },
-        })
-      }
-    >
-      <View>
-        <Text>{booking.roomId}</Text>
+    <>
+      <Pressable
+        onPress={() =>
+          router.push({
+            pathname: "/hotel/receipt",
+            params: {
+              hotelName: booking.hotelName,
+              roomId: booking.roomId,
+              roomName: booking.roomName,
+              checkInDate: booking.checkInDate,
+              checkOutDate: booking.checkOutDate,
+            },
+          })
+        }
+      >
         <View>
-          <Text>{booking.roomName}</Text>
-          <Text>{booking.hotelName}</Text>
-        </View>
-        <View>
+          <Text>{booking.roomId}</Text>
+          {booking.status === "active" ? "Active bookings" : "Past Bookings"}
           <View>
-            <Text>Check-in</Text>
-            <Text>{booking.checkInDate}</Text>
+            <Text>{booking.roomName}</Text>
+            <Text>{booking.hotelName}</Text>
           </View>
+          <View>
+            <View>
+              <Text>Check-in</Text>
+              <Text>{booking.checkInDate}</Text>
+            </View>
 
-          <View>
-            <Text>Check-out</Text>
-            <Text>{booking.checkOutDate}</Text>
+            <View>
+              <Text>Check-out</Text>
+              <Text>{booking.checkOutDate}</Text>
+            </View>
           </View>
         </View>
-      </View>
-    </Pressable>
+      </Pressable>
+    </>
   );
 }

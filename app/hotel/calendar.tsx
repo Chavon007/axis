@@ -7,10 +7,11 @@ import { useLocalSearchParams, useRouter } from "expo-router";
 import { Stack } from "expo-router";
 import { WebView } from "react-native-webview";
 import { HandlePayment } from "@/utils/payment";
-
+import { SavePayment } from "@/hook/savePayment";
+import { Bookings } from "@/types/hotelType";
 const CalendarDate = () => {
-  const { hotelName, roomId, price, fullName, roomName } =
-    useLocalSearchParams();
+  const { hotelName, roomId, price, fullName, roomName, roomType } =
+    useLocalSearchParams() as Record<string, string>;
 
   const [selectDate, setSelectDate] = useState<BookingDate>({
     checkInDate: "",
@@ -212,17 +213,23 @@ const CalendarDate = () => {
 
                   if (result === "Success") {
                     setShowWebView(false);
+                    const newBooking: Bookings = {
+                      bookingId: `${roomId} - ${Date.now()}`,
+                      fullName,
+                      total: bookingSummary?.total,
+                      hotelName,
+                      roomName,
+                      roomType,
+                      checkInDate: selectDate.checkInDate,
+                      checkOutDate: selectDate.checkOutDate,
+                      status: "active",
+                      roomId,
+                    };
+
+                    SavePayment(newBooking);
                     router.push({
                       pathname: "/hotel/receipt",
-                      params: {
-                        hotelName,
-                        roomId,
-                        checkOutDate: selectDate.checkOutDate,
-                        checkInDate: selectDate.checkInDate,
-                        fullName,
-                        total: bookingSummary?.total,
-                        roomName,
-                      },
+                      params: { ...newBooking },
                     });
                   }
                 }}
