@@ -60,7 +60,13 @@ export default function FormPage() {
       setLoading(false);
       router.push({
         pathname: "/hotel/calendar",
-        params: { hotelName, roomId, price, fullName: formData.fullName, roomName },
+        params: {
+          hotelName,
+          roomId,
+          price,
+          fullName: formData.fullName,
+          roomName,
+        },
       });
     }, 2000);
   };
@@ -72,7 +78,9 @@ export default function FormPage() {
         className="flex-1 bg-neutral-950 px-5 pt-6"
         showsVerticalScrollIndicator={false}
       >
-        <Text className="text-white text-2xl font-bold mb-1 mt-10">Your Details</Text>
+        <Text className="text-white text-2xl font-bold mb-1 mt-10">
+          Your Details
+        </Text>
         <Text className="text-neutral-400 mb-6">Step 1 of 3</Text>
 
         {/* Guest Information Section */}
@@ -143,7 +151,7 @@ export default function FormPage() {
             placeholder="1 adult"
             placeholderTextColor="#888"
             onChangeText={(e) =>
-              setFormData({ ...formData, guest: parseInt(e) })
+              setFormData({ ...formData, guest: parseInt(e) || 0 })
             }
           />
         </View>
