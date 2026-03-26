@@ -1,8 +1,7 @@
-import LocationButton from "@/components/locationButton";
 import SearchBar from "@/components/searchBar";
-import { getAllRooms } from "@/utils/hotelHelpeer";
+
 import { useRouter, Stack } from "expo-router";
-import { useState, useMemo } from "react";
+import { useState, useEffect } from "react";
 import {
   View,
   Text,
@@ -16,25 +15,44 @@ import React from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Carousel from "react-native-reanimated-carousel";
 
+import hotelRooms from "@/data/hotelRoom";
+
 const PageSize = 10;
 
 export default function Explore() {
   const router = useRouter();
   const [page, setPage] = useState(0);
   const { width } = useWindowDimensions();
+  const [searchText, setSearchText] = useState("");
 
-  const allRooms = useMemo(() => {
-    const rooms = getAllRooms();
-    return rooms.sort(() => Math.random() - 0.5);
-  }, []);
+  const allRoom = Object.entries(hotelRooms).flatMap(([hotelName, hotel]) =>
+    Object.values(hotel)
+      .flat()
+      .map((room) => ({
+        ...room,
+        hotelName,
+      })),
+  );
 
-  const totalPages = Math.ceil(allRooms.length / PageSize);
-  const currentRooms = allRooms.slice(page * PageSize, (page + 1) * PageSize);
+  const searchFilter = allRoom.filter((hotel) =>
+    `${hotel.name}  ${hotel.hotelName}`
+      .toLowerCase()
+      .includes(searchText.toLowerCase()),
+  );
 
+  const totalPages = Math.ceil(searchFilter.length / PageSize);
+  const currentRooms = searchFilter.slice(
+    page * PageSize,
+    (page + 1) * PageSize,
+  );
+
+  useEffect(() => {
+    setPage(0);
+  }, [searchText]);
   return (
     <>
-      <SearchBar />
-      <LocationButton />
+      <SearchBar value={searchText} onChangeText={setSearchText} />
+
       <Stack.Screen options={{ headerShown: false }} />
 
       <ScrollView
@@ -50,7 +68,7 @@ export default function Explore() {
             All Rooms
           </Text>
           <Text className="text-gray-600 text-lg">
-            {allRooms.length} rooms across all hotels
+            {searchFilter.length} rooms across all hotels
           </Text>
         </View>
 
@@ -115,7 +133,9 @@ export default function Explore() {
 
                   <View className="flex-row items-center gap-1">
                     <FontAwesome name="building" size={13} color="#5B55D3" />
-                    <Text className="text-gray-500 text-xs">Floor {item.floor}</Text>
+                    <Text className="text-gray-500 text-xs">
+                      Floor {item.floor}
+                    </Text>
                   </View>
                 </View>
 
@@ -142,8 +162,12 @@ export default function Explore() {
                     onPress={() =>
                       router.push({
                         pathname: "/hotel/form",
-                        params: { hotelName: item.hotelName, roomId: item.id, price: item.price,
-                          roomName: item.name, },
+                        params: {
+                          hotelName: item.hotelName,
+                          roomId: item.id,
+                          price: item.price,
+                          roomName: item.name,
+                        },
                       })
                     }
                   >
@@ -166,13 +190,17 @@ export default function Explore() {
               page === 0 ? "bg-gray-100" : "bg-[#5B55D3]"
             }`}
           >
-            <Text className={`font-semibold ${page === 0 ? "text-gray-400" : "text-white"}`}>
+            <Text
+              className={`font-semibold ${page === 0 ? "text-gray-400" : "text-white"}`}
+            >
               Previous
             </Text>
           </TouchableOpacity>
 
           <View className="items-center">
-            <Text className="text-gray-500 text-xs tracking-wide uppercase">Page</Text>
+            <Text className="text-gray-500 text-xs tracking-wide uppercase">
+              Page
+            </Text>
             <Text className="text-black font-bold text-lg">
               {page + 1} / {totalPages}
             </Text>
@@ -185,7 +213,9 @@ export default function Explore() {
               page === totalPages - 1 ? "bg-gray-100" : "bg-[#5B55D3]"
             }`}
           >
-            <Text className={`font-semibold ${page === totalPages - 1 ? "text-gray-400" : "text-white"}`}>
+            <Text
+              className={`font-semibold ${page === totalPages - 1 ? "text-gray-400" : "text-white"}`}
+            >
               Next
             </Text>
           </TouchableOpacity>
