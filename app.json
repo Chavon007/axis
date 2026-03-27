@@ -26,9 +26,7 @@
               "scheme": "tel"
             }
           ],
-          "category": [
-            "android.intent.category.DEFAULT"
-          ]
+          "category": ["android.intent.category.DEFAULT"]
         },
         {
           "action": "android.intent.action.DIAL",
@@ -37,9 +35,7 @@
               "scheme": "tel"
             }
           ],
-          "category": [
-            "android.intent.category.DEFAULT"
-          ]
+          "category": ["android.intent.category.DEFAULT"]
         }
       ],
       "edgeToEdgeEnabled": true,
@@ -64,7 +60,8 @@
           }
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
@@ -74,7 +71,9 @@
       "router": {},
       "eas": {
         "projectId": "f7fe29e7-765d-46c2-9697-375a4338e874"
-      }
+      },
+      "MY_SUPABASE_URL": "https://cumkcbgudekuicxdzcwr.supabase.co",
+      "MY_PROJECT_KEY": "sb_publishable_Hrzi15ph3ihrXnPwgxn6nA_LpVuDnNz"
     }
   }
 }

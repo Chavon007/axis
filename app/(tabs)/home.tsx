@@ -1,13 +1,25 @@
 import { FlatList, View, Text, Image } from "react-native";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import SearchBar from "@/components/searchBar";
 import LocationButton from "@/components/locationButton";
-import hotels from "@/data/hostelList";
+// import hotels from "@/data/hostelList";
+import getHotels from "@/hook/fetchHotelList";
+import HotelDetailsListing from "@/types/hotelType";
 import HotelCardListing from "@/components/HotelCardListing";
 
 export default function home() {
   const [selectedLocation, setSelectedLocation] = useState("all");
   const [searchText, setSearchText] = useState("");
+  const [hotels, setHotels] = useState<HotelDetailsListing[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await getHotels();
+      setHotels(data);
+    };
+
+    fetchData();
+  }, []);
 
   const filterLocation = hotels.filter((hotel) => {
     const matchesLocation =
