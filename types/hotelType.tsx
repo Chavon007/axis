@@ -46,7 +46,7 @@ interface HotelDetailsListing {
     twitter?: string;
   };
   about: string;
-  roomType: string[] | [];
+  roomType: string;
 }
 
 export type { Room, RoomCategories };

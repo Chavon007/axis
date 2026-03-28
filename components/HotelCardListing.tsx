@@ -6,20 +6,15 @@ import HotelDetailsListing from "@/types/hotelType";
 
 export default function HotelCardListing({
   hotel,
-  index,
 }: {
   hotel: HotelDetailsListing;
-  index: number;
 }) {
   const router = useRouter();
 
   // Normalize roomType into an array
   const rooms: string[] = Array.isArray(hotel.roomType)
     ? hotel.roomType
-    : typeof hotel.roomType === "string"
-    ? hotel.roomType.split(",").map((r) => r.trim())
-    : [];
-
+    : (hotel.roomType as unknown as string).split(",").map((r) => r.trim());
   // Handle image source (local require or remote URI)
   const imageSource =
     typeof hotel.image === "string" ? { uri: hotel.image } : hotel.image;
@@ -27,7 +22,7 @@ export default function HotelCardListing({
   return (
     <Pressable
       onPress={() =>
-        router.push({ pathname: "/hotel/[id]", params: { id: index } })
+        router.push({ pathname: "/hotel/[id]", params: { id: hotel.id } })
       }
     >
       <View className="mb-7">
@@ -58,10 +53,7 @@ export default function HotelCardListing({
             <View className="flex-row flex-wrap justify-start items-center gap-1 mt-1">
               {rooms.length > 0 ? (
                 rooms.map((type, idx) => (
-                  <View
-                    className="bg-[#5B55D3] rounded-2xl p-1"
-                    key={idx}
-                  >
+                  <View className="bg-[#5B55D3] rounded-2xl p-1" key={idx}>
                     <Text className="p-1 text-[#ffffff] font-Roboto_900Black">
                       {type}
                     </Text>

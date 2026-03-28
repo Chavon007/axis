@@ -1,4 +1,4 @@
-import { FlatList, View, Text, Image } from "react-native";
+import { FlatList, View, Text, Image, ActivityIndicator } from "react-native";
 import React, { useState, useEffect } from "react";
 import SearchBar from "@/components/searchBar";
 import LocationButton from "@/components/locationButton";
@@ -11,11 +11,19 @@ export default function home() {
   const [selectedLocation, setSelectedLocation] = useState("all");
   const [searchText, setSearchText] = useState("");
   const [hotels, setHotels] = useState<HotelDetailsListing[]>([]);
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     const fetchData = async () => {
-      const data = await getHotels();
-      setHotels(data);
+      setLoading(true);
+      try {
+        const data = await getHotels();
+        setHotels(data);
+        setLoading(false);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
     };
 
     fetchData();
@@ -36,7 +44,7 @@ export default function home() {
   return (
     <FlatList
       data={filterLocation}
-      keyExtractor={(item, index) => index.toString()}
+      keyExtractor={(item) => item.id}
       ListHeaderComponent={
         <View>
           <SearchBar value={searchText} onChangeText={setSearchText} />
@@ -82,9 +90,25 @@ export default function home() {
           </View>
         </View>
       }
-      renderItem={({ item, index }) => (
-        <HotelCardListing hotel={item} index={index} />
-      )}
+      ListEmptyComponent={
+        loading ? (
+          <View className="flex-1 items-center justify-center mt-10">
+            <>
+              <ActivityIndicator size="large" color="#5B55D3" />
+              <Text className="text-[#888] mt-3 font-Righteous_400Regular">
+                Loading Hotels...
+              </Text>
+            </>
+          </View>
+        ) : (
+          <View className="flex-1 items-center justify-center mt-10">
+            <Text className="text-[#888] font-Righteous_400Regular">
+              No hotels found.
+            </Text>
+          </View>
+        )
+      }
+      renderItem={({ item }) => <HotelCardListing hotel={item} />}
       contentContainerStyle={{ paddingBottom: 20 }}
     ></FlatList>
   );
