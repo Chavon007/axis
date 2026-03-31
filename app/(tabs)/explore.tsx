@@ -16,7 +16,6 @@ import React from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Carousel from "react-native-reanimated-carousel";
 import getRoomDetails from "@/hook/roomDetails";
-// import hotelRooms from "@/data/hotelRoom";
 import { Room } from "@/types/hotelType";
 
 const PageSize = 10;

@@ -22,9 +22,10 @@ export default function ListOfRoomsByType() {
   const [roomDetails, setRoomDetails] = useState<Room[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const { hotelName, roomType } = useLocalSearchParams<{
+  const { hotelName, roomType, id } = useLocalSearchParams<{
     hotelName: HotelName;
     roomType: RoomType;
+    id: HotelName;
   }>();
 
   const { width } = useWindowDimensions();
@@ -34,7 +35,7 @@ export default function ListOfRoomsByType() {
       setLoading(true);
 
       try {
-        const data = await getRoomDetails();
+        const data = await getRoomDetails(roomType, id);
         setRoomDetails(data);
         setLoading(false);
       } catch (err) {
@@ -45,15 +46,15 @@ export default function ListOfRoomsByType() {
     };
 
     mainRoomdetails();
-  }, []);
+  }, [roomType, id]);
 
-  const rooms = roomDetails.filter((room) => room.room_type === roomType);
+  const rooms = roomDetails;
 
   if (loading) {
     return (
       <>
         <Stack.Screen options={{ headerShown: false }} />
-        <View>
+        <View className="flex-1 bg-neutral-950 items-center justify-center">
           <ActivityIndicator size="large" color="#C9A84C" />
           <Text className="text-neutral-500 text-base italic">Loading...</Text>
         </View>
@@ -191,6 +192,7 @@ export default function ListOfRoomsByType() {
                       router.push({
                         pathname: "/hotel/form",
                         params: {
+                          id,
                           hotelName,
                           roomId: item.id,
                           price: item.price,
