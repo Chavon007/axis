@@ -1,5 +1,3 @@
-import hotelRooms from "@/data/hotelRoom";
-
 interface Room {
   hotel_id: string;
   id: string;
@@ -54,6 +52,6 @@ interface HotelDetailsListing {
 export type { Room, RoomCategories };
 export default HotelDetailsListing;
 
-export type HotelName = keyof typeof hotelRooms;
-export type RoomType = keyof RoomCategories;
+export type HotelName = string;
+export type RoomType = string;
 export type Hotel = keyof Room;
