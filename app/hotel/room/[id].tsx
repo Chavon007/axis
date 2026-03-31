@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import Carousel from "react-native-reanimated-carousel";
 import {
   View,
@@ -7,16 +8,19 @@ import {
   TouchableOpacity,
   FlatList,
   useWindowDimensions,
+  ActivityIndicator,
 } from "react-native";
 import React from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
-
+import getRoomDetails from "@/hook/roomDetails";
 import { Room, HotelName, RoomType } from "@/types/hotelType";
-import { getRoom } from "../../../utils/hotelHelpeer";
 import { useRouter, useLocalSearchParams, Stack } from "expo-router";
 
 export default function ListOfRoomsByType() {
   const router = useRouter();
+
+  const [roomDetails, setRoomDetails] = useState<Room[]>([]);
+  const [loading, setLoading] = useState(true);
 
   const { hotelName, roomType } = useLocalSearchParams<{
     hotelName: HotelName;
@@ -25,8 +29,50 @@ export default function ListOfRoomsByType() {
 
   const { width } = useWindowDimensions();
 
-  const rooms = getRoom(hotelName, roomType);
+  useEffect(() => {
+    const mainRoomdetails = async () => {
+      setLoading(true);
 
+      try {
+        const data = await getRoomDetails();
+        setRoomDetails(data);
+        setLoading(false);
+      } catch (err) {
+        console.warn(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    mainRoomdetails();
+  }, []);
+
+  const rooms = roomDetails.filter((room) => room.room_type === roomType);
+
+  if (loading) {
+    return (
+      <>
+        <Stack.Screen options={{ headerShown: false }} />
+        <View>
+          <ActivityIndicator size="large" color="#C9A84C" />
+          <Text>Loading...</Text>
+        </View>
+      </>
+    );
+  }
+
+  if (rooms.length === 0) {
+    return (
+      <>
+        <Stack.Screen options={{ headerShown: false }} />
+        <View className="flex-1 bg-neutral-950 items-center justify-center">
+          <Text className="text-neutral-500 text-base italic">
+            Room not found.
+          </Text>
+        </View>
+      </>
+    );
+  }
   return (
     <>
       <Stack.Screen options={{ headerShown: false }} />

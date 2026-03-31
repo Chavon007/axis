@@ -1,6 +1,7 @@
 import hotelRooms from "@/data/hotelRoom";
 
 interface Room {
+  hotel_id: string;
   id: string;
   name: string;
   floor: number;
@@ -11,6 +12,7 @@ interface Room {
   images: string[];
   description: string;
   amenities: string[];
+  room_type: RoomType;
 }
 
 interface RoomCategories {
