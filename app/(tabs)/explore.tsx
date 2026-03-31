@@ -10,12 +10,14 @@ import {
   TouchableOpacity,
   FlatList,
   useWindowDimensions,
+  ActivityIndicator,
 } from "react-native";
 import React from "react";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Carousel from "react-native-reanimated-carousel";
-
-import hotelRooms from "@/data/hotelRoom";
+import getRoomDetails from "@/hook/roomDetails";
+// import hotelRooms from "@/data/hotelRoom";
+import { Room } from "@/types/hotelType";
 
 const PageSize = 10;
 
@@ -24,18 +26,33 @@ export default function Explore() {
   const [page, setPage] = useState(0);
   const { width } = useWindowDimensions();
   const [searchText, setSearchText] = useState("");
+  const [loading, setLoading] = useState(true);
+  const [roomDetails, setRoomDetails] = useState<Room[]>([]);
 
-  const allRoom = Object.entries(hotelRooms).flatMap(([hotelName, hotel]) =>
-    Object.values(hotel)
-      .flat()
-      .map((room) => ({
-        ...room,
-        hotelName,
-      })),
-  );
+  useEffect(() => {
+    const mainRoom = async () => {
+      setLoading(true);
+      try {
+        const data = await getRoomDetails();
+        setRoomDetails(data);
+        setLoading(false);
+      } catch (err) {
+        console.warn(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    mainRoom();
+  }, []);
+
+  const allRoom = roomDetails.map((room) => ({
+    ...room,
+    hotelName: room.hotel_id,
+  }));
 
   const searchFilter = allRoom.filter((hotel) =>
-    `${hotel.name}  ${hotel.hotelName}`
+    `${hotel.name}  ${hotel.hotel_id}`
       .toLowerCase()
       .includes(searchText.toLowerCase()),
   );
@@ -49,6 +66,18 @@ export default function Explore() {
   useEffect(() => {
     setPage(0);
   }, [searchText]);
+
+  if (loading) {
+    return (
+      <>
+        <Stack.Screen options={{ headerShown: false }} />
+        <View>
+          <ActivityIndicator size="large" color="#5B55D3"/>
+          <Text className="text-[#888] mt-3 font-Righteous_400Regular">Loading...</Text>
+        </View>
+      </>
+    );
+  }
   return (
     <>
       <SearchBar value={searchText} onChangeText={setSearchText} />

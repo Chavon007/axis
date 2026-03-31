@@ -55,7 +55,7 @@ export default function ListOfRoomsByType() {
         <Stack.Screen options={{ headerShown: false }} />
         <View>
           <ActivityIndicator size="large" color="#C9A84C" />
-          <Text>Loading...</Text>
+          <Text className="text-neutral-500 text-base italic">Loading...</Text>
         </View>
       </>
     );
