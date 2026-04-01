@@ -8,7 +8,7 @@ import {
 import React, { useState } from "react";
 import { useRouter, useLocalSearchParams, Stack } from "expo-router";
 import { Form } from "@/types/formtype";
-
+import submitForm from "@/hook/formData";
 export default function FormPage() {
   const router = useRouter();
 
@@ -20,13 +20,14 @@ export default function FormPage() {
     nin: "",
     guest: 1,
     request: "",
+    room_id: "",
   });
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     setLoading(true);
     setError("");
     setSuccess("");
@@ -55,20 +56,27 @@ export default function FormPage() {
       return;
     }
 
-    setTimeout(() => {
-      setSuccess("Personal details submitted successfully");
-      setLoading(false);
-      router.push({
-        pathname: "/hotel/calendar",
-        params: {
-          hotelName,
-          roomId,
-          price,
-          fullName: formData.fullName,
-          roomName,
-        },
-      });
-    }, 2000);
+    try {
+      const data = await submitForm({ ...formData, room_id: roomId as string });
+      if (data !== null) {
+        setTimeout(() => {
+          setSuccess("Personal details submitted successfully");
+          setLoading(false);
+          router.push({
+            pathname: "/hotel/calendar",
+            params: {
+              hotelName,
+              roomId,
+              price,
+              fullName: formData.fullName,
+              roomName,
+            },
+          });
+        }, 2000);
+      }
+    } catch (err) {
+      console.warn(err);
+    }
   };
 
   return (
