@@ -4,6 +4,7 @@ import {
   TouchableOpacity,
   ScrollView,
   TextInput,
+  ActivityIndicator,
 } from "react-native";
 import React, { useState } from "react";
 import { useRouter, useLocalSearchParams, Stack } from "expo-router";
@@ -58,21 +59,24 @@ export default function FormPage() {
 
     try {
       const data = await submitForm({ ...formData, room_id: roomId as string });
+
+      console.log("Submit result:", data);
       if (data !== null) {
-        setTimeout(() => {
-          setSuccess("Personal details submitted successfully");
-          setLoading(false);
-          router.push({
-            pathname: "/hotel/calendar",
-            params: {
-              hotelName,
-              roomId,
-              price,
-              fullName: formData.fullName,
-              roomName,
-            },
-          });
-        }, 2000);
+        setSuccess("Personal details submitted successfully");
+        setLoading(false);
+        router.push({
+          pathname: "/hotel/calendar",
+          params: {
+            hotelName,
+            roomId,
+            price,
+            fullName: formData.fullName,
+            roomName,
+          },
+        });
+      } else {
+        setError("Submission failed. Please try again.");
+        setLoading(false);
       }
     } catch (err) {
       console.warn(err);
@@ -186,15 +190,15 @@ export default function FormPage() {
 
         {/* Submit Button */}
         <TouchableOpacity
-          className="bg-yellow-600 py-3 rounded-xl items-center mb-4"
+          className="bg-yellow-600 py-3 rounded-xl items-center mb-4 flex-row justify-center gap-2"
           onPress={handleSubmit}
           disabled={loading}
         >
+          {loading && <ActivityIndicator size="small" color="#000" />}
           <Text className="text-neutral-950 font-bold text-base">
             {loading ? "Loading..." : "Next"}
           </Text>
         </TouchableOpacity>
-
         {/* Error / Success */}
         {error ? <Text className="text-red-500 mb-2">{error}</Text> : null}
         {success ? <Text className="text-green-500">{success}</Text> : null}

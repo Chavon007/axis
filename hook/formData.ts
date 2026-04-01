@@ -8,7 +8,10 @@ const project_key = Constants.expoConfig?.extra?.MY_PROJECT_KEY ?? "";
 const supabase = createClient(supabase_url, project_key);
 
 const submitForm = async (formData: Form) => {
-  const { data, error } = await supabase.from("formDetails").insert(formData);
+  const { data, error } = await supabase
+    .from("formDetails")
+    .insert(formData)
+    .select();
   if (error) {
     console.error("Error sending data to the database", error);
 
