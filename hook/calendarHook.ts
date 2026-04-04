@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BookingDate, PriceResult } from "@/types/datetype";
 
-export const useCalculatePrice = (calculate?: BookingDate) => {
+export const useCalculatePrice = (calculate?: BookingDate & { roomid: string; fullname: string }) => {
   const [result, setResult] = useState<PriceResult | null>(null);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
@@ -17,7 +17,12 @@ export const useCalculatePrice = (calculate?: BookingDate) => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(calculate),
+        body: JSON.stringify({
+          checkindate: calculate.checkInDate,
+          checkoutdate: calculate.checkOutDate,
+          fullname: calculate.fullName,
+          roomid: calculate.roomId,
+        }),
       });
       const data = await res.json();
       if (!res.ok) {
@@ -36,10 +41,10 @@ export const useCalculatePrice = (calculate?: BookingDate) => {
   };
 
   useEffect(() => {
-    if (calculate) {
+    if (calculate?.checkInDate && calculate?.checkOutDate) {
       mainPrice(calculate);
     }
-  }, [calculate]);
+  }, [calculate?.checkInDate, calculate?.checkOutDate]);
 
   return { loading, success, error, result };
 };

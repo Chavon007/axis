@@ -37,7 +37,14 @@ const CalendarDate = () => {
     error,
     loading,
   } = useCalculatePrice(
-    selectDate.checkInDate && selectDate.checkOutDate ? selectDate : undefined,
+    selectDate.checkInDate && selectDate.checkOutDate
+      ? {
+          checkInDate: selectDate.checkInDate,
+          checkOutDate: selectDate.checkOutDate,
+          roomid: roomId,
+          fullname: fullName,
+        }
+      : undefined,
   );
 
   const onPressDate = (day: { dateString: string }) => {
