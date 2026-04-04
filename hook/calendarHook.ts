@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { BookingDate } from "@/types/datetype";
-export const calculatePrice = (calculate?: BookingDate) => {
-  const [result, setResult] = useState(null);
+import { BookingDate, PriceResult } from "@/types/datetype";
+
+export const useCalculatePrice = (calculate?: BookingDate) => {
+  const [result, setResult] = useState<PriceResult | null>(null);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);

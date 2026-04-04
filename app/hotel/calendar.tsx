@@ -1,5 +1,12 @@
 import React from "react";
-import { View, Text, TouchableOpacity, ScrollView, Modal } from "react-native";
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  ScrollView,
+  Modal,
+  ActivityIndicator,
+} from "react-native";
 import { useState } from "react";
 import { BookingDate } from "@/types/datetype";
 import { Calendar } from "react-native-calendars";
@@ -9,6 +16,8 @@ import { WebView } from "react-native-webview";
 import { HandlePayment } from "@/utils/payment";
 import { SavePayment } from "@/hook/savePayment";
 import { Bookings } from "@/types/hotelType";
+
+import { useCalculatePrice } from "@/hook/calendarHook";
 const CalendarDate = () => {
   const { hotelName, roomId, price, fullName, roomName, roomType } =
     useLocalSearchParams() as Record<string, string>;
@@ -22,6 +31,14 @@ const CalendarDate = () => {
   const [showWebView, setShowWebView] = useState(false);
 
   const [markedDates, setMarkedDate] = useState<{ [key: string]: any }>({});
+
+  const {
+    result: bookingSummary,
+    error,
+    loading,
+  } = useCalculatePrice(
+    selectDate.checkInDate && selectDate.checkOutDate ? selectDate : undefined,
+  );
 
   const onPressDate = (day: { dateString: string }) => {
     const dateStr = day.dateString;
@@ -61,27 +78,6 @@ const CalendarDate = () => {
     }
     setMarkedDate(range);
   };
-
-  const calculatePrice = () => {
-    if (!selectDate.checkInDate || !selectDate.checkOutDate) return null;
-
-    const checkIn = new Date(selectDate.checkInDate);
-    const checkOut = new Date(selectDate.checkOutDate);
-
-    const nights = Math.ceil(
-      (checkOut.getTime() - checkIn.getTime()) / (1000 * 60 * 60 * 24),
-    );
-
-    if (nights <= 0) return null;
-    if (checkIn >= checkOut) {
-      return null;
-    }
-    const total = nights * Number(price);
-
-    return { total, nights };
-  };
-
-  const bookingSummary = calculatePrice();
 
   const paymentUrl = `https://paystack.shop/pay/axis-payment?amount=${bookingSummary?.total ?? 0}`;
 
@@ -155,6 +151,12 @@ const CalendarDate = () => {
             </Text>
           </Text>
 
+          {loading && (
+            <View>
+              <ActivityIndicator />
+              <Text>Calculating price...</Text>
+            </View>
+          )}
           {/* Booking Summary */}
           {bookingSummary && (
             <View className="bg-neutral-900 border border-yellow-700/30 rounded-2xl px-5 py-4 mb-6">
@@ -194,6 +196,8 @@ const CalendarDate = () => {
               </View>
             </View>
           )}
+
+          {error && <Text>{error}</Text>}
 
           {/* CTA */}
           <TouchableOpacity
