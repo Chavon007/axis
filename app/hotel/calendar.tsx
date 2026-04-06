@@ -25,6 +25,8 @@ const CalendarDate = () => {
   const [selectDate, setSelectDate] = useState<BookingDate>({
     checkInDate: "",
     checkOutDate: "",
+    fullname: fullName,
+    roomid: roomId,
   });
 
   const router = useRouter();
@@ -54,18 +56,26 @@ const CalendarDate = () => {
       !selectDate.checkInDate ||
       (selectDate.checkInDate && selectDate.checkOutDate)
     ) {
-      setSelectDate({ checkInDate: dateStr, checkOutDate: "" });
+      setSelectDate((prev) => ({
+        ...prev,
+        checkInDate: dateStr,
+        checkOutDate: "",
+      }));
       setMarkedDate({
         [dateStr]: { startingDay: true },
       });
       return;
     } else if (selectDate.checkInDate && !selectDate.checkOutDate) {
       if (dateStr <= selectDate.checkInDate) {
-        setSelectDate({ checkInDate: dateStr, checkOutDate: "" });
+        setSelectDate((prev) => ({
+          ...prev,
+          checkInDate: dateStr,
+          checkOutDate: "",
+        }));
         setMarkedDate({ [dateStr]: { startingDay: true } });
         return;
       }
-      setSelectDate({ ...selectDate, checkOutDate: dateStr });
+      setSelectDate((prev) => ({ ...prev, checkOutDate: dateStr }));
     }
 
     const start = new Date(selectDate.checkInDate);
@@ -78,7 +88,7 @@ const CalendarDate = () => {
       if (str === selectDate.checkInDate) {
         range[str] = { startingDay: true, color: "#C9A84C", textColor: "#000" };
       } else if (str === dateStr) {
-        range[str] = { endingDate: true, color: "#C9A84C", textColor: "#000" };
+        range[str] = { endingDay: true, color: "#C9A84C", textColor: "#000" };
       } else {
         range[str] = { color: "#C9A84C", textColor: "#000" };
       }
@@ -159,9 +169,9 @@ const CalendarDate = () => {
           </Text>
 
           {loading && (
-            <View>
-              <ActivityIndicator />
-              <Text>Calculating price...</Text>
+            <View className="flex gap-2 justify-center items-center">
+              <ActivityIndicator size="small" color="#C9A84C" />
+              <Text className="text-neutral-500 text-xs italic">Calculating price...</Text>
             </View>
           )}
           {/* Booking Summary */}
@@ -203,12 +213,11 @@ const CalendarDate = () => {
               </View>
             </View>
           )}
-
           {error && <Text>{error}</Text>}
-
           {/* CTA */}
           <TouchableOpacity
             onPress={() => setShowWebView(true)}
+            disabled={!bookingSummary}
             className="bg-yellow-600 active:bg-yellow-700 rounded-xl py-4 items-center justify-center"
           >
             <Text className="text-black text-sm font-bold tracking-[3px] uppercase">

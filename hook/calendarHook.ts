@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
 import { BookingDate, PriceResult } from "@/types/datetype";
 
-export const useCalculatePrice = (calculate?: BookingDate & { roomid: string; fullname: string }) => {
+export const useCalculatePrice = (
+  calculate?: BookingDate & { roomid: string; fullname: string },
+) => {
   const [result, setResult] = useState<PriceResult | null>(null);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
@@ -12,7 +14,7 @@ export const useCalculatePrice = (calculate?: BookingDate & { roomid: string; fu
     setError("");
     setSuccess("");
     try {
-      const res = await fetch("http://localhost:5000/api/checkindate", {
+      const res = await fetch("http://192.168.254.214:5000/api/checkindate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -20,8 +22,8 @@ export const useCalculatePrice = (calculate?: BookingDate & { roomid: string; fu
         body: JSON.stringify({
           checkindate: calculate.checkInDate,
           checkoutdate: calculate.checkOutDate,
-          fullname: calculate.fullName,
-          roomid: calculate.roomId,
+          fullname: calculate.fullname,
+          roomid: calculate.roomid,
         }),
       });
       const data = await res.json();
