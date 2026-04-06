@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   View,
   Text,
@@ -107,9 +107,11 @@ const CalendarDate = () => {
       roomid: roomId,
       fullname: fullName,
     });
-    if (paymentUrl) setShowWebView(true);
   };
 
+  useEffect(() => {
+    if (paymentUrl) setShowWebView(true);
+  }, [paymentUrl]);
   return (
     <>
       <Stack.Screen options={{ headerShown: false }} />
@@ -248,6 +250,21 @@ const CalendarDate = () => {
               <WebView
                 className="flex-1"
                 source={{ uri: paymentUrl }}
+                injectedJavaScript={`
+    (function() {
+      const meta = document.createElement('meta');
+      meta.name = 'ngrok-skip-browser-warning';
+      meta.content = 'true';
+      document.head.appendChild(meta);
+    })();
+  `}
+                onShouldStartLoadWithRequest={(request) => {
+                  return true;
+                }}
+                renderLoading={() => (
+                  <ActivityIndicator size="large" color="#C9A84C" />
+                )}
+                startInLoadingState={true}
                 onNavigationStateChange={(navState) => {
                   if (navState.url.includes("axisapp://payment/callback")) {
                     setShowWebView(false);
@@ -263,7 +280,6 @@ const CalendarDate = () => {
                       status: "active",
                       roomId,
                     };
-
                     router.push({
                       pathname: "/hotel/receipt",
                       params: { ...newBooking },
