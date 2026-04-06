@@ -72,6 +72,7 @@ export default function FormPage() {
             price,
             fullName: formData.fullName,
             roomName,
+            email: formData.email,
           },
         });
       } else {
