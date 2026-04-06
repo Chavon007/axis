@@ -10,3 +10,12 @@ export interface PriceResult {
   total: number;
   succes: boolean;
 }
+
+export interface payment {
+  email: string;
+  amount: number;
+  checkindate: string;
+  checkoutdate: string;
+  roomid: string;
+  fullname: string;
+}

@@ -13,13 +13,13 @@ import { Calendar } from "react-native-calendars";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { Stack } from "expo-router";
 import { WebView } from "react-native-webview";
-import { HandlePayment } from "@/utils/payment";
-import { SavePayment } from "@/hook/savePayment";
+
 import { Bookings } from "@/types/hotelType";
+import { useInitializePayment } from "@/hook/paymentHook";
 
 import { useCalculatePrice } from "@/hook/calendarHook";
 const CalendarDate = () => {
-  const { hotelName, roomId, price, fullName, roomName, roomType } =
+  const { hotelName, roomId, price, fullName, roomName, roomType, email } =
     useLocalSearchParams() as Record<string, string>;
 
   const [selectDate, setSelectDate] = useState<BookingDate>({
@@ -33,7 +33,6 @@ const CalendarDate = () => {
   const [showWebView, setShowWebView] = useState(false);
 
   const [markedDates, setMarkedDate] = useState<{ [key: string]: any }>({});
-
   const {
     result: bookingSummary,
     error,
@@ -48,6 +47,9 @@ const CalendarDate = () => {
         }
       : undefined,
   );
+
+  const { paymentError, paymentLoading, paymentUrl, makePayment } =
+    useInitializePayment();
 
   const onPressDate = (day: { dateString: string }) => {
     const dateStr = day.dateString;
@@ -96,7 +98,17 @@ const CalendarDate = () => {
     setMarkedDate(range);
   };
 
-  const paymentUrl = `https://paystack.shop/pay/axis-payment?amount=${bookingSummary?.total ?? 0}`;
+  const handleSubmit = async () => {
+    await makePayment({
+      email,
+      amount: bookingSummary?.total ?? 0,
+      checkindate: selectDate.checkInDate,
+      checkoutdate: selectDate.checkOutDate,
+      roomid: roomId,
+      fullname: fullName,
+    });
+    if (paymentUrl) setShowWebView(true);
+  };
 
   return (
     <>
@@ -168,10 +180,12 @@ const CalendarDate = () => {
             </Text>
           </Text>
 
-          {loading && (
+          {(loading || paymentLoading) && (
             <View className="flex gap-2 justify-center items-center">
               <ActivityIndicator size="small" color="#C9A84C" />
-              <Text className="text-neutral-500 text-xs italic">Calculating price...</Text>
+              <Text className="text-neutral-500 text-xs italic">
+                {loading ? "Calculating price..." : "Initializing payment..."}
+              </Text>
             </View>
           )}
           {/* Booking Summary */}
@@ -213,11 +227,11 @@ const CalendarDate = () => {
               </View>
             </View>
           )}
-          {error && <Text>{error}</Text>}
+          {(error || paymentError) && <Text>{error || paymentError}</Text>}
           {/* CTA */}
           <TouchableOpacity
-            onPress={() => setShowWebView(true)}
-            disabled={!bookingSummary}
+            onPress={handleSubmit}
+            disabled={!bookingSummary || paymentLoading}
             className="bg-yellow-600 active:bg-yellow-700 rounded-xl py-4 items-center justify-center"
           >
             <Text className="text-black text-sm font-bold tracking-[3px] uppercase">
@@ -235,14 +249,12 @@ const CalendarDate = () => {
                 className="flex-1"
                 source={{ uri: paymentUrl }}
                 onNavigationStateChange={(navState) => {
-                  const result = HandlePayment({ url: navState.url });
-
-                  if (result === "Success") {
+                  if (navState.url.includes("axisapp://payment/callback")) {
                     setShowWebView(false);
                     const newBooking: Bookings = {
                       bookingId: `${roomId} - ${Date.now()}`,
                       fullName,
-                      total: bookingSummary?.total,
+                      total: bookingSummary?.total ?? 0,
                       hotelName,
                       roomName,
                       roomType,
@@ -252,7 +264,6 @@ const CalendarDate = () => {
                       roomId,
                     };
 
-                    SavePayment(newBooking);
                     router.push({
                       pathname: "/hotel/receipt",
                       params: { ...newBooking },
