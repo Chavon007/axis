@@ -106,7 +106,7 @@ const CalendarDate = () => {
       checkoutdate: selectDate.checkOutDate,
       roomid: roomId,
       fullname: fullName,
-      formid:id
+      formid: id,
     });
   };
 
@@ -250,27 +250,21 @@ const CalendarDate = () => {
 
               <WebView
                 className="flex-1"
-                source={{ uri: paymentUrl }}
-                injectedJavaScript={`
-    (function() {
-      const meta = document.createElement('meta');
-      meta.name = 'ngrok-skip-browser-warning';
-      meta.content = 'true';
-      document.head.appendChild(meta);
-    })();
-  `}
-                onShouldStartLoadWithRequest={(request) => {
-                  return true;
+                source={{
+                  uri: paymentUrl,
+                  headers: {
+                    "ngrok-skip-browser-warning": "true",
+                  },
                 }}
-                renderLoading={() => (
-                  <ActivityIndicator size="large" color="#C9A84C" />
-                )}
-                startInLoadingState={true}
-                onNavigationStateChange={(navState) => {
-                  if (navState.url.includes("axisapp://payment/callback")) {
+                onShouldStartLoadWithRequest={(request) => {
+                  if (
+                    request.url.includes("paystack.com/close") ||
+                    request.url.includes("trxref=")
+                  ) {
                     setShowWebView(false);
+
                     const newBooking: Bookings = {
-                      bookingId: `${roomId} - ${Date.now()}`,
+                      bookingId: `${roomId}-${Date.now()}`,
                       fullName,
                       total: bookingSummary?.total ?? 0,
                       hotelName,
@@ -281,11 +275,15 @@ const CalendarDate = () => {
                       status: "active",
                       roomId,
                     };
+
                     router.push({
                       pathname: "/hotel/receipt",
                       params: { ...newBooking },
                     });
+
+                    return false;
                   }
+                  return true;
                 }}
               />
             </View>
