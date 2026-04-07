@@ -18,4 +18,5 @@ export interface payment {
   checkoutdate: string;
   roomid: string;
   fullname: string;
+  formid: string;
 }

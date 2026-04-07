@@ -61,12 +61,14 @@ export default function FormPage() {
       const data = await submitForm({ ...formData, room_id: roomId as string });
 
       console.log("Submit result:", data);
-      if (data !== null) {
+      if (data && data.length > 0) {
+        const formid = data[0].id;
         setSuccess("Personal details submitted successfully");
         setLoading(false);
         router.push({
           pathname: "/hotel/calendar",
           params: {
+            id:formid,
             hotelName,
             roomId,
             price,

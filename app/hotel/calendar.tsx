@@ -19,7 +19,7 @@ import { useInitializePayment } from "@/hook/paymentHook";
 
 import { useCalculatePrice } from "@/hook/calendarHook";
 const CalendarDate = () => {
-  const { hotelName, roomId, price, fullName, roomName, roomType, email } =
+  const { hotelName, roomId, price, fullName, roomName, roomType, email, id } =
     useLocalSearchParams() as Record<string, string>;
 
   const [selectDate, setSelectDate] = useState<BookingDate>({
@@ -106,6 +106,7 @@ const CalendarDate = () => {
       checkoutdate: selectDate.checkOutDate,
       roomid: roomId,
       fullname: fullName,
+      formid:id
     });
   };
 
