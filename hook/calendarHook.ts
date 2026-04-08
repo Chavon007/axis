@@ -14,7 +14,7 @@ export const useCalculatePrice = (
     setError("");
     setSuccess("");
     try {
-      const res = await fetch("http://192.168.22.214:5000/api/checkindate", {
+      const res = await fetch("http://3.64.56.227/api/checkindate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

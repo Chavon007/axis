@@ -10,10 +10,7 @@ export const useInitializePayment = () => {
     setPaymentLoading(true);
     setPaymentError("");
     try {
-      const res = await axios.post(
-        "http://192.168.22.214:5000/api/makepayment",
-        body,
-      );
+      const res = await axios.post("http://3.64.56.227/api/makepayment", body);
       setPaymentUrl(res.data.URL);
     } catch (err) {
       setPaymentError("Failed to start payment");
