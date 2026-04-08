@@ -1,9 +1,9 @@
 import { View, Text, ScrollView } from "react-native";
 import { useState, useEffect } from "react";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+
 import BookingCard from "@/components/bookingCard";
 import { Bookings } from "@/types/hotelType";
-import Index from "..";
+import { getBooking } from "@/utils/savebooking";
 
 export default function Booking() {
   const [bookings, setBookings] = useState<Bookings[]>([]);
@@ -11,9 +11,9 @@ export default function Booking() {
   useEffect(() => {
     const fetchBookings = async () => {
       try {
-        const stored = await AsyncStorage.getItem("bookings");
-        const parsed = stored ? JSON.parse(stored) : [];
-        setBookings(parsed);
+        const stored = await getBooking();
+
+        setBookings(stored);
       } catch (err) {
         console.warn(err);
       }

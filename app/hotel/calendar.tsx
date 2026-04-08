@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { handleSaveBookings } from "@/utils/savebooking";
 import {
   View,
   Text,
@@ -110,6 +111,14 @@ const CalendarDate = () => {
     });
   };
 
+  const handleBooking = (newBooking: Bookings) => {
+    handleSaveBookings(newBooking);
+
+    router.push({
+      pathname: "/hotel/receipt",
+      params: { ...newBooking },
+    });
+  };
   useEffect(() => {
     if (paymentUrl) setShowWebView(true);
   }, [paymentUrl]);
@@ -275,12 +284,7 @@ const CalendarDate = () => {
                       status: "active",
                       roomId,
                     };
-
-                    router.push({
-                      pathname: "/hotel/receipt",
-                      params: { ...newBooking },
-                    });
-
+                    handleBooking(newBooking);
                     return false;
                   }
                   return true;
